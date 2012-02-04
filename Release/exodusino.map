@@ -1,0 +1,2479 @@
+Archive member included because of file (symbol)
+
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+                              ./src/core/SPI.o (__gnu_thumb1_case_uqi)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_udivsi3.o)
+                              ./src/core/delay.o (__aeabi_uidiv)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_divsi3.o)
+                              ./src/core/uart.o (__aeabi_idiv)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(unwind-arm.o)
+                              ./src/user_application.o (__aeabi_unwind_cpp_pr0)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(libunwind.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(unwind-arm.o) (restore_core_regs)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(pr-support.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-abort.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(unwind-arm.o) (abort)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-init.o)
+                              ./src/core/cr_startup_lpc11.o (__libc_init_array)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-malloc.o)
+                              ./src/core/cr_cpp_config.o (malloc)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mallocr.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-malloc.o) (_malloc_r)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-memcpy.o)
+                              ./src/core/maryoled.o (memcpy)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mlock.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mallocr.o) (__malloc_lock)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-sbrkr.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mallocr.o) (_sbrk_r)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signal.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-abort.o) (raise)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signalr.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signal.o) (_kill_r)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-freer.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-malloc.o) (_free_r)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-impure.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-malloc.o) (_impure_ptr)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-reent.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-sbrkr.o) (errno)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-sbrkr.o) (_sbrk)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-abort.o) (_exit)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(getpid.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signalr.o) (_getpid)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signalr.o) (_kill)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o) (__check_heap_overflow)
+c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-errno.o)
+                              c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o) (__errno)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-reent.o)
+__end_of_heap       0x4               c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/user_application.o
+ .data          0x00000000        0x0 ./src/user_application.o
+ .bss           0x00000000        0x0 ./src/user_application.o
+ .ARM.extab.text._Z5setupv
+                0x00000000        0x0 ./src/user_application.o
+ .ARM.extab.text._Z4loopv
+                0x00000000        0x0 ./src/user_application.o
+ .text          0x00000000        0x0 ./src/core/SPI.o
+ .data          0x00000000        0x0 ./src/core/SPI.o
+ .bss           0x00000000        0x0 ./src/core/SPI.o
+ .ARM.extab.text._ZN3SSPD2Ev
+                0x00000000        0x0 ./src/core/SPI.o
+ .ARM.extab.text._ZN3SSP12setBitLengthEi
+                0x00000000        0x0 ./src/core/SPI.o
+ .text._ZN3SSP3endEv
+                0x00000000       0x10 ./src/core/SPI.o
+ .ARM.extab.text._ZN3SSP3endEv
+                0x00000000        0x0 ./src/core/SPI.o
+ .ARM.exidx.text._ZN3SSP3endEv
+                0x00000000        0x8 ./src/core/SPI.o
+ .ARM.extab.text._ZN3SSP11setBitOrderE13SSP_BIT_ORDER
+                0x00000000        0x0 ./src/core/SPI.o
+ .ARM.extab.text._ZN3SSP15setClockDividerE15SSP_CLK_DIVIDER
+                0x00000000        0x0 ./src/core/SPI.o
+ .text._ZN3SSP11setDataModeE13SSP_DATA_MODE
+                0x00000000        0x4 ./src/core/SPI.o
+ .ARM.extab.text._ZN3SSP11setDataModeE13SSP_DATA_MODE
+                0x00000000        0x0 ./src/core/SPI.o
+ .ARM.exidx.text._ZN3SSP11setDataModeE13SSP_DATA_MODE
+                0x00000000        0x8 ./src/core/SPI.o
+ .ARM.extab.text.ssp_begin
+                0x00000000        0x0 ./src/core/SPI.o
+ .text._ZN3SSP5beginE8SSP_PORT
+                0x00000000       0x14 ./src/core/SPI.o
+ .ARM.extab.text._ZN3SSP5beginE8SSP_PORT
+                0x00000000        0xc ./src/core/SPI.o
+ .ARM.exidx.text._ZN3SSP5beginE8SSP_PORT
+                0x00000000        0x8 ./src/core/SPI.o
+ .ARM.extab.text._ZN3SSPC2Ev
+                0x00000000        0x0 ./src/core/SPI.o
+ .text.ssp_transfer
+                0x00000000       0x2c ./src/core/SPI.o
+ .ARM.extab.text.ssp_transfer
+                0x00000000        0x0 ./src/core/SPI.o
+ .ARM.exidx.text.ssp_transfer
+                0x00000000        0x8 ./src/core/SPI.o
+ .text._ZN3SSP8transferEm
+                0x00000000        0xa ./src/core/SPI.o
+ .ARM.extab.text._ZN3SSP8transferEm
+                0x00000000        0x0 ./src/core/SPI.o
+ .ARM.exidx.text._ZN3SSP8transferEm
+                0x00000000        0x8 ./src/core/SPI.o
+ .ARM.extab.text._GLOBAL__I_SPI
+                0x00000000        0x0 ./src/core/SPI.o
+ .text          0x00000000        0x0 ./src/core/SPI1.o
+ .data          0x00000000        0x0 ./src/core/SPI1.o
+ .bss           0x00000000        0x0 ./src/core/SPI1.o
+ .ARM.extab.text._ZN4SSP1D2Ev
+                0x00000000        0x0 ./src/core/SPI1.o
+ .ARM.extab.text._ZN4SSP112setBitLengthEi
+                0x00000000        0x0 ./src/core/SPI1.o
+ .text._ZN4SSP13endEv
+                0x00000000       0x10 ./src/core/SPI1.o
+ .ARM.extab.text._ZN4SSP13endEv
+                0x00000000        0x0 ./src/core/SPI1.o
+ .ARM.exidx.text._ZN4SSP13endEv
+                0x00000000        0x8 ./src/core/SPI1.o
+ .ARM.extab.text._ZN4SSP111setBitOrderE13SSP_BIT_ORDER
+                0x00000000        0x0 ./src/core/SPI1.o
+ .ARM.extab.text._ZN4SSP115setClockDividerE15SSP_CLK_DIVIDER
+                0x00000000        0x0 ./src/core/SPI1.o
+ .ARM.extab.text._ZN4SSP111setDataModeE13SSP_DATA_MODE
+                0x00000000        0x0 ./src/core/SPI1.o
+ .ARM.extab.text.ssp1_begin
+                0x00000000        0x0 ./src/core/SPI1.o
+ .text._ZN4SSP15beginE8SSP_PORT
+                0x00000000       0x14 ./src/core/SPI1.o
+ .ARM.extab.text._ZN4SSP15beginE8SSP_PORT
+                0x00000000        0xc ./src/core/SPI1.o
+ .ARM.exidx.text._ZN4SSP15beginE8SSP_PORT
+                0x00000000        0x8 ./src/core/SPI1.o
+ .ARM.extab.text._ZN4SSP1C2Ev
+                0x00000000        0x0 ./src/core/SPI1.o
+ .ARM.extab.text.ssp1_transfer
+                0x00000000        0x0 ./src/core/SPI1.o
+ .ARM.extab.text._ZN4SSP18transferEm
+                0x00000000        0x0 ./src/core/SPI1.o
+ .ARM.extab.text._GLOBAL__I_SPI1
+                0x00000000        0x0 ./src/core/SPI1.o
+ .text          0x00000000        0x0 ./src/core/cr_cpp_config.o
+ .data          0x00000000        0x0 ./src/core/cr_cpp_config.o
+ .bss           0x00000000        0x0 ./src/core/cr_cpp_config.o
+ .text._Znwj    0x00000000        0x8 ./src/core/cr_cpp_config.o
+ .ARM.extab.text._Znwj
+                0x00000000        0x0 ./src/core/cr_cpp_config.o
+ .ARM.exidx.text._Znwj
+                0x00000000        0x8 ./src/core/cr_cpp_config.o
+ .text._ZdlPv   0x00000000        0x8 ./src/core/cr_cpp_config.o
+ .ARM.extab.text._ZdlPv
+                0x00000000        0x0 ./src/core/cr_cpp_config.o
+ .ARM.exidx.text._ZdlPv
+                0x00000000        0x8 ./src/core/cr_cpp_config.o
+ .ARM.extab.text.__aeabi_atexit
+                0x00000000        0x0 ./src/core/cr_cpp_config.o
+ .text          0x00000000        0x0 ./src/core/cr_startup_lpc11.o
+ .data          0x00000000        0x0 ./src/core/cr_startup_lpc11.o
+ .bss           0x00000000        0x0 ./src/core/cr_startup_lpc11.o
+ .ARM.extab.after_vectors
+                0x00000000        0x0 ./src/core/cr_startup_lpc11.o
+ .text.__cxa_pure_virtual
+                0x00000000        0x4 ./src/core/cr_startup_lpc11.o
+ .ARM.extab.text.__cxa_pure_virtual
+                0x00000000        0x0 ./src/core/cr_startup_lpc11.o
+ .ARM.exidx.text.__cxa_pure_virtual
+                0x00000000        0x8 ./src/core/cr_startup_lpc11.o
+ .text          0x00000000        0x0 ./src/core/delay.o
+ .data          0x00000000        0x0 ./src/core/delay.o
+ .bss           0x00000000        0x0 ./src/core/delay.o
+ .ARM.extab.text.NVIC_SetPriority
+                0x00000000        0x0 ./src/core/delay.o
+ .ARM.extab.text.NVIC_DisableIRQ.clone.0
+                0x00000000        0x0 ./src/core/delay.o
+ .ARM.extab.text.delay
+                0x00000000        0x0 ./src/core/delay.o
+ .text.millis   0x00000000        0xc ./src/core/delay.o
+ .ARM.extab.text.millis
+                0x00000000        0x0 ./src/core/delay.o
+ .ARM.exidx.text.millis
+                0x00000000        0x8 ./src/core/delay.o
+ .text.delayMicroseconds
+                0x00000000       0x18 ./src/core/delay.o
+ .ARM.extab.text.delayMicroseconds
+                0x00000000        0x0 ./src/core/delay.o
+ .ARM.exidx.text.delayMicroseconds
+                0x00000000        0x8 ./src/core/delay.o
+ .text.micros   0x00000000        0xc ./src/core/delay.o
+ .ARM.extab.text.micros
+                0x00000000        0x0 ./src/core/delay.o
+ .ARM.exidx.text.micros
+                0x00000000        0x8 ./src/core/delay.o
+ .ARM.extab.text.attachMicroseconds
+                0x00000000        0x0 ./src/core/delay.o
+ .ARM.extab.text.setup_TIMER32_1
+                0x00000000        0x0 ./src/core/delay.o
+ .text.detachMicroseconds
+                0x00000000       0x14 ./src/core/delay.o
+ .ARM.extab.text.detachMicroseconds
+                0x00000000        0x0 ./src/core/delay.o
+ .ARM.exidx.text.detachMicroseconds
+                0x00000000        0x8 ./src/core/delay.o
+ .ARM.extab.text.TIMER32_1_IRQHandler
+                0x00000000        0x0 ./src/core/delay.o
+ .ARM.extab.text.SysTick_Handler
+                0x00000000        0x0 ./src/core/delay.o
+ .ARM.extab.text.setup_systick
+                0x00000000        0x0 ./src/core/delay.o
+ .text          0x00000000        0x0 ./src/core/gpio.o
+ .data          0x00000000        0x0 ./src/core/gpio.o
+ .bss           0x00000000        0x0 ./src/core/gpio.o
+ .ARM.extab.text._Z7pinModei12pinModeState
+                0x00000000        0x0 ./src/core/gpio.o
+ .ARM.extab.text._Z12digitalWritei17digitalWriteState
+                0x00000000        0x0 ./src/core/gpio.o
+ .text._Z11digitalReadi
+                0x00000000       0x44 ./src/core/gpio.o
+ .ARM.extab.text._Z11digitalReadi
+                0x00000000        0x0 ./src/core/gpio.o
+ .ARM.exidx.text._Z11digitalReadi
+                0x00000000        0x8 ./src/core/gpio.o
+ .text          0x00000000        0x0 ./src/core/maryoled.o
+ .data          0x00000000        0x0 ./src/core/maryoled.o
+ .bss           0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLEDD2Ev
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLEDC2Ev
+                0x00000000        0x0 ./src/core/maryoled.o
+ .text._ZN8MARYOLED7commandEi
+                0x00000000       0x28 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED7commandEi
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED7commandEi
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED4dataEi
+                0x00000000       0x28 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED4dataEi
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED4dataEi
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED7_windowEiiii
+                0x00000000       0x48 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED7_windowEiiii
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED7_windowEiiii
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED11WindowResetEv
+                0x00000000       0x3c ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED11WindowResetEv
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED11WindowResetEv
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED6locateEii
+                0x00000000        0x6 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED6locateEii
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED6locateEii
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED7newlineEv
+                0x00000000       0x14 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED7newlineEv
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED7newlineEv
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED5_putpEi
+                0x00000000       0x24 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED5_putpEi
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED5_putpEi
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED6windowEiiii
+                0x00000000        0xc ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED6windowEiiii
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED6windowEiiii
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED4putpEi
+                0x00000000        0x8 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED4putpEi
+                0x00000000        0xc ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED4putpEi
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED5pixelEiii
+                0x00000000       0x18 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED5pixelEiii
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED5pixelEiii
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED4fillEiiiii
+                0x00000000       0x50 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED4fillEiiiii
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED4fillEiiiii
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED3clsEv
+                0x00000000       0x1c ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED3clsEv
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED3clsEv
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED5resetEv
+                0x00000000      0x228 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED5resetEv
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED5resetEv
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED5resetE8SSP_PORT
+                0x00000000       0x46 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED5resetE8SSP_PORT
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED5resetE8SSP_PORT
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED4blitEiiiiPKi
+                0x00000000       0x56 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED4blitEiiiiPKi
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED4blitEiiiiPKi
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED7bitblitEiiiiPKc
+                0x00000000       0x80 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED7bitblitEiiiiPKc
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED7bitblitEiiiiPKc
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED5_putcEi
+                0x00000000       0x50 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED5_putcEi
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED5_putcEi
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED10foregroundEi
+                0x00000000        0x4 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED10foregroundEi
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED10foregroundEi
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED10backgroundEi
+                0x00000000        0x4 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED10backgroundEi
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED10backgroundEi
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED5widthEv
+                0x00000000        0x4 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED5widthEv
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED5widthEv
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED6heightEv
+                0x00000000        0x4 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED6heightEv
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED6heightEv
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED7columnsEv
+                0x00000000        0x4 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED7columnsEv
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED7columnsEv
+                0x00000000        0x8 ./src/core/maryoled.o
+ .text._ZN8MARYOLED4rowsEv
+                0x00000000        0x4 ./src/core/maryoled.o
+ .ARM.extab.text._ZN8MARYOLED4rowsEv
+                0x00000000        0x0 ./src/core/maryoled.o
+ .ARM.exidx.text._ZN8MARYOLED4rowsEv
+                0x00000000        0x8 ./src/core/maryoled.o
+ .ARM.extab.text._GLOBAL__I_oled
+                0x00000000        0x0 ./src/core/maryoled.o
+ .rodata._ZL7FONT8x8
+                0x00000000      0x308 ./src/core/maryoled.o
+ .rodata._ZZN8MARYOLED5resetEvE3C.8
+                0x00000000       0x3f ./src/core/maryoled.o
+ .text          0x00000000        0x0 ./src/core/startup_mary.o
+ .data          0x00000000        0x0 ./src/core/startup_mary.o
+ .bss           0x00000000        0x0 ./src/core/startup_mary.o
+ .text          0x00000000        0x0 ./src/core/system_LPC11xx.o
+ .data          0x00000000        0x0 ./src/core/system_LPC11xx.o
+ .bss           0x00000000        0x0 ./src/core/system_LPC11xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x9c ./src/core/system_LPC11xx.o
+ .ARM.extab.text.SystemCoreClockUpdate
+                0x00000000        0x0 ./src/core/system_LPC11xx.o
+ .ARM.exidx.text.SystemCoreClockUpdate
+                0x00000000        0x8 ./src/core/system_LPC11xx.o
+ .ARM.extab.text.SystemInit
+                0x00000000        0x0 ./src/core/system_LPC11xx.o
+ .rodata.CSWTCH.16
+                0x00000000       0x40 ./src/core/system_LPC11xx.o
+ .text          0x00000000        0x0 ./src/core/uart.o
+ .data          0x00000000        0x0 ./src/core/uart.o
+ .bss           0x00000000        0x0 ./src/core/uart.o
+ .ARM.extab.text._ZN7USerialD2Ev
+                0x00000000        0x0 ./src/core/uart.o
+ .ARM.extab.text._ZN7USerialC2Ev
+                0x00000000        0x0 ./src/core/uart.o
+ .ARM.extab.text._ZN7USerial5beginEi
+                0x00000000        0x0 ./src/core/uart.o
+ .text._ZN7USerial3endEv
+                0x00000000        0x2 ./src/core/uart.o
+ .ARM.extab.text._ZN7USerial3endEv
+                0x00000000        0x0 ./src/core/uart.o
+ .ARM.exidx.text._ZN7USerial3endEv
+                0x00000000        0x8 ./src/core/uart.o
+ .ARM.extab.text._ZN7USerial5writeEc
+                0x00000000        0x0 ./src/core/uart.o
+ .ARM.extab.text._ZN7USerial5printEPKc
+                0x00000000        0x0 ./src/core/uart.o
+ .ARM.extab.text._ZN7USerial5printEi12RADIX_FORMAT
+                0x00000000        0x0 ./src/core/uart.o
+ .text._ZN7USerial5writeEPKci
+                0x00000000       0x1c ./src/core/uart.o
+ .ARM.extab.text._ZN7USerial5writeEPKci
+                0x00000000        0x0 ./src/core/uart.o
+ .ARM.exidx.text._ZN7USerial5writeEPKci
+                0x00000000        0x8 ./src/core/uart.o
+ .ARM.extab.text._ZN7USerial7printlnEPKc
+                0x00000000        0x0 ./src/core/uart.o
+ .ARM.extab.text._ZN7USerial7printlnEi12RADIX_FORMAT
+                0x00000000        0x0 ./src/core/uart.o
+ .text._ZN7USerial9availableEv
+                0x00000000       0x10 ./src/core/uart.o
+ .ARM.extab.text._ZN7USerial9availableEv
+                0x00000000        0x0 ./src/core/uart.o
+ .ARM.exidx.text._ZN7USerial9availableEv
+                0x00000000        0x8 ./src/core/uart.o
+ .text._ZN7USerial4readEv
+                0x00000000        0xc ./src/core/uart.o
+ .ARM.extab.text._ZN7USerial4readEv
+                0x00000000        0x0 ./src/core/uart.o
+ .ARM.exidx.text._ZN7USerial4readEv
+                0x00000000        0x8 ./src/core/uart.o
+ .ARM.extab.text._GLOBAL__I_Serial
+                0x00000000        0x0 ./src/core/uart.o
+ .group         0x00000000        0x8 ./src/XBee/XBee.o
+ .group         0x00000000        0x8 ./src/XBee/XBee.o
+ .group         0x00000000        0x8 ./src/XBee/XBee.o
+ .group         0x00000000        0x8 ./src/XBee/XBee.o
+ .text          0x00000000        0x0 ./src/XBee/XBee.o
+ .data          0x00000000        0x0 ./src/XBee/XBee.o
+ .bss           0x00000000        0x0 ./src/XBee/XBee.o
+ .text._ZN12ZBRxResponse13getDataOffsetEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12ZBRxResponse13getDataOffsetEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12ZBRxResponse13getDataOffsetEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN16AtCommandRequest12getFrameDataEh
+                0x00000000       0x20 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN16AtCommandRequest12getFrameDataEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN16AtCommandRequest12getFrameDataEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN16AtCommandRequest18getFrameDataLengthEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN16AtCommandRequest18getFrameDataLengthEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN16AtCommandRequest18getFrameDataLengthEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11XBeeRequest8setApiIdEh.clone.1
+                0x00000000        0x6 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11XBeeRequest8setApiIdEh.clone.1
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11XBeeRequest8setApiIdEh.clone.1
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponseC2Ev
+                0x00000000        0x2 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponseC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponseC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse8getApiIdEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse8getApiIdEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse8getApiIdEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse8setApiIdEh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse8setApiIdEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse8setApiIdEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse12getMsbLengthEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse12getMsbLengthEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse12getMsbLengthEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse12setMsbLengthEh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse12setMsbLengthEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse12setMsbLengthEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse12getLsbLengthEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse12getLsbLengthEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse12getLsbLengthEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse12setLsbLengthEh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse12setLsbLengthEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse12setLsbLengthEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse11getChecksumEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse11getChecksumEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse11getChecksumEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse11setChecksumEh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse11setChecksumEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse11setChecksumEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse18getFrameDataLengthEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse18getFrameDataLengthEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse18getFrameDataLengthEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse14setFrameLengthEh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse14setFrameLengthEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse14setFrameLengthEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse11isAvailableEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse11isAvailableEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse11isAvailableEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse12setAvailableEb
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse12setAvailableEb
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse12setAvailableEb
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse7isErrorEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse7isErrorEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse7isErrorEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse12getErrorCodeEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse12getErrorCodeEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse12getErrorCodeEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse12setErrorCodeEh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse12setErrorCodeEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse12setErrorCodeEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse9setCommonERS_
+                0x00000000       0x68 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse9setCommonERS_
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse9setCommonERS_
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN18ZBTxStatusResponseC2Ev
+                0x00000000        0x2 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN18ZBTxStatusResponseC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN18ZBTxStatusResponseC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12ZBRxResponse18getRemoteAddress64Ev
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12ZBRxResponse18getRemoteAddress64Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12ZBRxResponse18getRemoteAddress64Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN23RemoteAtCommandResponseC2Ev
+                0x00000000        0x2 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN23RemoteAtCommandResponseC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN23RemoteAtCommandResponseC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN23RemoteAtCommandResponse14getValueLengthEv
+                0x00000000        0xc ./src/XBee/XBee.o
+ .ARM.extab.text._ZN23RemoteAtCommandResponse14getValueLengthEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN23RemoteAtCommandResponse14getValueLengthEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN23RemoteAtCommandResponse18getRemoteAddress64Ev
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN23RemoteAtCommandResponse18getRemoteAddress64Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN23RemoteAtCommandResponse18getRemoteAddress64Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN14RxDataResponseC2Ev
+                0x00000000        0xc ./src/XBee/XBee.o
+ .ARM.extab.text._ZN14RxDataResponseC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN14RxDataResponseC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12ZBRxResponseC2Ev
+                0x00000000       0x1c ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12ZBRxResponseC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12ZBRxResponseC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN20ZBRxIoSampleResponseC2Ev
+                0x00000000       0x14 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN20ZBRxIoSampleResponseC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN20ZBRxIoSampleResponseC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN15FrameIdResponseC2Ev
+                0x00000000        0x2 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN15FrameIdResponseC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN15FrameIdResponseC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN19ModemStatusResponseC2Ev
+                0x00000000        0x2 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN19ModemStatusResponseC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN19ModemStatusResponseC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN17AtCommandResponseC2Ev
+                0x00000000        0x2 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN17AtCommandResponseC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN17AtCommandResponseC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN17AtCommandResponse14getValueLengthEv
+                0x00000000        0xc ./src/XBee/XBee.o
+ .ARM.extab.text._ZN17AtCommandResponse14getValueLengthEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN17AtCommandResponse14getValueLengthEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse15getPacketLengthEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse15getPacketLengthEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse15getPacketLengthEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12ZBRxResponse13getDataLengthEv
+                0x00000000       0x1c ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12ZBRxResponse13getDataLengthEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12ZBRxResponse13getDataLengthEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse12getFrameDataEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse12getFrameDataEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse12getFrameDataEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN17AtCommandResponse8getValueEv
+                0x00000000       0x16 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN17AtCommandResponse8getValueEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN17AtCommandResponse8getValueEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN17AtCommandResponse9getStatusEv
+                0x00000000        0xa ./src/XBee/XBee.o
+ .ARM.extab.text._ZN17AtCommandResponse9getStatusEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN17AtCommandResponse9getStatusEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN17AtCommandResponse4isOkEv
+                0x00000000        0xc ./src/XBee/XBee.o
+ .ARM.extab.text._ZN17AtCommandResponse4isOkEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN17AtCommandResponse4isOkEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN17AtCommandResponse10getCommandEv
+                0x00000000        0xa ./src/XBee/XBee.o
+ .ARM.extab.text._ZN17AtCommandResponse10getCommandEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN17AtCommandResponse10getCommandEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN19ModemStatusResponse9getStatusEv
+                0x00000000        0xa ./src/XBee/XBee.o
+ .ARM.extab.text._ZN19ModemStatusResponse9getStatusEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN19ModemStatusResponse9getStatusEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN15FrameIdResponse10getFrameIdEv
+                0x00000000        0xa ./src/XBee/XBee.o
+ .ARM.extab.text._ZN15FrameIdResponse10getFrameIdEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN15FrameIdResponse10getFrameIdEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN14RxDataResponse7getDataEv
+                0x00000000       0x18 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN14RxDataResponse7getDataEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN14RxDataResponse7getDataEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN14RxDataResponse7getDataEi
+                0x00000000       0x1c ./src/XBee/XBee.o
+ .ARM.extab.text._ZN14RxDataResponse7getDataEi
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN14RxDataResponse7getDataEi
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN23RemoteAtCommandResponse18getRemoteAddress16Ev
+                0x00000000       0x12 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN23RemoteAtCommandResponse18getRemoteAddress16Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN23RemoteAtCommandResponse18getRemoteAddress16Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN23RemoteAtCommandResponse8getValueEv
+                0x00000000       0x16 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN23RemoteAtCommandResponse8getValueEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN23RemoteAtCommandResponse8getValueEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN23RemoteAtCommandResponse9getStatusEv
+                0x00000000        0xa ./src/XBee/XBee.o
+ .ARM.extab.text._ZN23RemoteAtCommandResponse9getStatusEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN23RemoteAtCommandResponse9getStatusEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN23RemoteAtCommandResponse4isOkEv
+                0x00000000        0xc ./src/XBee/XBee.o
+ .ARM.extab.text._ZN23RemoteAtCommandResponse4isOkEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN23RemoteAtCommandResponse4isOkEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN23RemoteAtCommandResponse10getCommandEv
+                0x00000000        0xa ./src/XBee/XBee.o
+ .ARM.extab.text._ZN23RemoteAtCommandResponse10getCommandEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN23RemoteAtCommandResponse10getCommandEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN20ZBRxIoSampleResponse11isDigitalOnEh
+                0x00000000       0x22 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN20ZBRxIoSampleResponse11isDigitalOnEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN20ZBRxIoSampleResponse11isDigitalOnEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN20ZBRxIoSampleResponse13getAnalogMaskEv
+                0x00000000       0x10 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN20ZBRxIoSampleResponse13getAnalogMaskEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN20ZBRxIoSampleResponse13getAnalogMaskEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN20ZBRxIoSampleResponse15isAnalogEnabledEh
+                0x00000000       0x10 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN20ZBRxIoSampleResponse15isAnalogEnabledEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN20ZBRxIoSampleResponse15isAnalogEnabledEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN20ZBRxIoSampleResponse14containsAnalogEv
+                0x00000000        0xc ./src/XBee/XBee.o
+ .ARM.extab.text._ZN20ZBRxIoSampleResponse14containsAnalogEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN20ZBRxIoSampleResponse14containsAnalogEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN20ZBRxIoSampleResponse17getDigitalMaskLsbEv
+                0x00000000        0xc ./src/XBee/XBee.o
+ .ARM.extab.text._ZN20ZBRxIoSampleResponse17getDigitalMaskLsbEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN20ZBRxIoSampleResponse17getDigitalMaskLsbEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN20ZBRxIoSampleResponse17getDigitalMaskMsbEv
+                0x00000000       0x10 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN20ZBRxIoSampleResponse17getDigitalMaskMsbEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN20ZBRxIoSampleResponse17getDigitalMaskMsbEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN20ZBRxIoSampleResponse16isDigitalEnabledEh
+                0x00000000       0x1c ./src/XBee/XBee.o
+ .ARM.extab.text._ZN20ZBRxIoSampleResponse16isDigitalEnabledEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN20ZBRxIoSampleResponse16isDigitalEnabledEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN20ZBRxIoSampleResponse15containsDigitalEv
+                0x00000000       0x1c ./src/XBee/XBee.o
+ .ARM.extab.text._ZN20ZBRxIoSampleResponse15containsDigitalEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN20ZBRxIoSampleResponse15containsDigitalEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN20ZBRxIoSampleResponse9getAnalogEh
+                0x00000000       0x40 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN20ZBRxIoSampleResponse9getAnalogEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN20ZBRxIoSampleResponse9getAnalogEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12ZBRxResponse9getOptionEv
+                0x00000000        0xc ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12ZBRxResponse9getOptionEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12ZBRxResponse9getOptionEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12ZBRxResponse18getRemoteAddress16Ev
+                0x00000000       0x14 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12ZBRxResponse18getRemoteAddress16Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12ZBRxResponse18getRemoteAddress16Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN18ZBTxStatusResponse18getDiscoveryStatusEv
+                0x00000000        0xa ./src/XBee/XBee.o
+ .ARM.extab.text._ZN18ZBTxStatusResponse18getDiscoveryStatusEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN18ZBTxStatusResponse18getDiscoveryStatusEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN18ZBTxStatusResponse17getDeliveryStatusEv
+                0x00000000        0xa ./src/XBee/XBee.o
+ .ARM.extab.text._ZN18ZBTxStatusResponse17getDeliveryStatusEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN18ZBTxStatusResponse17getDeliveryStatusEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN18ZBTxStatusResponse9isSuccessEv
+                0x00000000        0xc ./src/XBee/XBee.o
+ .ARM.extab.text._ZN18ZBTxStatusResponse9isSuccessEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN18ZBTxStatusResponse9isSuccessEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN18ZBTxStatusResponse15getTxRetryCountEv
+                0x00000000        0xa ./src/XBee/XBee.o
+ .ARM.extab.text._ZN18ZBTxStatusResponse15getTxRetryCountEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN18ZBTxStatusResponse15getTxRetryCountEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN18ZBTxStatusResponse16getRemoteAddressEv
+                0x00000000       0x12 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN18ZBTxStatusResponse16getRemoteAddressEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN18ZBTxStatusResponse16getRemoteAddressEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse12setFrameDataEPh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse12setFrameDataEPh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse12setFrameDataEPh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse20getAtCommandResponseERS_
+                0x00000000       0x1c ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse20getAtCommandResponseERS_
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse20getAtCommandResponseERS_
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse22getModemStatusResponseERS_
+                0x00000000       0x1c ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse22getModemStatusResponseERS_
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse22getModemStatusResponseERS_
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse21getZBTxStatusResponseERS_
+                0x00000000       0x1c ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse21getZBTxStatusResponseERS_
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse21getZBTxStatusResponseERS_
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse4initEv
+                0x00000000        0xa ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse4initEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse4initEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse5resetEv
+                0x00000000       0x26 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse5resetEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse5resetEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN4XBee13resetResponseEv
+                0x00000000        0xe ./src/XBee/XBee.o
+ .ARM.extab.text._ZN4XBee13resetResponseEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN4XBee13resetResponseEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN4XBeeC2Ev
+                0x00000000       0x20 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN4XBeeC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN4XBeeC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN4XBee14getNextFrameIdEv
+                0x00000000       0x16 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN4XBee14getNextFrameIdEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN4XBee14getNextFrameIdEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN4XBee5beginEi
+                0x00000000       0x10 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN4XBee5beginEi
+                0x00000000        0xc ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN4XBee5beginEi
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN4XBee11getResponseEv
+                0x00000000        0x2 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN4XBee11getResponseEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN4XBee11getResponseEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN4XBee11getResponseER12XBeeResponse
+                0x00000000       0x4c ./src/XBee/XBee.o
+ .ARM.extab.text._ZN4XBee11getResponseER12XBeeResponse
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN4XBee11getResponseER12XBeeResponse
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN4XBee10readPacketEv
+                0x00000000      0x124 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN4XBee10readPacketEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN4XBee10readPacketEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN4XBee10readPacketEi
+                0x00000000       0x4c ./src/XBee/XBee.o
+ .ARM.extab.text._ZN4XBee10readPacketEi
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN4XBee10readPacketEi
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN4XBee24readPacketUntilAvailableEv
+                0x00000000       0x28 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN4XBee24readPacketUntilAvailableEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN4XBee24readPacketUntilAvailableEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11XBeeRequestC2Ehh
+                0x00000000       0x10 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11XBeeRequestC2Ehh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11XBeeRequestC2Ehh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11XBeeRequest10setFrameIdEh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11XBeeRequest10setFrameIdEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11XBeeRequest10setFrameIdEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11XBeeRequest10getFrameIdEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11XBeeRequest10getFrameIdEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11XBeeRequest10getFrameIdEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11XBeeRequest8getApiIdEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11XBeeRequest8getApiIdEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11XBeeRequest8getApiIdEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11XBeeRequest8setApiIdEh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11XBeeRequest8setApiIdEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11XBeeRequest8setApiIdEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN14PayloadRequestC2EhhPhh
+                0x00000000       0x20 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN14PayloadRequestC2EhhPhh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN14PayloadRequestC2EhhPhh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN14PayloadRequest10getPayloadEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN14PayloadRequest10getPayloadEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN14PayloadRequest10getPayloadEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN14PayloadRequest10setPayloadEPh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN14PayloadRequest10setPayloadEPh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN14PayloadRequest10setPayloadEPh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN14PayloadRequest16getPayloadLengthEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN14PayloadRequest16getPayloadLengthEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN14PayloadRequest16getPayloadLengthEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11ZBTxRequest18getFrameDataLengthEv
+                0x00000000        0xc ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11ZBTxRequest18getFrameDataLengthEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11ZBTxRequest18getFrameDataLengthEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN14PayloadRequest16setPayloadLengthEh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN14PayloadRequest16setPayloadLengthEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN14PayloadRequest16setPayloadLengthEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11XBeeAddressC2Ev
+                0x00000000        0x2 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11XBeeAddressC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11XBeeAddressC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN13XBeeAddress64C2Ev
+                0x00000000        0x2 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN13XBeeAddress64C2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN13XBeeAddress64C2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN13XBeeAddress64C2Emm
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .text._ZN13XBeeAddress646getMsbEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN13XBeeAddress646getMsbEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN13XBeeAddress646getMsbEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN13XBeeAddress646setMsbEm
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN13XBeeAddress646setMsbEm
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN13XBeeAddress646setMsbEm
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN13XBeeAddress646getLsbEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN13XBeeAddress646getLsbEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN13XBeeAddress646getLsbEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11ZBTxRequest12getFrameDataEh
+                0x00000000       0x98 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11ZBTxRequest12getFrameDataEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11ZBTxRequest12getFrameDataEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN13XBeeAddress646setLsbEm
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN13XBeeAddress646setLsbEm
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN13XBeeAddress646setLsbEm
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse26getRemoteAtCommandResponseERS_
+                0x00000000       0x64 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse26getRemoteAtCommandResponseERS_
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse26getRemoteAtCommandResponseERS_
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse23getZBRxIoSampleResponseERS_
+                0x00000000       0x66 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse23getZBRxIoSampleResponseERS_
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse23getZBRxIoSampleResponseERS_
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN12XBeeResponse15getZBRxResponseERS_
+                0x00000000       0x66 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN12XBeeResponse15getZBRxResponseERS_
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN12XBeeResponse15getZBRxResponseERS_
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11ZBTxRequestC2Ev
+                0x00000000       0x20 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11ZBTxRequestC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11ZBTxRequestC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11ZBTxRequestC2ER13XBeeAddress64thhPhhh
+                0x00000000       0x48 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11ZBTxRequestC2ER13XBeeAddress64thhPhhh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11ZBTxRequestC2ER13XBeeAddress64thhPhhh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11ZBTxRequestC2ER13XBeeAddress64Phh
+                0x00000000       0x38 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11ZBTxRequestC2ER13XBeeAddress64Phh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11ZBTxRequestC2ER13XBeeAddress64Phh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11ZBTxRequest12getAddress64Ev
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11ZBTxRequest12getAddress64Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11ZBTxRequest12getAddress64Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11ZBTxRequest12getAddress16Ev
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11ZBTxRequest12getAddress16Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11ZBTxRequest12getAddress16Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11ZBTxRequest18getBroadcastRadiusEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11ZBTxRequest18getBroadcastRadiusEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11ZBTxRequest18getBroadcastRadiusEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11ZBTxRequest9getOptionEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11ZBTxRequest9getOptionEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11ZBTxRequest9getOptionEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11ZBTxRequest12setAddress64ER13XBeeAddress64
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11ZBTxRequest12setAddress64ER13XBeeAddress64
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11ZBTxRequest12setAddress64ER13XBeeAddress64
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11ZBTxRequest12setAddress16Et
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11ZBTxRequest12setAddress16Et
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11ZBTxRequest12setAddress16Et
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11ZBTxRequest18setBroadcastRadiusEh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11ZBTxRequest18setBroadcastRadiusEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11ZBTxRequest18setBroadcastRadiusEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN11ZBTxRequest9setOptionEh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN11ZBTxRequest9setOptionEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN11ZBTxRequest9setOptionEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN16AtCommandRequestC2EPhS0_h
+                0x00000000       0x28 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN16AtCommandRequestC2EPhS0_h
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN16AtCommandRequestC2EPhS0_h
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN16AtCommandRequest10getCommandEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN16AtCommandRequest10getCommandEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN16AtCommandRequest10getCommandEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN16AtCommandRequest15getCommandValueEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN16AtCommandRequest15getCommandValueEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN16AtCommandRequest15getCommandValueEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN22RemoteAtCommandRequest12getFrameDataEh
+                0x00000000       0xae ./src/XBee/XBee.o
+ .ARM.extab.text._ZN22RemoteAtCommandRequest12getFrameDataEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN22RemoteAtCommandRequest12getFrameDataEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN16AtCommandRequest21getCommandValueLengthEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN16AtCommandRequest21getCommandValueLengthEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN16AtCommandRequest21getCommandValueLengthEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN22RemoteAtCommandRequest18getFrameDataLengthEv
+                0x00000000        0xc ./src/XBee/XBee.o
+ .ARM.extab.text._ZN22RemoteAtCommandRequest18getFrameDataLengthEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN22RemoteAtCommandRequest18getFrameDataLengthEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN16AtCommandRequest10setCommandEPh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN16AtCommandRequest10setCommandEPh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN16AtCommandRequest10setCommandEPh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN16AtCommandRequest15setCommandValueEPh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN16AtCommandRequest15setCommandValueEPh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN16AtCommandRequest15setCommandValueEPh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN16AtCommandRequest21setCommandValueLengthEh
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN16AtCommandRequest21setCommandValueLengthEh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN16AtCommandRequest21setCommandValueLengthEh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN16AtCommandRequest17clearCommandValueEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN16AtCommandRequest17clearCommandValueEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN16AtCommandRequest17clearCommandValueEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN16AtCommandRequestC2EPh
+                0x00000000       0x24 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN16AtCommandRequestC2EPh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN16AtCommandRequestC2EPh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN16AtCommandRequestC2Ev
+                0x00000000       0x24 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN16AtCommandRequestC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN16AtCommandRequestC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN22RemoteAtCommandRequestC2Ev
+                0x00000000       0x28 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN22RemoteAtCommandRequestC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN22RemoteAtCommandRequestC2Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN22RemoteAtCommandRequestC2EtPhS0_h
+                0x00000000       0x3c ./src/XBee/XBee.o
+ .ARM.extab.text._ZN22RemoteAtCommandRequestC2EtPhS0_h
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN22RemoteAtCommandRequestC2EtPhS0_h
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN22RemoteAtCommandRequestC2EtPh
+                0x00000000       0x38 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN22RemoteAtCommandRequestC2EtPh
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN22RemoteAtCommandRequestC2EtPh
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN22RemoteAtCommandRequestC2ER13XBeeAddress64PhS2_h
+                0x00000000       0x38 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN22RemoteAtCommandRequestC2ER13XBeeAddress64PhS2_h
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN22RemoteAtCommandRequestC2ER13XBeeAddress64PhS2_h
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN22RemoteAtCommandRequestC2ER13XBeeAddress64Ph
+                0x00000000       0x38 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN22RemoteAtCommandRequestC2ER13XBeeAddress64Ph
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN22RemoteAtCommandRequestC2ER13XBeeAddress64Ph
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN22RemoteAtCommandRequest18getRemoteAddress16Ev
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN22RemoteAtCommandRequest18getRemoteAddress16Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN22RemoteAtCommandRequest18getRemoteAddress16Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN22RemoteAtCommandRequest18setRemoteAddress16Et
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN22RemoteAtCommandRequest18setRemoteAddress16Et
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN22RemoteAtCommandRequest18setRemoteAddress16Et
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN22RemoteAtCommandRequest18getRemoteAddress64Ev
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN22RemoteAtCommandRequest18getRemoteAddress64Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN22RemoteAtCommandRequest18getRemoteAddress64Ev
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN22RemoteAtCommandRequest18setRemoteAddress64ER13XBeeAddress64
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN22RemoteAtCommandRequest18setRemoteAddress64ER13XBeeAddress64
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN22RemoteAtCommandRequest18setRemoteAddress64ER13XBeeAddress64
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN22RemoteAtCommandRequest15getApplyChangesEv
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN22RemoteAtCommandRequest15getApplyChangesEv
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN22RemoteAtCommandRequest15getApplyChangesEv
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN22RemoteAtCommandRequest15setApplyChangesEb
+                0x00000000        0x4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN22RemoteAtCommandRequest15setApplyChangesEb
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN22RemoteAtCommandRequest15setApplyChangesEb
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN4XBee8sendByteEhb
+                0x00000000       0x3c ./src/XBee/XBee.o
+ .ARM.extab.text._ZN4XBee8sendByteEhb
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN4XBee8sendByteEhb
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .text._ZN4XBee4sendER11XBeeRequest
+                0x00000000       0xb4 ./src/XBee/XBee.o
+ .ARM.extab.text._ZN4XBee4sendER11XBeeRequest
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .ARM.exidx.text._ZN4XBee4sendER11XBeeRequest
+                0x00000000        0x8 ./src/XBee/XBee.o
+ .ARM.extab.text._GLOBAL__I__ZN12XBeeResponseC2Ev
+                0x00000000        0x0 ./src/XBee/XBee.o
+ .rodata._ZTV14PayloadRequest
+                0x00000000       0x10 ./src/XBee/XBee.o
+ .rodata._ZTV11XBeeRequest
+                0x00000000       0x10 ./src/XBee/XBee.o
+ .rodata._ZTV14RxDataResponse
+                0x00000000       0x10 ./src/XBee/XBee.o
+ .rodata._ZTV20ZBRxIoSampleResponse
+                0x00000000       0x10 ./src/XBee/XBee.o
+ .rodata._ZTV16AtCommandRequest
+                0x00000000       0x10 ./src/XBee/XBee.o
+ .rodata._ZTV11ZBTxRequest
+                0x00000000       0x10 ./src/XBee/XBee.o
+ .rodata._ZTV12ZBRxResponse
+                0x00000000       0x10 ./src/XBee/XBee.o
+ .rodata._ZTV22RemoteAtCommandRequest
+                0x00000000       0x10 ./src/XBee/XBee.o
+ .text          0x00000000        0x0 ./src/FatFs/SD.o
+ .data          0x00000000        0x0 ./src/FatFs/SD.o
+ .bss           0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFSD2Ev
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFSC2Ev
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .text._ZN7PETITFS5beginEv
+                0x00000000       0x12 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS5beginEv
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS5beginEv
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS5beginEi
+                0x00000000        0xe ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS5beginEi
+                0x00000000        0xc ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS5beginEi
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS5beginE8SSP_PORT
+                0x00000000       0x28 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS5beginE8SSP_PORT
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS5beginE8SSP_PORT
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS6existsEv
+                0x00000000        0x4 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS6existsEv
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS6existsEv
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS5mkdirEv
+                0x00000000        0x4 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS5mkdirEv
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS5mkdirEv
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS4openEPKc
+                0x00000000       0x10 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS4openEPKc
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS4openEPKc
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS6removeEPKc
+                0x00000000        0x4 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS6removeEPKc
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS6removeEPKc
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS5rmdirEPKc
+                0x00000000        0x4 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS5rmdirEPKc
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS5rmdirEPKc
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS9availableEv
+                0x00000000        0x2 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS9availableEv
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS9availableEv
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS5closeEv
+                0x00000000        0x2 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS5closeEv
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS5closeEv
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS5flushEv
+                0x00000000        0x2 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS5flushEv
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS5flushEv
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS4peekEv
+                0x00000000        0x2 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS4peekEv
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS4peekEv
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS8positionEv
+                0x00000000        0x2 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS8positionEv
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS8positionEv
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS5printEPKc
+                0x00000000        0x2 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS5printEPKc
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS5printEPKc
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS5printEi12RADIX_FORMAT
+                0x00000000        0x2 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS5printEi12RADIX_FORMAT
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS5printEi12RADIX_FORMAT
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS7printlnEPKc
+                0x00000000        0x2 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS7printlnEPKc
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS7printlnEPKc
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS7printlnEi12RADIX_FORMAT
+                0x00000000        0x2 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS7printlnEi12RADIX_FORMAT
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS7printlnEi12RADIX_FORMAT
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS4seekEm
+                0x00000000        0x2 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS4seekEm
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS4seekEm
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS4sizeEv
+                0x00000000        0x2 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS4sizeEv
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS4sizeEv
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS4readEv
+                0x00000000       0x2e ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS4readEv
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS4readEv
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS5writeEPKc
+                0x00000000        0x2 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS5writeEPKc
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS5writeEPKc
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .text._ZN7PETITFS5writeEPKci
+                0x00000000        0x2 ./src/FatFs/SD.o
+ .ARM.extab.text._ZN7PETITFS5writeEPKci
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .ARM.exidx.text._ZN7PETITFS5writeEPKci
+                0x00000000        0x8 ./src/FatFs/SD.o
+ .ARM.extab.text._GLOBAL__I_SDFile
+                0x00000000        0x0 ./src/FatFs/SD.o
+ .text          0x00000000        0x0 ./src/FatFs/pff.o
+ .data          0x00000000        0x0 ./src/FatFs/pff.o
+ .bss           0x00000000        0x0 ./src/FatFs/pff.o
+ .text._ZL10clust2sectm
+                0x00000000       0x20 ./src/FatFs/pff.o
+ .ARM.extab.text._ZL10clust2sectm
+                0x00000000        0x0 ./src/FatFs/pff.o
+ .ARM.exidx.text._ZL10clust2sectm
+                0x00000000        0x8 ./src/FatFs/pff.o
+ .text._ZL10dir_rewindP5_DIR_
+                0x00000000       0x44 ./src/FatFs/pff.o
+ .ARM.extab.text._ZL10dir_rewindP5_DIR_
+                0x00000000        0x0 ./src/FatFs/pff.o
+ .ARM.exidx.text._ZL10dir_rewindP5_DIR_
+                0x00000000        0x8 ./src/FatFs/pff.o
+ .text._ZL7get_fatm
+                0x00000000       0xdc ./src/FatFs/pff.o
+ .ARM.extab.text._ZL7get_fatm
+                0x00000000        0x0 ./src/FatFs/pff.o
+ .ARM.exidx.text._ZL7get_fatm
+                0x00000000        0x8 ./src/FatFs/pff.o
+ .text._ZL8dir_nextP5_DIR_
+                0x00000000       0x60 ./src/FatFs/pff.o
+ .ARM.extab.text._ZL8dir_nextP5_DIR_
+                0x00000000        0x0 ./src/FatFs/pff.o
+ .ARM.exidx.text._ZL8dir_nextP5_DIR_
+                0x00000000        0x8 ./src/FatFs/pff.o
+ .text._ZL8check_fsPhm
+                0x00000000       0x80 ./src/FatFs/pff.o
+ .ARM.extab.text._ZL8check_fsPhm
+                0x00000000        0x0 ./src/FatFs/pff.o
+ .ARM.exidx.text._ZL8check_fsPhm
+                0x00000000        0x8 ./src/FatFs/pff.o
+ .text._ZL11follow_pathP5_DIR_PKc
+                0x00000000      0x14c ./src/FatFs/pff.o
+ .ARM.extab.text._ZL11follow_pathP5_DIR_PKc
+                0x00000000        0x0 ./src/FatFs/pff.o
+ .ARM.exidx.text._ZL11follow_pathP5_DIR_PKc
+                0x00000000        0x8 ./src/FatFs/pff.o
+ .text._Z8pf_mountP7_FATFS_
+                0x00000000      0x170 ./src/FatFs/pff.o
+ .ARM.extab.text._Z8pf_mountP7_FATFS_
+                0x00000000        0x0 ./src/FatFs/pff.o
+ .ARM.exidx.text._Z8pf_mountP7_FATFS_
+                0x00000000        0x8 ./src/FatFs/pff.o
+ .text._Z7pf_openPKc
+                0x00000000       0x74 ./src/FatFs/pff.o
+ .ARM.extab.text._Z7pf_openPKc
+                0x00000000        0x0 ./src/FatFs/pff.o
+ .ARM.exidx.text._Z7pf_openPKc
+                0x00000000        0x8 ./src/FatFs/pff.o
+ .text._Z7pf_readPvtPt
+                0x00000000       0xcc ./src/FatFs/pff.o
+ .ARM.extab.text._Z7pf_readPvtPt
+                0x00000000        0x0 ./src/FatFs/pff.o
+ .ARM.exidx.text._Z7pf_readPvtPt
+                0x00000000        0x8 ./src/FatFs/pff.o
+ .text._Z8pf_writePKvtPt
+                0x00000000      0x11c ./src/FatFs/pff.o
+ .ARM.extab.text._Z8pf_writePKvtPt
+                0x00000000        0x0 ./src/FatFs/pff.o
+ .ARM.exidx.text._Z8pf_writePKvtPt
+                0x00000000        0x8 ./src/FatFs/pff.o
+ .text._Z8pf_lseekm
+                0x00000000       0xb0 ./src/FatFs/pff.o
+ .ARM.extab.text._Z8pf_lseekm
+                0x00000000        0x0 ./src/FatFs/pff.o
+ .ARM.exidx.text._Z8pf_lseekm
+                0x00000000        0x8 ./src/FatFs/pff.o
+ .text._Z10pf_opendirP5_DIR_PKc
+                0x00000000       0x5c ./src/FatFs/pff.o
+ .ARM.extab.text._Z10pf_opendirP5_DIR_PKc
+                0x00000000        0x0 ./src/FatFs/pff.o
+ .ARM.exidx.text._Z10pf_opendirP5_DIR_PKc
+                0x00000000        0x8 ./src/FatFs/pff.o
+ .text._Z10pf_readdirP5_DIR_P9_FILINFO_
+                0x00000000      0x110 ./src/FatFs/pff.o
+ .ARM.extab.text._Z10pf_readdirP5_DIR_P9_FILINFO_
+                0x00000000        0x0 ./src/FatFs/pff.o
+ .ARM.exidx.text._Z10pf_readdirP5_DIR_P9_FILINFO_
+                0x00000000        0x8 ./src/FatFs/pff.o
+ .bss._ZL5FatFs
+                0x00000000        0x4 ./src/FatFs/pff.o
+ .text          0x00000000        0x0 ./src/FatFs/sdcard.o
+ .data          0x00000000        0x0 ./src/FatFs/sdcard.o
+ .bss           0x00000000        0x0 ./src/FatFs/sdcard.o
+ .text._Z8xmit_spih
+                0x00000000       0x10 ./src/FatFs/sdcard.o
+ .ARM.extab.text._Z8xmit_spih
+                0x00000000        0xc ./src/FatFs/sdcard.o
+ .ARM.exidx.text._Z8xmit_spih
+                0x00000000        0x8 ./src/FatFs/sdcard.o
+ .text._Z7rcv_spiv
+                0x00000000       0x10 ./src/FatFs/sdcard.o
+ .ARM.extab.text._Z7rcv_spiv
+                0x00000000        0xc ./src/FatFs/sdcard.o
+ .ARM.exidx.text._Z7rcv_spiv
+                0x00000000        0x8 ./src/FatFs/sdcard.o
+ .text._ZL8send_cmdhm
+                0x00000000       0x88 ./src/FatFs/sdcard.o
+ .ARM.extab.text._ZL8send_cmdhm
+                0x00000000        0x0 ./src/FatFs/sdcard.o
+ .ARM.exidx.text._ZL8send_cmdhm
+                0x00000000        0x8 ./src/FatFs/sdcard.o
+ .text._ZL11release_spiv
+                0x00000000       0x18 ./src/FatFs/sdcard.o
+ .ARM.extab.text._ZL11release_spiv
+                0x00000000        0xc ./src/FatFs/sdcard.o
+ .ARM.exidx.text._ZL11release_spiv
+                0x00000000        0x8 ./src/FatFs/sdcard.o
+ .text._Z10disk_readpPhmtt
+                0x00000000       0xa4 ./src/FatFs/sdcard.o
+ .ARM.extab.text._Z10disk_readpPhmtt
+                0x00000000        0x0 ./src/FatFs/sdcard.o
+ .ARM.exidx.text._Z10disk_readpPhmtt
+                0x00000000        0x8 ./src/FatFs/sdcard.o
+ .text._Z11disk_writepPKhm
+                0x00000000       0xb4 ./src/FatFs/sdcard.o
+ .ARM.extab.text._Z11disk_writepPKhm
+                0x00000000        0x0 ./src/FatFs/sdcard.o
+ .ARM.exidx.text._Z11disk_writepPKhm
+                0x00000000        0x8 ./src/FatFs/sdcard.o
+ .text._Z15disk_initializev
+                0x00000000      0x13c ./src/FatFs/sdcard.o
+ .ARM.extab.text._Z15disk_initializev
+                0x00000000        0x0 ./src/FatFs/sdcard.o
+ .ARM.exidx.text._Z15disk_initializev
+                0x00000000        0x8 ./src/FatFs/sdcard.o
+ .bss._ZL8CardType
+                0x00000000        0x1 ./src/FatFs/sdcard.o
+ .bss._ZZ11disk_writepPKhmE2wc
+                0x00000000        0x2 ./src/FatFs/sdcard.o
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(unwind-arm.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(unwind-arm.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(libunwind.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(libunwind.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(pr-support.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(pr-support.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-abort.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-abort.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-init.o)
+ .text          0x00000000       0x28 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-malloc.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signal.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signal.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signalr.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signalr.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-freer.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-freer.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-impure.o)
+ .rodata        0x00000000        0x4 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-impure.o)
+ .text          0x00000000      0x100 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(getpid.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(getpid.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crti.o
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crti.o
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crti.o
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtn.o
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtn.o
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtn.o
+ .fini_array    0x00000000        0x4 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtbegin.o
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtend.o
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtend.o
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtend.o
+ .jcr           0x00000000        0x4 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtend.o
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00001000         0x00007000         xr
+RamLoc8          0x10000000         0x00001fe0         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/user_application.o
+LOAD ./src/core/SPI.o
+LOAD ./src/core/SPI1.o
+LOAD ./src/core/cr_cpp_config.o
+LOAD ./src/core/cr_startup_lpc11.o
+LOAD ./src/core/delay.o
+LOAD ./src/core/gpio.o
+LOAD ./src/core/maryoled.o
+LOAD ./src/core/startup_mary.o
+LOAD ./src/core/system_LPC11xx.o
+LOAD ./src/core/uart.o
+LOAD ./src/XBee/XBee.o
+LOAD ./src/FatFs/SD.o
+LOAD ./src/FatFs/pff.o
+LOAD ./src/FatFs/sdcard.o
+LOAD c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++.a
+LOAD c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libm.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a
+LOAD c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a
+END GROUP
+START GROUP
+LOAD c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a
+LOAD c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a
+LOAD c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++.a
+LOAD c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libm.a
+LOAD c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a
+LOAD c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crti.o
+LOAD c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtn.o
+LOAD c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtbegin.o
+LOAD c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtend.o
+END GROUP
+                0x00008000                __top_MFlash32 = 0x8000
+                0x10001fe0                __top_RamLoc8 = 0x10001fe0
+
+.text           0x00001000     0x2b04
+ FILL mask 0xff
+ *(.isr_vector)
+ .isr_vector    0x00001000       0xc0 ./src/core/cr_startup_lpc11.o
+                0x00001000                g_pfnVectors
+                0x000010c0                . = ALIGN (0x4)
+                0x000010c0                __section_table_start = .
+                0x000010c0                __data_section_table = .
+                0x000010c0        0x4 LONG 0x3d24 LOADADDR (.data)
+                0x000010c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x000010c8        0x4 LONG 0x84c SIZEOF (.data)
+                0x000010cc                __data_section_table_end = .
+                0x000010cc                __bss_section_table = .
+                0x000010cc        0x4 LONG 0x1000084c ADDR (.bss)
+                0x000010d0        0x4 LONG 0x144 SIZEOF (.bss)
+                0x000010d4                __bss_section_table_end = .
+                0x000010d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000010d4       0x80 ./src/core/cr_startup_lpc11.o
+                0x000010d4                NMI_Handler
+                0x000010d8                HardFault_Handler
+                0x000010dc                SVCall_Handler
+                0x000010e0                PendSV_Handler
+                0x000010e8                data_init(unsigned int, unsigned int, unsigned int)
+                0x000010fa                bss_init(unsigned int, unsigned int)
+                0x0000110c                ResetISR
+                0x00001150                IntDefaultHandler
+                0x00001150                PIOINT1_IRQHandler
+                0x00001150                CAN_IRQHandler
+                0x00001150                TIMER32_0_IRQHandler
+                0x00001150                TIMER16_1_IRQHandler
+                0x00001150                ADC_IRQHandler
+                0x00001150                SSP1_IRQHandler
+                0x00001150                PIOINT2_IRQHandler
+                0x00001150                UART_IRQHandler
+                0x00001150                BOD_IRQHandler
+                0x00001150                WAKEUP_IRQHandler
+                0x00001150                PIOINT0_IRQHandler
+                0x00001150                I2C_IRQHandler
+                0x00001150                SSP0_IRQHandler
+                0x00001150                WDT_IRQHandler
+                0x00001150                TIMER16_0_IRQHandler
+                0x00001150                PIOINT3_IRQHandler
+ *(.text*)
+ .text._Z5setupv
+                0x00001154       0x4c ./src/user_application.o
+                0x00001154                setup()
+ .text._Z4loopv
+                0x000011a0       0xd8 ./src/user_application.o
+                0x000011a0                loop()
+ .text._ZN3SSPD2Ev
+                0x00001278        0x2 ./src/core/SPI.o
+                0x00001278                SSP::~SSP()
+                0x00001278                SSP::~SSP()
+ .text._ZN3SSP12setBitLengthEi
+                0x0000127a        0x4 ./src/core/SPI.o
+                0x0000127a                SSP::setBitLength(int)
+ .text._ZN3SSP11setBitOrderE13SSP_BIT_ORDER
+                0x0000127e        0x4 ./src/core/SPI.o
+                0x0000127e                SSP::setBitOrder(SSP_BIT_ORDER)
+ .text._ZN3SSP15setClockDividerE15SSP_CLK_DIVIDER
+                0x00001282        0x4 ./src/core/SPI.o
+                0x00001282                SSP::setClockDivider(SSP_CLK_DIVIDER)
+ *fill*         0x00001286        0x2 00
+ .text.ssp_begin
+                0x00001288       0xf8 ./src/core/SPI.o
+                0x00001288                ssp_begin
+ .text._ZN3SSP5beginEv
+                0x00001380       0x12 ./src/core/SPI.o
+                0x00001380                SSP::begin()
+ .text._ZN3SSPC2Ev
+                0x00001392       0x32 ./src/core/SPI.o
+                0x00001392                SSP::SSP()
+                0x00001392                SSP::SSP()
+ .text._GLOBAL__I_SPI
+                0x000013c4       0x24 ./src/core/SPI.o
+ .text._ZN4SSP1D2Ev
+                0x000013e8        0x2 ./src/core/SPI1.o
+                0x000013e8                SSP1::~SSP1()
+                0x000013e8                SSP1::~SSP1()
+ .text._ZN4SSP112setBitLengthEi
+                0x000013ea        0x4 ./src/core/SPI1.o
+                0x000013ea                SSP1::setBitLength(int)
+ .text._ZN4SSP111setBitOrderE13SSP_BIT_ORDER
+                0x000013ee        0x4 ./src/core/SPI1.o
+                0x000013ee                SSP1::setBitOrder(SSP_BIT_ORDER)
+ .text._ZN4SSP115setClockDividerE15SSP_CLK_DIVIDER
+                0x000013f2        0x4 ./src/core/SPI1.o
+                0x000013f2                SSP1::setClockDivider(SSP_CLK_DIVIDER)
+ .text._ZN4SSP111setDataModeE13SSP_DATA_MODE
+                0x000013f6        0x4 ./src/core/SPI1.o
+                0x000013f6                SSP1::setDataMode(SSP_DATA_MODE)
+ *fill*         0x000013fa        0x2 00
+ .text.ssp1_begin
+                0x000013fc       0xec ./src/core/SPI1.o
+                0x000013fc                ssp1_begin
+ .text._ZN4SSP15beginEv
+                0x000014e8       0x12 ./src/core/SPI1.o
+                0x000014e8                SSP1::begin()
+ .text._ZN4SSP1C2Ev
+                0x000014fa       0x32 ./src/core/SPI1.o
+                0x000014fa                SSP1::SSP1()
+                0x000014fa                SSP1::SSP1()
+ .text.ssp1_transfer
+                0x0000152c       0x2c ./src/core/SPI1.o
+                0x0000152c                ssp1_transfer
+ .text._ZN4SSP18transferEm
+                0x00001558        0xa ./src/core/SPI1.o
+                0x00001558                SSP1::transfer(unsigned long)
+ *fill*         0x00001562        0x2 00
+ .text._GLOBAL__I_SPI1
+                0x00001564       0x24 ./src/core/SPI1.o
+ .text.__aeabi_atexit
+                0x00001588        0x4 ./src/core/cr_cpp_config.o
+                0x00001588                __aeabi_atexit
+ .text.NVIC_SetPriority
+                0x0000158c       0x64 ./src/core/delay.o
+ .text.NVIC_DisableIRQ.clone.0
+                0x000015f0       0x10 ./src/core/delay.o
+ .text.delay    0x00001600       0x18 ./src/core/delay.o
+                0x00001600                delay
+ .text.attachMicroseconds
+                0x00001618       0x50 ./src/core/delay.o
+                0x00001618                attachMicroseconds
+ .text.setup_TIMER32_1
+                0x00001668       0x12 ./src/core/delay.o
+                0x00001668                setup_TIMER32_1
+ *fill*         0x0000167a        0x2 00
+ .text.TIMER32_1_IRQHandler
+                0x0000167c       0x24 ./src/core/delay.o
+                0x0000167c                TIMER32_1_IRQHandler
+ .text.SysTick_Handler
+                0x000016a0       0x10 ./src/core/delay.o
+                0x000016a0                SysTick_Handler
+ .text.setup_systick
+                0x000016b0       0x54 ./src/core/delay.o
+                0x000016b0                setup_systick
+ .text._Z7pinModei12pinModeState
+                0x00001704       0x64 ./src/core/gpio.o
+                0x00001704                pinMode(int, pinModeState)
+ .text._Z12digitalWritei17digitalWriteState
+                0x00001768       0x58 ./src/core/gpio.o
+                0x00001768                digitalWrite(int, digitalWriteState)
+ .text._ZN8MARYOLEDD2Ev
+                0x000017c0        0x2 ./src/core/maryoled.o
+                0x000017c0                MARYOLED::~MARYOLED()
+                0x000017c0                MARYOLED::~MARYOLED()
+ *fill*         0x000017c2        0x2 00
+ .text._ZN8MARYOLEDC2Ev
+                0x000017c4       0x24 ./src/core/maryoled.o
+                0x000017c4                MARYOLED::MARYOLED()
+                0x000017c4                MARYOLED::MARYOLED()
+ .text._GLOBAL__I_oled
+                0x000017e8       0x24 ./src/core/maryoled.o
+ .text.main     0x0000180c       0x14 ./src/core/startup_mary.o
+                0x0000180c                main
+ .text.SystemInit
+                0x00001820       0x7c ./src/core/system_LPC11xx.o
+                0x00001820                SystemInit
+ .text._ZN7USerialD2Ev
+                0x0000189c        0x2 ./src/core/uart.o
+                0x0000189c                USerial::~USerial()
+                0x0000189c                USerial::~USerial()
+ .text._ZN7USerialC2Ev
+                0x0000189e       0x10 ./src/core/uart.o
+                0x0000189e                USerial::USerial()
+                0x0000189e                USerial::USerial()
+ *fill*         0x000018ae        0x2 00
+ .text._ZN7USerial5beginEi
+                0x000018b0       0x80 ./src/core/uart.o
+                0x000018b0                USerial::begin(int)
+ .text._ZN7USerial5writeEc
+                0x00001930       0x14 ./src/core/uart.o
+                0x00001930                USerial::write(char)
+ .text._ZN7USerial5printEPKc
+                0x00001944       0x18 ./src/core/uart.o
+                0x00001944                USerial::print(char const*)
+ .text._ZN7USerial5printEi12RADIX_FORMAT
+                0x0000195c      0x12c ./src/core/uart.o
+                0x0000195c                USerial::print(int, RADIX_FORMAT)
+ .text._ZN7USerial7printlnEPKc
+                0x00001a88       0x1a ./src/core/uart.o
+                0x00001a88                USerial::println(char const*)
+ .text._ZN7USerial7printlnEi12RADIX_FORMAT
+                0x00001aa2       0x1a ./src/core/uart.o
+                0x00001aa2                USerial::println(int, RADIX_FORMAT)
+ .text._GLOBAL__I_Serial
+                0x00001abc       0x24 ./src/core/uart.o
+ .text._ZN13XBeeAddress64C2Emm
+                0x00001ae0        0x6 ./src/XBee/XBee.o
+                0x00001ae0                XBeeAddress64::XBeeAddress64(unsigned long, unsigned long)
+                0x00001ae0                XBeeAddress64::XBeeAddress64(unsigned long, unsigned long)
+ *fill*         0x00001ae6        0x2 00
+ .text._GLOBAL__I__ZN12XBeeResponseC2Ev
+                0x00001ae8       0x18 ./src/XBee/XBee.o
+ .text._ZN7PETITFSD2Ev
+                0x00001b00        0x2 ./src/FatFs/SD.o
+                0x00001b00                PETITFS::~PETITFS()
+                0x00001b00                PETITFS::~PETITFS()
+ .text._ZN7PETITFSC2Ev
+                0x00001b02        0xa ./src/FatFs/SD.o
+                0x00001b02                PETITFS::PETITFS()
+                0x00001b02                PETITFS::PETITFS()
+ .text._GLOBAL__I_SDFile
+                0x00001b0c       0x24 ./src/FatFs/SD.o
+ .text          0x00001b30       0x14 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+                0x00001b30                __gnu_thumb1_case_uqi
+ .text          0x00001b44       0x9c c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_udivsi3.o)
+                0x00001b44                __aeabi_uidiv
+                0x00001b44                __udivsi3
+                0x00001bcc                __aeabi_uidivmod
+ .text          0x00001be0       0xc0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_divsi3.o)
+                0x00001be0                __divsi3
+                0x00001be0                __aeabi_idiv
+                0x00001c8c                __aeabi_idivmod
+ .text          0x00001ca0        0x4 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x00001ca0                __aeabi_idiv0
+                0x00001ca0                __aeabi_ldiv0
+ .text          0x00001ca4      0xbf8 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(unwind-arm.o)
+                0x00001f64                _Unwind_VRS_Get
+                0x00001fb0                _Unwind_VRS_Set
+                0x0000236c                __aeabi_unwind_cpp_pr2
+                0x00002378                __aeabi_unwind_cpp_pr1
+                0x00002384                __aeabi_unwind_cpp_pr0
+                0x00002390                _Unwind_VRS_Pop
+                0x00002748                _Unwind_GetCFA
+                0x0000274c                __gnu_Unwind_RaiseException
+                0x000027a8                __gnu_Unwind_ForcedUnwind
+                0x000027bc                __gnu_Unwind_Resume
+                0x000027fc                __gnu_Unwind_Resume_or_Rethrow
+                0x00002818                _Unwind_Complete
+                0x0000281c                _Unwind_DeleteException
+                0x0000282c                __gnu_Unwind_Backtrace
+ .text          0x0000289c      0x144 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(libunwind.o)
+                0x0000289c                __restore_core_regs
+                0x0000289c                restore_core_regs
+                0x000028c8                __gnu_Unwind_Restore_VFP
+                0x000028cc                __gnu_Unwind_Save_VFP
+                0x000028d0                __gnu_Unwind_Restore_VFP_D
+                0x000028d4                __gnu_Unwind_Save_VFP_D
+                0x000028d8                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x000028dc                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x000028e0                __gnu_Unwind_Restore_WMMXD
+                0x000028e4                __gnu_Unwind_Save_WMMXD
+                0x000028e8                __gnu_Unwind_Restore_WMMXC
+                0x000028ec                __gnu_Unwind_Save_WMMXC
+                0x000028f0                ___Unwind_RaiseException
+                0x000028f0                _Unwind_RaiseException
+                0x00002920                _Unwind_Resume
+                0x00002920                ___Unwind_Resume
+                0x00002950                _Unwind_Resume_or_Rethrow
+                0x00002950                ___Unwind_Resume_or_Rethrow
+                0x00002980                _Unwind_ForcedUnwind
+                0x00002980                ___Unwind_ForcedUnwind
+                0x000029b0                ___Unwind_Backtrace
+                0x000029b0                _Unwind_Backtrace
+ .text          0x000029e0      0x3d0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(pr-support.o)
+                0x00002a30                __gnu_unwind_execute
+                0x00002d58                __gnu_unwind_frame
+                0x00002d80                _Unwind_GetRegionStart
+                0x00002d8c                _Unwind_GetLanguageSpecificData
+                0x00002da0                _Unwind_GetDataRelBase
+                0x00002da8                _Unwind_GetTextRelBase
+ .text          0x00002db0       0x10 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-abort.o)
+                0x00002db0                abort
+ .text          0x00002dc0       0x48 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-init.o)
+                0x00002dc0                __libc_init_array
+ .text          0x00002e08      0x508 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mallocr.o)
+                0x00002e08                _malloc_r
+ .text          0x00003310       0xf8 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-memcpy.o)
+                0x00003310                memcpy
+ .text          0x00003408        0x8 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mlock.o)
+                0x00003408                __malloc_lock
+                0x0000340c                __malloc_unlock
+ .text          0x00003410       0x24 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-sbrkr.o)
+                0x00003410                _sbrk_r
+ .text          0x00003434      0x168 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signal.o)
+                0x00003434                _init_signal_r
+                0x0000346c                _signal_r
+                0x000034a8                _raise_r
+                0x00003500                __sigtramp_r
+                0x0000354c                raise
+                0x00003560                signal
+                0x00003578                _init_signal
+                0x00003588                __sigtramp
+ .text          0x0000359c       0x30 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signalr.o)
+                0x0000359c                _kill_r
+                0x000035c4                _getpid_r
+ .text          0x000035cc      0x244 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-freer.o)
+                0x000035cc                _malloc_trim_r
+                0x0000366c                _free_r
+ .text          0x00003810       0x40 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+                0x00003810                _sbrk
+ .text          0x00003850        0x4 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+                0x00003850                _exit
+ .text          0x00003854       0x10 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(getpid.o)
+                0x00003854                _getpid
+ .text          0x00003864       0x10 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+                0x00003864                _kill
+ .text          0x00003874       0x30 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+                0x00003874                __check_heap_overflow
+ .text          0x000038a4       0x30 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtbegin.o
+ .text          0x000038d4        0xc c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-errno.o)
+                0x000038d4                __errno
+ *(.rodata .rodata.*)
+ .rodata.str1.1
+                0x000038e0       0x4e ./src/user_application.o
+ *fill*         0x0000392e        0x2 00
+ .rodata._ZL8LPC_GPIO
+                0x00003930       0x10 ./src/core/gpio.o
+ .rodata._ZL14mary_pinAssign
+                0x00003940       0xe0 ./src/core/gpio.o
+ .rodata._ZL17arduino_pinAssign
+                0x00003a20       0x70 ./src/core/gpio.o
+ .rodata._ZL9radix_hex
+                0x00003a90       0x11 ./src/core/uart.o
+ .rodata._ZL9radix_dec
+                0x00003aa1        0xb ./src/core/uart.o
+ .rodata._ZL9radix_oct
+                0x00003aac        0x9 ./src/core/uart.o
+ .rodata._ZL9radix_bin
+                0x00003ab5        0x3 ./src/core/uart.o
+ .rodata        0x00003ab8       0x14 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(unwind-arm.o)
+ .rodata.str1.4
+                0x00003acc        0x4 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-impure.o)
+                0x00003ad0                . = ALIGN (0x4)
+                0x00003ad0                . = ALIGN (0x4)
+ *(.init)
+ .init          0x00003ad0        0x4 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crti.o
+                0x00003ad0                _init
+ .init          0x00003ad4        0x8 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtn.o
+                0x00003adc                . = ALIGN (0x4)
+                0x00003adc                __preinit_array_start = .
+ *(.preinit_array)
+                0x00003adc                __preinit_array_end = .
+                0x00003adc                . = ALIGN (0x4)
+                0x00003adc                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00003adc        0x4 ./src/core/SPI.o
+ .init_array    0x00003ae0        0x4 ./src/core/SPI1.o
+ .init_array    0x00003ae4        0x4 ./src/core/maryoled.o
+ .init_array    0x00003ae8        0x4 ./src/core/uart.o
+ .init_array    0x00003aec        0x4 ./src/XBee/XBee.o
+ .init_array    0x00003af0        0x4 ./src/FatFs/SD.o
+ .init_array    0x00003af4        0x4 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtbegin.o
+                0x00003af8                __init_array_end = .
+ *(.fini)
+ .fini          0x00003af8        0x4 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crti.o
+                0x00003af8                _fini
+ .fini          0x00003afc        0x8 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtn.o
+                0x00003b04                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x00003b04                . = ALIGN (0x4)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+
+.glue_7         0x00003b04        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00003b04        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00003b04        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00003b04        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab      0x00003b04       0xc0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.text._ZN3SSP5beginEv
+                0x00003b04        0xc ./src/core/SPI.o
+ .ARM.extab.text._ZN4SSP15beginEv
+                0x00003b10        0xc ./src/core/SPI1.o
+ .ARM.extab.text.main
+                0x00003b1c        0xc ./src/core/startup_mary.o
+ .ARM.extab     0x00003b28       0x6c c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(unwind-arm.o)
+ .ARM.extab     0x00003b94       0x30 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(pr-support.o)
+                0x00003bc4                __exidx_start = .
+
+.ARM.exidx      0x00003bc4      0x160
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx.text._Z5setupv
+                0x00003bdc        0x8 ./src/user_application.o
+ .ARM.exidx.text._Z4loopv
+                0x00003be4        0x8 ./src/user_application.o
+ .ARM.exidx.text._ZN3SSPD2Ev
+                0x00003bec        0x8 ./src/core/SPI.o
+ .ARM.exidx.text._ZN3SSP12setBitLengthEi
+                0x00003bf4        0x0 ./src/core/SPI.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN3SSP11setBitOrderE13SSP_BIT_ORDER
+                0x00003bf4        0x0 ./src/core/SPI.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN3SSP15setClockDividerE15SSP_CLK_DIVIDER
+                0x00003bf4        0x0 ./src/core/SPI.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text.ssp_begin
+                0x00003bf4        0x8 ./src/core/SPI.o
+ .ARM.exidx.text._ZN3SSP5beginEv
+                0x00003bfc        0x8 ./src/core/SPI.o
+ .ARM.exidx.text._ZN3SSPC2Ev
+                0x00003c04        0x8 ./src/core/SPI.o
+ .ARM.exidx.text._GLOBAL__I_SPI
+                0x00003c0c        0x8 ./src/core/SPI.o
+ .ARM.exidx.text._ZN4SSP1D2Ev
+                0x00003c14        0x0 ./src/core/SPI1.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN4SSP112setBitLengthEi
+                0x00003c14        0x0 ./src/core/SPI1.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN4SSP111setBitOrderE13SSP_BIT_ORDER
+                0x00003c14        0x0 ./src/core/SPI1.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN4SSP115setClockDividerE15SSP_CLK_DIVIDER
+                0x00003c14        0x0 ./src/core/SPI1.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN4SSP111setDataModeE13SSP_DATA_MODE
+                0x00003c14        0x0 ./src/core/SPI1.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text.ssp1_begin
+                0x00003c14        0x8 ./src/core/SPI1.o
+ .ARM.exidx.text._ZN4SSP15beginEv
+                0x00003c1c        0x8 ./src/core/SPI1.o
+ .ARM.exidx.text._ZN4SSP1C2Ev
+                0x00003c24        0x8 ./src/core/SPI1.o
+ .ARM.exidx.text.ssp1_transfer
+                0x00003c2c        0x8 ./src/core/SPI1.o
+ .ARM.exidx.text._ZN4SSP18transferEm
+                0x00003c34        0x0 ./src/core/SPI1.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._GLOBAL__I_SPI1
+                0x00003c34        0x0 ./src/core/SPI1.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text.__aeabi_atexit
+                0x00003c34        0x0 ./src/core/cr_cpp_config.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.after_vectors
+                0x00003bc4       0x18 ./src/core/cr_startup_lpc11.o
+                                 0x48 (size before relaxing)
+ .ARM.exidx.text.NVIC_SetPriority
+                0x00003c34        0x0 ./src/core/delay.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text.NVIC_DisableIRQ.clone.0
+                0x00003c34        0x0 ./src/core/delay.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text.delay
+                0x00003c34        0x0 ./src/core/delay.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text.attachMicroseconds
+                0x00003c34        0x0 ./src/core/delay.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text.setup_TIMER32_1
+                0x00003c34        0x0 ./src/core/delay.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text.TIMER32_1_IRQHandler
+                0x00003c34        0x8 ./src/core/delay.o
+ .ARM.exidx.text.SysTick_Handler
+                0x00003c3c        0x8 ./src/core/delay.o
+ .ARM.exidx.text.setup_systick
+                0x00003c44        0x0 ./src/core/delay.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._Z7pinModei12pinModeState
+                0x00003c44        0x0 ./src/core/gpio.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._Z12digitalWritei17digitalWriteState
+                0x00003c44        0x0 ./src/core/gpio.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN8MARYOLEDD2Ev
+                0x00003c44        0x0 ./src/core/maryoled.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN8MARYOLEDC2Ev
+                0x00003c44        0x0 ./src/core/maryoled.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._GLOBAL__I_oled
+                0x00003c44        0x0 ./src/core/maryoled.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text.main
+                0x00003c44        0x8 ./src/core/startup_mary.o
+ .ARM.exidx.text.SystemInit
+                0x00003c4c        0x8 ./src/core/system_LPC11xx.o
+ .ARM.exidx.text._ZN7USerialD2Ev
+                0x00003c54        0x0 ./src/core/uart.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7USerialC2Ev
+                0x00003c54        0x0 ./src/core/uart.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7USerial5beginEi
+                0x00003c54        0x0 ./src/core/uart.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7USerial5writeEc
+                0x00003c54        0x0 ./src/core/uart.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7USerial5printEPKc
+                0x00003c54        0x0 ./src/core/uart.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7USerial5printEi12RADIX_FORMAT
+                0x00003c54        0x0 ./src/core/uart.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7USerial7printlnEPKc
+                0x00003c54        0x0 ./src/core/uart.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7USerial7printlnEi12RADIX_FORMAT
+                0x00003c54        0x0 ./src/core/uart.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._GLOBAL__I_Serial
+                0x00003c54        0x0 ./src/core/uart.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN13XBeeAddress64C2Emm
+                0x00003c54        0x0 ./src/XBee/XBee.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._GLOBAL__I__ZN12XBeeResponseC2Ev
+                0x00003c54        0x0 ./src/XBee/XBee.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7PETITFSD2Ev
+                0x00003c54        0x0 ./src/FatFs/SD.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7PETITFSC2Ev
+                0x00003c54        0x0 ./src/FatFs/SD.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._GLOBAL__I_SDFile
+                0x00003c54        0x0 ./src/FatFs/SD.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx     0x00003c54       0x98 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(unwind-arm.o)
+                                 0xc0 (size before relaxing)
+ .ARM.exidx     0x00003cec       0x38 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(pr-support.o)
+                                 0x48 (size before relaxing)
+                0x00003d24                __exidx_end = .
+                0x00003d24                _etext = .
+
+.uninit_RESERVED
+ *(.bss.$RESERVED*)
+
+.data           0x10000000      0x84c load address 0x00003d24
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data.SystemCoreClock
+                0x10000000        0x4 ./src/core/system_LPC11xx.o
+                0x10000000                SystemCoreClock
+ .data          0x10000004      0x410 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mallocr.o)
+                0x10000004                __malloc_av_
+                0x1000040c                __malloc_sbrk_base
+                0x10000410                __malloc_trim_threshold
+ *fill*         0x10000414        0x4 00
+ .data          0x10000418      0x430 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-impure.o)
+                0x10000418                _impure_ptr
+ .data          0x10000848        0x4 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtbegin.o
+                0x10000848                __dso_handle
+                0x1000084c                . = ALIGN (0x4)
+                0x1000084c                _edata = .
+
+.jcr            0x1000084c        0x0 load address 0x00004570
+ .jcr           0x1000084c        0x0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtbegin.o
+
+.bss            0x1000084c      0x144 load address 0x00004570
+                0x1000084c                _bss = .
+ *(.bss*)
+ .bss.r         0x1000084c        0x4 ./src/user_application.o
+                0x1000084c                r
+ .bss.b         0x10000850        0x4 ./src/user_application.o
+                0x10000850                b
+ .bss.g         0x10000854        0x4 ./src/user_application.o
+                0x10000854                g
+ .bss.SPI       0x10000858        0x8 ./src/core/SPI.o
+                0x10000858                SPI
+ .bss.SPI1      0x10000860        0x8 ./src/core/SPI1.o
+                0x10000860                SPI1
+ .bss.userfunc  0x10000868        0x4 ./src/core/delay.o
+                0x10000868                userfunc
+ .bss._ZL7msTicks
+                0x1000086c        0x4 ./src/core/delay.o
+ .bss.oled      0x10000870       0x28 ./src/core/maryoled.o
+                0x10000870                oled
+ .bss.Serial    0x10000898        0x8 ./src/core/uart.o
+                0x10000898                Serial
+ .bss._ZN22RemoteAtCommandRequest18broadcastAddress64E
+                0x100008a0        0x8 ./src/XBee/XBee.o
+                0x100008a0                RemoteAtCommandRequest::broadcastAddress64
+ .bss.SDFile    0x100008a8       0xa8 ./src/FatFs/SD.o
+                0x100008a8                SDFile
+ .bss           0x10000950       0x34 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mallocr.o)
+                0x10000950                __malloc_top_pad
+                0x10000954                __malloc_current_mallinfo
+                0x1000097c                __malloc_max_sbrked_mem
+                0x10000980                __malloc_max_total_mem
+ .bss           0x10000984        0x1 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtbegin.o
+ *(COMMON)
+ *fill*         0x10000985        0x3 00
+ COMMON         0x10000988        0x4 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-reent.o)
+                0x10000988                errno
+ COMMON         0x1000098c        0x4 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+                0x1000098c                __end_of_heap
+                0x10000990                . = ALIGN (0x4)
+                0x10000990                _ebss = .
+                0x10000990                PROVIDE (end, .)
+                0x10000990                PROVIDE (_pvHeapStart, .)
+                0x10001fe0                PROVIDE (_vStackTop, (__top_RamLoc8 - 0x0))
+OUTPUT(exodusino.axf elf32-littlearm)
+
+.comment        0x00000000      0x101
+ .comment       0x00000000       0x2a ./src/user_application.o
+                                 0x2b (size before relaxing)
+ .comment       0x00000000       0x2b ./src/core/SPI.o
+ .comment       0x00000000       0x2b ./src/core/SPI1.o
+ .comment       0x00000000       0x2b ./src/core/cr_cpp_config.o
+ .comment       0x00000000       0x2b ./src/core/cr_startup_lpc11.o
+ .comment       0x00000000       0x2b ./src/core/delay.o
+ .comment       0x00000000       0x2b ./src/core/gpio.o
+ .comment       0x00000000       0x2b ./src/core/maryoled.o
+ .comment       0x00000000       0x2b ./src/core/startup_mary.o
+ .comment       0x00000000       0x2b ./src/core/system_LPC11xx.o
+ .comment       0x00000000       0x2b ./src/core/uart.o
+ .comment       0x00000000       0x2b ./src/XBee/XBee.o
+ .comment       0x00000000       0x2b ./src/FatFs/SD.o
+ .comment       0x00000000       0x2b ./src/FatFs/pff.o
+ .comment       0x00000000       0x2b ./src/FatFs/sdcard.o
+ .comment       0x0000002a       0x2b c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .comment       0x00000055       0x2b c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+ .comment       0x00000080       0x2b c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(getpid.o)
+ .comment       0x000000ab       0x2b c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+ .comment       0x000000d6       0x2b c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 ./src/user_application.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/core/SPI.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/core/SPI1.o
+ .ARM.attributes
+                0x00000099       0x33 ./src/core/cr_cpp_config.o
+ .ARM.attributes
+                0x000000cc       0x33 ./src/core/cr_startup_lpc11.o
+ .ARM.attributes
+                0x000000ff       0x33 ./src/core/delay.o
+ .ARM.attributes
+                0x00000132       0x33 ./src/core/gpio.o
+ .ARM.attributes
+                0x00000165       0x33 ./src/core/maryoled.o
+ .ARM.attributes
+                0x00000198       0x33 ./src/core/startup_mary.o
+ .ARM.attributes
+                0x000001cb       0x33 ./src/core/system_LPC11xx.o
+ .ARM.attributes
+                0x000001fe       0x33 ./src/core/uart.o
+ .ARM.attributes
+                0x00000231       0x33 ./src/XBee/XBee.o
+ .ARM.attributes
+                0x00000264       0x33 ./src/FatFs/SD.o
+ .ARM.attributes
+                0x00000297       0x33 ./src/FatFs/pff.o
+ .ARM.attributes
+                0x000002ca       0x33 ./src/FatFs/sdcard.o
+ .ARM.attributes
+                0x000002fd       0x1f c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x0000031c       0x1f c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000033b       0x1f c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000035a       0x1f c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000379       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(unwind-arm.o)
+ .ARM.attributes
+                0x000003a6       0x1f c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(libunwind.o)
+ .ARM.attributes
+                0x000003c5       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(pr-support.o)
+ .ARM.attributes
+                0x000003f2       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-abort.o)
+ .ARM.attributes
+                0x0000041f       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000044c       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x00000479       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x000004a6       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x000004d3       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000500       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x0000052d       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signal.o)
+ .ARM.attributes
+                0x0000055a       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signalr.o)
+ .ARM.attributes
+                0x00000587       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x000005b4       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000005e1       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000060e       0x33 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .ARM.attributes
+                0x00000641       0x33 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+ .ARM.attributes
+                0x00000674       0x33 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(getpid.o)
+ .ARM.attributes
+                0x000006a7       0x33 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+ .ARM.attributes
+                0x000006da       0x33 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+ .ARM.attributes
+                0x0000070d       0x1d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crti.o
+ .ARM.attributes
+                0x0000072a       0x1d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtn.o
+ .ARM.attributes
+                0x00000747       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtbegin.o
+ .ARM.attributes
+                0x00000774       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\crtend.o
+ .ARM.attributes
+                0x000007a1       0x2d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-errno.o)
+
+.debug_frame    0x00000000      0x80c
+ .debug_frame   0x00000000       0x20 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000020       0x20 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x00000040      0x2ac c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(unwind-arm.o)
+ .debug_frame   0x000002ec       0xfc c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m\libgcc.a(pr-support.o)
+ .debug_frame   0x000003e8       0x28 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-abort.o)
+ .debug_frame   0x00000410       0x2c c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-init.o)
+ .debug_frame   0x0000043c       0x40 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-malloc.o)
+ .debug_frame   0x0000047c       0x3c c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x000004b8       0x34 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x000004ec       0x30 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-mlock.o)
+ .debug_frame   0x0000051c       0x2c c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000548       0xe4 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signal.o)
+ .debug_frame   0x0000062c       0x44 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-signalr.o)
+ .debug_frame   0x00000670       0x58 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-freer.o)
+ .debug_frame   0x000006c8       0x68 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-reent.o)
+ .debug_frame   0x00000730       0x2c c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_frame   0x0000075c       0x28 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+ .debug_frame   0x00000784       0x20 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(getpid.o)
+ .debug_frame   0x000007a4       0x20 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+ .debug_frame   0x000007c4       0x28 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_frame   0x000007ec       0x20 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libc.a(lib_a-errno.o)
+
+.debug_abbrev   0x00000000      0x238
+ .debug_abbrev  0x00000000       0xa0 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_abbrev  0x000000a0       0x52 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+ .debug_abbrev  0x000000f2       0x5b c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(getpid.o)
+ .debug_abbrev  0x0000014d       0x7b c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+ .debug_abbrev  0x000001c8       0x70 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+
+.debug_info     0x00000000      0x329
+ .debug_info    0x00000000       0xed c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_info    0x000000ed       0x5c c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+ .debug_info    0x00000149       0x9a c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(getpid.o)
+ .debug_info    0x000001e3       0xbb c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+ .debug_info    0x0000029e       0x8b c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+
+.debug_line     0x00000000      0x1c2
+ .debug_line    0x00000000       0xb7 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_line    0x000000b7       0x3e c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+ .debug_line    0x000000f5       0x41 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(getpid.o)
+ .debug_line    0x00000136       0x3f c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+ .debug_line    0x00000175       0x4d c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+
+.debug_loc      0x00000000       0xd2
+ .debug_loc     0x00000000       0x58 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_loc     0x00000058       0x1f c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+ .debug_loc     0x00000077       0x13 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+ .debug_loc     0x0000008a       0x48 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+
+.debug_pubnames
+                0x00000000       0xbe
+ .debug_pubnames
+                0x00000000       0x2e c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_pubnames
+                0x0000002e       0x1c c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+ .debug_pubnames
+                0x0000004a       0x1e c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(getpid.o)
+ .debug_pubnames
+                0x00000068       0x1c c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+ .debug_pubnames
+                0x00000084       0x3a c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+
+.debug_aranges  0x00000000       0xa0
+ .debug_aranges
+                0x00000000       0x20 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_aranges
+                0x00000020       0x20 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+ .debug_aranges
+                0x00000040       0x20 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(getpid.o)
+ .debug_aranges
+                0x00000060       0x20 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+ .debug_aranges
+                0x00000080       0x20 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+
+.debug_str      0x00000000      0x188
+ .debug_str     0x00000000       0xfc c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+                                0x135 (size before relaxing)
+ .debug_str     0x000000fc       0x15 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_exit.o)
+                                 0x62 (size before relaxing)
+ .debug_str     0x00000111       0x1e c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(getpid.o)
+                                 0xf4 (size before relaxing)
+ .debug_str     0x0000012f       0x14 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(kill.o)
+                                 0xf0 (size before relaxing)
+ .debug_str     0x00000143       0x45 c:/nxp/lpcxpresso_4.0.6_152/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+                                 0xc1 (size before relaxing)
