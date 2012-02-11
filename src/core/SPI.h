@@ -35,7 +35,7 @@
 
 /*! @enum	SSP_PORT
   @brief	SPIポートのチャンネル選択。使用時のCS信号を選択する
-  @note		SPIが1ポートしかないMARYでは使用していないので特に影響はないが、2ポート以上あるLPCXpressoやmbedシリーズとの後方互換性を考慮し用意している
+  @note		SPIが1ポートしかないMARYでは使用していないので特に影響はないが、2ポート以上あるLPCXpresso LPC1114やmbedシリーズとの後方互換性を考慮し用意している
 */
 typedef enum {
 	marySSP0,	/*!< MARYのSSPポート(デフォルト) */

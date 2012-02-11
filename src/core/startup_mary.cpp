@@ -13,8 +13,8 @@ void loop(void);
 int main(void)
 {
 
-	setup_systick();
-	setup_TIMER32_1();
+	setup_systick();	// for millis(),delay(us)
+	setup_TIMER32_1();	// for micros(),delayMicroseconds(us),attachMicroseconds(func,usec)
 
 	setup();
 
