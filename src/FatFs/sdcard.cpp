@@ -168,7 +168,10 @@ DSTATUS disk_initialize (void)
 	CardType = ty;
 	release_spi();
 
-	if (ty) SPI.setClockDivider(SPI_CLOCK_DIV4);//INIT_SPI_SD(SPI_FAST);
+	if (ty) {
+		SPI.setClockDivider(SPI_CLOCK_DIV1);//INIT_SPI_SD(SPI_FAST);
+		SPI.begin();
+	}
 
 	return ty ? 0 : STA_NOINIT;
 }

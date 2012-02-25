@@ -7,6 +7,10 @@ src/user_application.d src/user_application.o: \
  C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/delay.h \
  C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/uart.h \
  C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/gpio.h \
+ C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\FatFs/SD.h \
+ C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/SPI.h \
+ C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\FatFs/pff.h \
+ C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\FatFs/integer.h \
  C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/SPI1.h \
  C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/SPI.h
 
@@ -23,6 +27,14 @@ C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eX
 C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/uart.h:
 
 C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/gpio.h:
+
+C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\FatFs/SD.h:
+
+C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/SPI.h:
+
+C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\FatFs/pff.h:
+
+C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\FatFs/integer.h:
 
 C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/SPI1.h:
 
