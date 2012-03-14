@@ -1,5 +1,4 @@
 #include "gpio.h"
-#include "uart.h"
 
 #define EXTERNAL_NUM_INTERRUPTS 20
 volatile static USER_GPIO_FUNC intFunc[EXTERNAL_NUM_INTERRUPTS];
