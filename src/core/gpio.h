@@ -9,6 +9,11 @@
 
 //#if defined (__USE_CMSIS)
 #include "LPC11xx.h"
+
+#ifdef __cplusplus
+  extern "C" {
+#endif
+
 //#endif
 //=======================================
 // Define LPC_GPIO[4] (each top address)
@@ -182,13 +187,30 @@ const unsigned int arduino_pinAssign[] =
 
 
 typedef enum {INPUT, OUTPUT}pinModeState;
-typedef enum {LOW, HIGH}digitalWriteState;
+typedef enum {LOW, HIGH,CHANGE, RISING, FALLING}digitalWriteState;
 
 void pinMode(int pin,pinModeState state);
 void digitalWrite(int pin,digitalWriteState state);
 int digitalRead(int pin);
 
+void GPIOSetInterrupt(int pin, int sense, int single, int event);
+void GPIOIntEnable(int pin);
+void GPIOIntDisable(int pin);
+void GPIOIntClear(int pin);
+int GPIOIntStatus(int pin);
 
+void PIOINT0_IRQHandler (void);
+void PIOINT1_IRQHandler (void);
+void PIOINT2_IRQHandler (void);
+void PIOINT3_IRQHandler (void);
+void GPIO_IRQHandler(void);
 
+typedef void (* USER_GPIO_FUNC)(void);
+void attachInterrupt(int pin,USER_GPIO_FUNC func, digitalWriteState mode) ;
+void detachInterrupt(int pin);
+
+#ifdef __cplusplus
+  }
+#endif
 
 #endif /* GPIO_H_ */
