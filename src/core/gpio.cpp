@@ -99,4 +99,139 @@ int digitalRead(int pin)
 	return 0;
 }
 
+/*****************************************************************************
+ ** Function name:		GPIOSetInterrupt
+ **
+ ** Descriptions:		Set interrupt sense, event, etc.
+ **						edge or level, 0 is edge, 1 is level
+ **						single or double edge, 0 is single, 1 is double
+ **						active high or low, etc.
+ **
+ ** parameters:			pin num, bit position, sense, single/doube, polarity
+ ** Returned value:		None
+ **
+ *****************************************************************************/
+void GPIOSetInterrupt(int pin, int sense, int single, int event) {
+	if (pin >= 0 && pin < 20) //arduinoPinAssign(0~19)
+	{
+		if (sense == 0) {
+			LPC_GPIO[arduino_pinAssign[pin * 2]]->IS &= ~(arduino_pinAssign[pin
+					* 2 + 1]);
+			/* single or double only applies when sense is 0(edge trigger). */
+			if (single == 0)
+				LPC_GPIO[arduino_pinAssign[pin * 2]]->IBE
+						&= ~(arduino_pinAssign[pin * 2 + 1]);
+			else
+				LPC_GPIO[arduino_pinAssign[pin * 2]]->IBE
+						|= (arduino_pinAssign[pin * 2 + 1]);
+		} else
+			LPC_GPIO[arduino_pinAssign[pin * 2]]->IS |= (arduino_pinAssign[pin
+					* 2 + 1]);
 
+		if (event == 0)
+			LPC_GPIO[arduino_pinAssign[pin * 2]]->IEV
+					&= ~(arduino_pinAssign[pin * 2 + 1]);
+		else
+			LPC_GPIO[arduino_pinAssign[pin * 2]]->IEV |= (arduino_pinAssign[pin
+					* 2 + 1]);
+	} else if (pin >= 20 && pin < 100) {
+		//(20~99:reserved)
+	} else if (pin >= 100 && pin < 200) //maryPinAssign(100~119?)
+	{
+		pin = pin - 100;
+		if (sense == 0) {
+			LPC_GPIO[mary_pinAssign[pin * 2]]->IS &= ~(mary_pinAssign[pin * 2
+					+ 1]);
+			/* single or double only applies when sense is 0(edge trigger). */
+			if (single == 0)
+				LPC_GPIO[mary_pinAssign[pin * 2]]->IBE &= ~(mary_pinAssign[pin
+						* 2 + 1]);
+			else
+				LPC_GPIO[mary_pinAssign[pin * 2]]->IBE |= (mary_pinAssign[pin
+						* 2 + 1]);
+		} else
+			LPC_GPIO[mary_pinAssign[pin * 2]]->IS |= (mary_pinAssign[pin * 2
+					+ 1]);
+
+		if (event == 0)
+			LPC_GPIO[mary_pinAssign[pin * 2]]->IEV &= ~(mary_pinAssign[pin * 2
+					+ 1]);
+		else
+			LPC_GPIO[mary_pinAssign[pin * 2]]->IEV |= (mary_pinAssign[pin * 2
+					+ 1]);
+	}
+
+	return;
+}
+
+void GPIOIntEnable(int pin) {
+	if (pin >= 0 && pin < 20) //arduinoPinAssign(0~19)
+	{
+
+		LPC_GPIO[arduino_pinAssign[pin * 2]]->IE |= arduino_pinAssign[pin * 2
+				+ 1];
+	} else if (pin >= 20 && pin < 100) { //(20~99:reserved)
+	} else if (pin >= 100 && pin < 200) //maryPinAssign(100~119?)
+	{
+		pin = pin - 100;
+		LPC_GPIO[mary_pinAssign[pin * 2]]->IE |= mary_pinAssign[pin * 2 + 1];
+	}
+
+	return;
+}
+
+void GPIOIntDisable(int pin) {
+	if (pin >= 0 && pin < 20) //arduinoPinAssign(0~19)
+	{
+
+		LPC_GPIO[arduino_pinAssign[pin * 2]]->IE &= ~(arduino_pinAssign[pin * 2
+				+ 1]);
+	} else if (pin >= 20 && pin < 100) {//(20~99:reserved)
+	} else if (pin >= 100 && pin < 200) //maryPinAssign(100~119?)
+	{
+		pin = pin - 100;
+		LPC_GPIO[mary_pinAssign[pin * 2]]->IE &= ~(mary_pinAssign[pin * 2 + 1]);
+	}
+
+	return;
+}
+
+int GPIOIntStatus(int pin) {
+	int regVal = 0;
+
+	if (pin >= 0 && pin < 20) //arduinoPinAssign(0~19)
+	{
+		if (LPC_GPIO[arduino_pinAssign[pin * 2]]->MIS
+				& arduino_pinAssign[pin * 2 + 1]) {
+			regVal = 1;
+		}
+	} else if (pin >= 20 && pin < 100) { //(20~99:reserved)
+	} else if (pin >= 100 && pin < 200) //maryPinAssign(100~119?)
+	{
+		pin = pin - 100;
+
+		if (LPC_GPIO[mary_pinAssign[pin * 2]]->MIS
+				& mary_pinAssign[pin * 2 + 1]) {
+			regVal = 1;
+		}
+	}
+
+	return regVal;
+}
+
+void GPIOIntClear(int pin) {
+	if (pin >= 0 && pin < 20) //arduinoPinAssign(0~19)
+	{
+
+		LPC_GPIO[arduino_pinAssign[pin * 2]]->IC |= arduino_pinAssign[pin * 2
+				+ 1];
+	} else if (pin >= 20 && pin < 100) { //(20~99:reserved)
+
+	} else if (pin >= 100 && pin < 200) //maryPinAssign(100~119?)
+	{
+		pin = pin - 100;
+		LPC_GPIO[mary_pinAssign[pin * 2]]->IC |= mary_pinAssign[pin * 2 + 1];
+	}
+
+	return;
+}
