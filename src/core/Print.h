@@ -6,6 +6,7 @@
 #ifndef Print_h
 #define Print_h
 
+#include <string.h>
 #include "LPC11xx.h"
 
 const char radix_bin[] = "01";
@@ -29,6 +30,7 @@ private:
 public:
 	virtual void write(const char c) = 0;
 	void write(const char *s,int length);
+    void write(const char *s) { return write((const char *)s, strlen(s)); }
 
 	virtual void println(void);
 	void print(const char *s);
