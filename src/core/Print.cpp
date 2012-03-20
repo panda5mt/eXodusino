@@ -107,3 +107,18 @@ void Print::println(void)
 	return;
 }
 
+void Print::print(const char c)
+{
+	write(c);
+	return;
+}
+
+void Print::println(const char c)
+{
+	write(c);
+	println();
+	return;
+}
+
+
+

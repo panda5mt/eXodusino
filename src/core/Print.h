@@ -32,9 +32,12 @@ public:
 	void write(const char *s,int length);
     void write(const char *s) { return write((const char *)s, strlen(s)); }
 
-	virtual void println(void);
+	void print(const char c);
 	void print(const char *s);
 	void print(int val, RADIX_FORMAT format);
+
+	virtual void println(void);
+	void println(const char c);
 	void println(const char *s);
 	void println(int val, RADIX_FORMAT format);
 };
