@@ -5,6 +5,7 @@ src/FatFs/SD.d src/FatFs/SD.o: ../src/FatFs/SD.cpp \
  C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/system_LPC11xx.h \
  C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/delay.h \
  C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/uart.h \
+ C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/Print.h \
  C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/gpio.h \
  ../src/FatFs/SD.h \
  C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/SPI.h \
@@ -21,6 +22,8 @@ C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eX
 C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/delay.h:
 
 C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/uart.h:
+
+C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/Print.h:
 
 C:\Documents\ and\ Settings\atsu\My\ Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core/gpio.h:
 

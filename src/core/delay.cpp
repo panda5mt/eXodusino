@@ -44,13 +44,17 @@ unsigned long micros(void)
 //for micros() and delayMicroseconds()
 void setup_TIMER32_1(void)
 {
-	attachMicroseconds(0,0xffffffff);
+	LPC_SYSCON->SYSAHBCLKCTRL |= (1UL << 10);	// Enable clock for CT32B1 module
 	NVIC_DisableIRQ(TIMER_32_1_IRQn);
+	LPC_TMR32B1->TCR = 1;						//タイマスタート
 }
 
 unsigned long attachMicroseconds(USER_TIMER_FUNC func,int us)
 {
-	LPC_SYSCON->SYSAHBCLKCTRL |= (1UL << 10);	// Enable clock for CT32B1 module
+	//LPC_SYSCON->SYSAHBCLKCTRL |= (1UL << 10);	// Enable clock for CT32B1 module
+	LPC_TMR32B1->TCR = 0;				//タイマストップ
+	LPC_TMR32B1->TC = 0;
+
 	if(us <= 1)return 0;
 
 	LPC_TMR32B1->PR = 48;				//48MHz/48=1MHzに分周する

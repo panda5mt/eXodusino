@@ -6,8 +6,6 @@ void setup()
 	Serial.println("Start");
 }
 
-int r,g,b;
-
 void loop()
 {
 	delay(1000);
