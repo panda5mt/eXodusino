@@ -47,7 +47,7 @@ all: exodusino.axf
 exodusino.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU C++ Linker'
-	arm-none-eabi-c++ -nostartfiles -L"C:\Documents and Settings\atsu\My Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\FatFs" -L"C:\Documents and Settings\atsu\My Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\core" -L"C:\Documents and Settings\atsu\My Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src\XBee" -L"C:\Documents and Settings\atsu\My Documents\LPCXpresso_4.0.6_152\workspace\eXodusino\src" -Xlinker -Map=exodusino.map -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "eXodusino.ld" -o"exodusino.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-c++ -nostartfiles -L"C:\Documents and Settings\atsu\My Documents\LPCXpresso_4.2.0_264\workspace\eXodusino\src\FatFs" -L"C:\Documents and Settings\atsu\My Documents\LPCXpresso_4.2.0_264\workspace\eXodusino\src\core" -L"C:\Documents and Settings\atsu\My Documents\LPCXpresso_4.2.0_264\workspace\eXodusino\src\XBee" -L"C:\Documents and Settings\atsu\My Documents\LPCXpresso_4.2.0_264\workspace\eXodusino\src" -Xlinker -Map=exodusino.map -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "eXodusino.ld" -o"exodusino.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
