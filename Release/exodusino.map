@@ -1715,6 +1715,7 @@ Memory Configuration
 Name             Origin             Length             Attributes
 MFlash32         0x00001000         0x00007000         xr
 RamLoc8          0x10000000         0x00001fe0         xrw
+//RamLoc8        0x10000000         0x00000fe0         xrw
 *default*        0x00000000         0xffffffff
 
 Linker script and memory map
@@ -1756,6 +1757,7 @@ LOAD c:/nxp/lpcxpresso_4.2.0_264/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4
 END GROUP
                 0x00008000                __top_MFlash32 = 0x8000
                 0x10001fe0                __top_RamLoc8 = 0x10001fe0
+                0x10000fe0                //__top_RamLoc8 = 0x10000fe0
 
 .text           0x00001000     0x377c
  FILL mask 0xff
