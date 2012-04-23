@@ -1,5 +1,5 @@
 ##eXodusino 
-version 0.8.0 beta
+version 0.8.1 beta
 
 **Copyright (c) 2011-2012 Lynx-EyED WORKS.**
 

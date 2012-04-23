@@ -54,7 +54,8 @@
 
 
 // init for arduino-like settings
-
+#define ARDUINO
+#define EXODUSINO
 
 
 #endif /* LIBMARY_H_ */

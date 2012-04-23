@@ -18,8 +18,7 @@
 //=======================================
 // Define LPC_GPIO[4] (each top address)
 //=======================================
-static LPC_GPIO_TypeDef (* const LPC_GPIO[4]) = { LPC_GPIO0, LPC_GPIO1, LPC_GPIO2, LPC_GPIO3 };
-
+static LPC_GPIO_TypeDef  (* const LPC_GPIO[4]) = { LPC_GPIO0, LPC_GPIO1, LPC_GPIO2, LPC_GPIO3 };
 /*	=======================================
 *	Macros and functions for Defining MARY's GPIO Assign
 *
@@ -98,18 +97,18 @@ static LPC_GPIO_TypeDef (* const LPC_GPIO[4]) = { LPC_GPIO0, LPC_GPIO1, LPC_GPIO
 //#define P1_5	(126)
 //#define P2_0	(127)
 
-#define _BIT0 (1U << 0)
-#define _BIT1 (1U << 1)
-#define _BIT2 (1U << 2)
-#define _BIT3 (1U << 3)
-#define _BIT4 (1U << 4)
-#define _BIT5 (1U << 5)
-#define _BIT6 (1U << 6)
-#define _BIT7 (1U << 7)
-#define _BIT8 (1U << 8)
-#define _BIT9 (1U << 9)
-#define _BIT10 (1U << 10)
-#define _BIT11 (1U << 11)
+#define _BIT0 0//(1U << 0)
+#define _BIT1 1//(1U << 1)
+#define _BIT2 2//(1U << 2)
+#define _BIT3 3//(1U << 3)
+#define _BIT4 4//(1U << 4)
+#define _BIT5 5//(1U << 5)
+#define _BIT6 6//(1U << 6)
+#define _BIT7 7//(1U << 7)
+#define _BIT8 8//(1U << 8)
+#define _BIT9 9//(1U << 9)
+#define _BIT10 10//(1U << 10)
+#define _BIT11 11//(1U << 11)
 
 const unsigned int mary_pinAssign[] =
 {
@@ -166,28 +165,20 @@ const unsigned int arduino_pinAssign[] =
 	0, _BIT8,	//P0_8:D12
 	0, _BIT6,	//P0_6:D13
 
-
-/*	0, _BIT4,	//P
-	3, _BIT5,	//CN3_6
-	0, _BIT5,	//CN3_7
-	1, _BIT7,	//CN3_8
-
-	1, _BIT9,	//CN4_1
-	1, _BIT10,	//CN4_2
-	0, _BIT6,	//CN4_3
-	0, _BIT11,	//CN4_4
-	0, _BIT8,	//CN4_5
-	1, _BIT0,	//CN4_6
-	0, _BIT9,	//CN4_7
-	0, _BIT7,	//GLED
-	1, _BIT5,	//BLED
-	2, _BIT0	//RLED
-*/
+	0, _BIT11,	//P0_11:A0/D14
+	1, _BIT0,	//P1_0:A1/D15
+	1, _BIT1,	//P1_1:A2/D16
+	1, _BIT2,	//P1_2:A3/D17
+	0, _BIT5,	//P0_5:SDA(A4)/D18
+	0, _BIT4,	//P0_4:SCL(A5)/D19
+	1, _BIT10,	//P1_10:A6/D20
+	1, _BIT11,	//P1_11:A7/D21
+//	3, _BIT0,	//DTR
 };
 
 
 typedef enum {INPUT, OUTPUT}pinModeState;
-typedef enum {LOW, HIGH,CHANGE, RISING, FALLING}digitalWriteState;
+typedef enum {LOW, HIGH, CHANGE, RISING, FALLING}digitalWriteState;
 
 void pinMode(int pin,pinModeState state);
 void digitalWrite(int pin,digitalWriteState state);
