@@ -97,7 +97,6 @@ uint8_t TwoWire::requestFrom(uint8_t address, uint8_t quantity)
 		quantity = BUFFER_LENGTH;
 	}
 	// perform blocking read into buffer
-	//uint8_t read = twi_readFrom(address, rxBuffer, quantity);
 	uint8_t read = i2c_request_from(sda, scl, address, rxBuffer, quantity);
 
 	// set rx buffer iterator vars
@@ -131,7 +130,6 @@ void TwoWire::beginTransmission(int address)
 uint8_t TwoWire::endTransmission(void)
 {
 	// transmit buffer (blocking)
-	//signed int8_t ret = twi_writeTo(txAddress, txBuffer, txBufferLength, 1);
 	i2c_begin_transmission(sda, scl, txAddress);
 	WIRE_ACK_STATE st = i2c_write(sda, scl, txAddress, txBuffer, txBufferLength);
 
@@ -182,7 +180,7 @@ void TwoWire::send(int8_t data)
 void TwoWire::send(uint8_t* data, uint8_t quantity)
 {
 	if(transmitting){
-	// in master transmitter mode
+		// in master transmitter mode
 		//ここではデータをバッファに蓄積しているだけ
 		for(uint8_t i = 0; i < quantity; ++i){
 			send(data[i]);
@@ -290,7 +288,7 @@ void TwoWire::onRequest( void (*function)(void) )
 	user_onRequest = function;
 }
 
-// Preinstantiate Objects ////////////
+// Preinstantiate Objects
 
 TwoWire Wire = TwoWire();
 
@@ -304,7 +302,7 @@ uint8_t i2c_request_from(int sda, int scl, unsigned char address, unsigned char*
 	i2c_ping(sda, scl, address);
 	uint8_t result_bytes = i2c_read(sda, scl, address, data, counter); //counterは受信要求バイト数
 	i2c_stopbit(sda, scl);
-	return result_bytes; //i2c->st_request_countは実際に受信できたバイト数
+	return result_bytes; // 実際に受信できたバイト数
 }
 
 void i2c_begin_transmission(int sda, int scl, unsigned char address)
@@ -315,18 +313,14 @@ void i2c_begin_transmission(int sda, int scl, unsigned char address)
 
 WIRE_ACK_STATE i2c_write(int sda, int scl, uint8_t addr, uint8_t* data, uint8_t nbytes)
 {
-	//uint8_t addr;
 	uint8_t* data_end = data + nbytes;
 	if(i2c_send_byte(sda, scl, (addr << 1) | 0x00) != 0)
 	{
-		//i2c->st_ack  = NAK;
-		//i2c->st_nack = DATA_NAK;
 		return ADDR_NAK;
 	}
 	while(data != data_end){
 		if(i2c_send_byte(sda, scl, *data++) != ACK)
 		{
-			//i2c->st_ack  = ACK;
 			return DATA_NAK;
 		}
 	}
@@ -336,13 +330,10 @@ WIRE_ACK_STATE i2c_write(int sda, int scl, uint8_t addr, uint8_t* data, uint8_t 
 //戻り値は読み込めたバイト数
 uint8_t i2c_read(int sda, int scl, uint8_t addr, uint8_t* data, uint8_t nbytes)
 {
-	//uint8_t addr = i2c->st_your_sddress;
-	uint8_t counter = 0;// = i2c->st_request_count;
+	uint8_t counter = 0;
 	uint8_t* data_end = data + nbytes;
 	if(i2c_send_byte(sda, scl, (addr << 1) | 0x01) != 0)
 	{
-		//NAK;
-		//ADDR_NAK
 		return counter;
 	}
 	while(data != data_end){
@@ -350,8 +341,6 @@ uint8_t i2c_read(int sda, int scl, uint8_t addr, uint8_t* data, uint8_t nbytes)
 		data++;
 		counter++;
 	}
-	//i2c->st_ack  = ACK;
-	//i2c->st_request_count = counter;
 	return counter;
 }
 
@@ -462,7 +451,6 @@ uint8_t i2c_recv_byte(int sda, int scl, WIRE_ACK_STATE ack)
 WIRE_ACK_STATE i2c_ping(int sda, int scl,uint8_t addr)
 {
 	WIRE_ACK_STATE ack;
-	//uint8_t addr = i2c->st_your_sddress;
 	i2c_startbit(sda, scl);
 	ack = i2c_send_byte(sda, scl, (addr << 1) | 0x00);
 	i2c_stopbit(sda, scl);
