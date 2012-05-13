@@ -46,6 +46,7 @@ void setup_TIMER32_1(void)
 {
 	LPC_SYSCON->SYSAHBCLKCTRL |= (1UL << 10);	// Enable clock for CT32B1 module
 	NVIC_DisableIRQ(TIMER_32_1_IRQn);
+	LPC_TMR32B1->PR = 48;				//48MHz/48=1MHzに分周する
 	LPC_TMR32B1->TCR = 1;						//タイマスタート
 }
 
@@ -57,7 +58,7 @@ unsigned long attachMicroseconds(USER_TIMER_FUNC func,int us)
 
 	if(us <= 1)return 0;
 
-	LPC_TMR32B1->PR = 48;				//48MHz/48=1MHzに分周する
+//	LPC_TMR32B1->PR = 48;				//48MHz/48=1MHzに分周する
 	LPC_TMR32B1->MR2 = us - 1;			//us
 
 	LPC_TMR32B1->MCR = (0x3 << 6); // clear at MR2 and Interrupt
