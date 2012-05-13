@@ -186,10 +186,11 @@ void SoftwareSerial::setTX(uint8_t tx) {
 
 void SoftwareSerial::setRX(uint8_t rx) {
 	if (rx >= 0) {
+		pinMode(rx, INPUT);
 		if (!_inverse_logic) {
-			//TODO:pin pullup
+			digitalWrite(rx, HIGH);//rx pin is pull up
 		} else {
-			//TODO:pin pulldown
+			digitalWrite(rx, LOW);//rx pin is inactive
 		}
 	}
 	_receivePin = rx;
