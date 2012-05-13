@@ -11,7 +11,7 @@ void loop()
 	
 	while(1)
 	{
-        serial.println(millis()/1000);
+        Serial.println(millis()/1000);
 	}
 
 }
