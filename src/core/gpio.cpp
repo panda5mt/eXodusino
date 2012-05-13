@@ -133,13 +133,27 @@ void digitalWrite(int pin,digitalWriteState state)
 	{
 		if(state == HIGH)	//HIGH
 		{
-			LPC_GPIO[ arduino_pinAssign[pin * 2] ]->MASKED_ACCESS[ (1 << arduino_pinAssign[pin * 2 + 1]) ] = (1 << arduino_pinAssign[pin * 2 + 1]);
+			if(LPC_GPIO[ arduino_pinAssign[pin * 2] ]->DIR & 1<<arduino_pinAssign[pin * 2 + 1])//pin is output
+			{
+				LPC_GPIO[ arduino_pinAssign[pin * 2] ]->MASKED_ACCESS[ (1 << arduino_pinAssign[pin * 2 + 1]) ] = (1 << arduino_pinAssign[pin * 2 + 1]);
+			}else//pin is input
+			{
+				SetIOCON(arduino_pinAssign[pin * 2], arduino_pinAssign[pin * 2 + 1], IOCON_MODE_MASK, IOCON_MODE_PULLUP);
+			}
 		}else		//LOW
 		{
-			LPC_GPIO[ arduino_pinAssign[pin * 2] ]->MASKED_ACCESS[ (1 << arduino_pinAssign[pin * 2 + 1]) ] &= ~((1 << arduino_pinAssign[pin * 2 + 1]));
+			if(LPC_GPIO[ arduino_pinAssign[pin * 2] ]->DIR & 1<<arduino_pinAssign[pin * 2 + 1])//pin is output
+			{
+				LPC_GPIO[ arduino_pinAssign[pin * 2] ]->MASKED_ACCESS[ (1 << arduino_pinAssign[pin * 2 + 1]) ] &= ~((1 << arduino_pinAssign[pin * 2 + 1]));
+			}else // pin is input
+			{
+				SetIOCON(arduino_pinAssign[pin * 2], arduino_pinAssign[pin * 2 + 1], IOCON_MODE_MASK, IOCON_MODE_INACTIVE);
+			}
 		}
+
 		return;
 	}
+
 
 	if(pin < 100) return;	//arduinoPinAssign(20~99:reserved)
 
@@ -148,10 +162,22 @@ void digitalWrite(int pin,digitalWriteState state)
 		pin = pin - 100;
 		if(state == HIGH)	//HIGH
 		{
-			LPC_GPIO[ mary_pinAssign[pin * 2] ]->MASKED_ACCESS[ (1 << mary_pinAssign[pin * 2 + 1]) ] = (1 << mary_pinAssign[pin * 2 + 1]);
+			if(LPC_GPIO[ mary_pinAssign[pin * 2] ]->DIR & 1<<mary_pinAssign[pin * 2 + 1])//pin is output
+			{
+				LPC_GPIO[ mary_pinAssign[pin * 2] ]->MASKED_ACCESS[ (1 << mary_pinAssign[pin * 2 + 1]) ] = (1 << mary_pinAssign[pin * 2 + 1]);
+			}else//pin is input
+			{
+				SetIOCON(mary_pinAssign[pin * 2], mary_pinAssign[pin * 2 + 1], IOCON_MODE_MASK, IOCON_MODE_PULLUP);
+			}
 		}else		//LOW
 		{
-			LPC_GPIO[ mary_pinAssign[pin * 2] ]->MASKED_ACCESS[ (1 << mary_pinAssign[pin * 2 + 1]) ] &= ~((1 << mary_pinAssign[pin * 2 + 1]));
+			if(LPC_GPIO[ mary_pinAssign[pin * 2] ]->DIR & 1<<mary_pinAssign[pin * 2 + 1])//pin is output
+			{
+				LPC_GPIO[ mary_pinAssign[pin * 2] ]->MASKED_ACCESS[ (1 << mary_pinAssign[pin * 2 + 1]) ] &= ~((1 << mary_pinAssign[pin * 2 + 1]));
+			}else // pin is input
+			{
+				SetIOCON(mary_pinAssign[pin * 2], mary_pinAssign[pin * 2 + 1], IOCON_MODE_MASK, IOCON_MODE_INACTIVE);
+			}
 		}
 	}
 	return;
