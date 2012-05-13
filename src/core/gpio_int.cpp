@@ -1,6 +1,6 @@
 #include "gpio.h"
 
-#define EXTERNAL_NUM_INTERRUPTS 20
+#define EXTERNAL_NUM_INTERRUPTS 22
 volatile static USER_GPIO_FUNC intFunc[EXTERNAL_NUM_INTERRUPTS];
 
 void attachInterrupt(int pin, USER_GPIO_FUNC func, digitalWriteState mode) {
@@ -27,7 +27,7 @@ void attachInterrupt(int pin, USER_GPIO_FUNC func, digitalWriteState mode) {
 	}
 
 
-	if (pin >= 0 && pin < 20) //arduinoPinAssign(0~19)
+	if (pin >= 0 && pin < 22) //arduinoPinAssign(0~22)
 	{
 		intFunc[pin] = func;
 
@@ -45,8 +45,8 @@ void attachInterrupt(int pin, USER_GPIO_FUNC func, digitalWriteState mode) {
 			NVIC_EnableIRQ(EINT3_IRQn);
 			break;
 		}
-	} else if (pin >= 20 && pin < 100) {
-		//(20~99:reserved)
+	} else if (pin >= 22 && pin < 100) {
+		//(22~99:reserved)
 	} else if (pin >= 100 && pin < 200) //maryPinAssign(100~119?)
 	{
 		pin = pin - 100;
@@ -76,7 +76,7 @@ void attachInterrupt(int pin, USER_GPIO_FUNC func, digitalWriteState mode) {
 void detachInterrupt(int pin) {
 	GPIOIntDisable(pin);
 
-	if (pin >= 0 && pin < 20) //arduinoPinAssign(0~19)
+	if (pin >= 0 && pin < 22) //arduinoPinAssign(0~22)
 	{
 		intFunc[pin] = 0;
 		if (LPC_GPIO[arduino_pinAssign[pin * 2]]->IE == 0) {
@@ -96,7 +96,7 @@ void detachInterrupt(int pin) {
 			}
 		}
 	}
-	else if (pin >= 20 && pin < 100) {//(20~99:reserved)
+	else if (pin >= 22 && pin < 100) {//(22~99:reserved)
 	} else if (pin >= 100 && pin < 200) //maryPinAssign(100~119?)
 	{
 		pin = pin - 100;
