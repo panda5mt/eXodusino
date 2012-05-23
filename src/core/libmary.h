@@ -50,7 +50,7 @@
 #include "delay.h"
 #include "gpio.h"
 #include "uart.h"
-
+#include "analogio.h"
 
 
 // init for arduino-like settings

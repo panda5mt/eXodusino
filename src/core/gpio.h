@@ -14,6 +14,9 @@
   extern "C" {
 #endif
 
+
+#define PORT_MAX_PINS 125 // Arduino/MARYで使うピン番号の最大の値
+
 //#endif
 //=======================================
 // Define LPC_GPIO[4] (each top address)

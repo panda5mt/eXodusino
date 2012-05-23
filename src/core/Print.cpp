@@ -17,7 +17,7 @@ void Print::print(int val, RADIX_FORMAT format)
 		write((char)(val & 0xff));
 		return;
 	}
-	char s[32];
+	char s[33];
 	int i,j;
 	i=j=0; // header of strings
 	if (val<0)
