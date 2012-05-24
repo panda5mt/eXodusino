@@ -35,7 +35,8 @@ void analogWrite(int pinnum, int value);
 //low level functions for software PWM
 void setup_TIMER16_0(void);
 void TIMER16_0_IRQHandler(void);
-
+void setup_TIMER16_1(void);
+void TIMER16_1_IRQHandler(void);
 #ifdef __cplusplus
   }
 #endif

@@ -1,6 +1,6 @@
 #include "analogio.h"
 
-#define PWM_MAX_PINS 2
+#define PWM_MAX_PINS 	4
 static int pwm_pin_num[PWM_MAX_PINS];			// PWM出力に使うピン番号を格納する
 static int pwm_duty_value[PWM_MAX_PINS];		// それぞれのピンのデューティを格納する
 static int pwm_already_inuse = 0;				// すでに登録しているピンの数
@@ -16,6 +16,7 @@ void analogWrite(int pinnum, int value)
 	if(pwm_init_done == 0)
 	{
 		setup_TIMER16_0();
+		setup_TIMER16_1();
 		pwm_init_done = 1;
 	}
 
@@ -55,8 +56,8 @@ void analogWrite(int pinnum, int value)
 	{
 		case 0: LPC_TMR16B0->MR1 = pwm_duty_value[i]; break;
 		case 1: LPC_TMR16B0->MR2 = pwm_duty_value[i]; break;
-		//case 2: LPC_TMR16B1->MR1 = pwm_duty_value[i]; break;
-		//case 3: LPC_TMR16B1->MR2 = pwm_duty_value[i]; break;
+		case 2: LPC_TMR16B1->MR1 = pwm_duty_value[i]; break;
+		case 3: LPC_TMR16B1->MR2 = pwm_duty_value[i]; break;
 		default: break;
 	}
 
@@ -92,12 +93,35 @@ void setup_TIMER16_0(void)
     // Start Timer
     LPC_TMR16B0->TCR = 1;
 
-    for(int i=0; i < PWM_MAX_PINS; i++)	// まだ登録可能
+    for(int i = 0; i < PWM_MAX_PINS; i++)	// まだ登録可能
     {
     	pwm_duty_value[i] = -1;	// 登録されていないピン
     }
 }
 
+void setup_TIMER16_1(void)
+{
+	LPC_SYSCON->SYSAHBCLKCTRL |= (1U << 8);
+
+    // 1周期490Hzで分解能8bit => 約125kHz  (125kHz = 48MHz / 382)
+    LPC_TMR16B1->PR = 382;   // Pre-Scaler
+
+    LPC_TMR16B1->MR3 = 255;     // Interval
+    LPC_TMR16B1->MR2 = 200;
+    LPC_TMR16B1->MR1 = 200;
+    // Interval Interrupt Operation
+    // Clear TC when MR3 match
+    // Interrupt when MR1 reset /MR2 reset /MR3 match
+    LPC_TMR16B1->MCR = ((3U << 9)|(1U << 6)|(1U << 3));
+
+    // Enable Interrupt
+    NVIC_EnableIRQ(TIMER_16_1_IRQn);
+    NVIC_SetPriority(TIMER_16_1_IRQn, 3);
+
+    // Start Timer
+    LPC_TMR16B1->TCR = 1;
+
+}
 //===========================
 // Timer16 Interrupt Handler
 //===========================
@@ -119,18 +143,45 @@ void TIMER16_0_IRQHandler(void)
         LPC_TMR16B0->IR = (1U << 2);
     }
 
-    else if(LPC_TMR16B0->IR & (1U << 3))	//MR3INT
+// Timer16_1
+	if (LPC_TMR16B1->IR & (1U << 1))		//MR1INT = case0
+	{
+		//Do something
+		if(pwm_duty_value[2] != -1) digitalWrite(pwm_pin_num[2],LOW);
+		// Clear Flag
+		LPC_TMR16B1->IR = (1U << 1);
+	}
+
+    if (LPC_TMR16B1->IR & (1U << 2))		//MR2INT = case1
     {
-    	//Do something
-    	for(int i = 0; i < PWM_MAX_PINS; i++)
-    	{
-    		if(pwm_duty_value[i] != -1)
-    		{
-    			if(pwm_duty_value[i] > 1) digitalWrite(pwm_pin_num[i],HIGH);
-    		}
-    	}
+        //Do something
+    	if(pwm_duty_value[3] != -1) digitalWrite(pwm_pin_num[3],LOW);
+        // Clear Flag
+        LPC_TMR16B1->IR = (1U << 2);
+    }
+
+    if(LPC_TMR16B0->IR & (1U << 3))	//MR3INT
+    {
+		if(pwm_duty_value[0] > 1) digitalWrite(pwm_pin_num[0],HIGH);
+		if(pwm_duty_value[1] > 1) digitalWrite(pwm_pin_num[1],HIGH);
+
 		// Clear Flag
 		LPC_TMR16B0->IR = (1U << 3);
     }
 
+//Timer1
+    if(LPC_TMR16B1->IR & (1U << 3))	//MR3INT
+	{
+		//Do something
+    	if(pwm_duty_value[2] > 1) digitalWrite(pwm_pin_num[2],HIGH);
+    	if(pwm_duty_value[3] > 1) digitalWrite(pwm_pin_num[3],HIGH);
+		// Clear Flag
+		LPC_TMR16B1->IR = (1U << 3);
+	}
+}
+
+
+void TIMER16_1_IRQHandler(void)
+{
+	TIMER16_0_IRQHandler();
 }
