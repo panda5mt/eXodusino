@@ -2,15 +2,13 @@
 #define LIBMARY_H_
 
 /**
-	@mainpage MARY-DUINO (Beta)
+	@mainpage eXodusino
 	@section abstruct 概要
-		MARY-DUINOはNXP製LPC1114を搭載したMARY基板でArduinoライクな開発が出来ることを目指すC++ライブラリです
+		eXodusinoはCortex-M0でArduinoライクな開発が出来ることを目指すC++ライブラリです
 	@section intro 始めに
-		CQ出版発行・圓山宗智氏によるトランジスタ技術増刊「2枚入り！組み合わせ自在！超小型ARMマイコン基板」に付属している基板をArduinoライクな環境で開発する為の
-		ライブラリです。
+		eXodusinoはARM Cortex-M0環境でもArduinoライクな環境を構築する為のライブラリです。
 	@section motivation 背景
-		「2枚入り！組み合わせ自在！超小型ARMマイコン基板」に付属している基板の開発において、よく整備されているライブラリが圓山氏により準備されており、
-		とても使いやすい環境が提供されています。このライブラリではよりお手軽に開発する事を目的としてC++ライブラリをフルスクラッチで作成しており、Arduinoライクな
+		このライブラリではお手軽に開発する事を目的としてC++ライブラリを作成しており、Arduinoライクな
 		開発環境を提供しています。今後ここに新たなライブラリを追加し、より使いやすい環境を随時追加してゆきます
 	@section environmen 環境
 		arm-none-eabi-gcc-4.5.0以上またはarm-elf-gcc-4.5.0以上
@@ -18,6 +16,7 @@
 		- Mac OSXではSnow Leopard(10.6.1以上)ではXcode 3.4以上がインストール、Lion(10.7)ではXCode 4.1以上がインストールされており、arm-elf-gcc-4.5.0以上がインストールされている事
 	@section history 履歴
 	- 2011/07/15    初版作成
+	- 2012/05/27 Arduino,Wiring算術マクロを移植
  */
 
 /**************************************************************************//**
@@ -51,6 +50,7 @@
 #include "gpio.h"
 #include "uart.h"
 #include "analogio.h"
+#include "arithmetical.h"
 
 
 // init for arduino-like settings

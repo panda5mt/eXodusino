@@ -1,7 +1,7 @@
-#ifndef ANALOGIO_H_
-#define ANALOGIO_H_
+#ifndef ARITHMETICAL_H_
+#define ARITHMETICAL_H_
 /**************************************************************************//**
- * @file     analogio.h
+ * @file     arithmetical.h
  * @brief    Arduino-like library for eXodusino(LPC1114)
  * @version	v.0.50
  * @date	3. May 2012.
@@ -23,21 +23,27 @@
  * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  * DEALINGS IN THE SOFTWARE.
  ******************************************************************************/
-
-#include "LPC11xx.h"
-#include "gpio.h"
-
-#ifdef __cplusplus
-  extern "C" {
+#ifdef abs
+#undef abs
 #endif
 
-void analogWrite(int pinnum, int value);
-//low level functions for software PWM
-void setup_TIMER16_0(void);
-void TIMER16_0_IRQHandler(void);
-void setup_TIMER16_1(void);
-void TIMER16_1_IRQHandler(void);
-#ifdef __cplusplus
-  }
-#endif
-#endif /* ANALOGIO_H_ */
+#define abs(x) ((x)>0?(x):-(x))
+#define constrain(amt,low,high) ((amt)<(low)?(low):((amt)>(high)?(high):(amt)))
+#define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+#define radians(deg) ((deg)*DEG_TO_RAD)
+#define degrees(rad) ((rad)*RAD_TO_DEG)
+#define sq(x) ((x)*(x))
+
+#define lowByte(w) ((uint8_t) ((w) & 0xff))
+#define highByte(w) ((uint8_t) ((w) >> 8))
+
+#define bitRead(value, bit) (((value) >> (bit)) & 0x01)
+#define bitSet(value, bit) ((value) |= (1UL << (bit)))
+#define bitClear(value, bit) ((value) &= ~(1UL << (bit)))
+#define bitWrite(value, bit, bitvalue) (bitvalue ? bitSet(value, bit) : bitClear(value, bit))
+#define bit(b) (1UL << (b))
+#define map(x,in_min,in_max,out_min,out_max) \
+(((x) - (in_min)) * ((out_max) - (out_min)) / ((in_max) - (in_min)) + (out_min))
+
+
+#endif /* ARITHMETICAL_H_ */
