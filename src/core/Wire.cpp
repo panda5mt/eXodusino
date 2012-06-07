@@ -3,7 +3,6 @@
 #include <string.h>
 #include <string>
 
-
 void i2c_startbit(int sda, int scl);
 void i2c_stopbit(int sda, int scl);
 void i2c_begin_transmission(int sda, int scl, unsigned char address);
@@ -23,22 +22,35 @@ inline void SDA_PUL(int sda);
 inline void SCL_PUL(int scl);
 inline void SCL_SDA_PUL(int scl,int sda);
 
+uint8_t TwoWire::rxBuffer[BUFFER_LENGTH];
+uint8_t TwoWire::rxBufferIndex = 0;
+uint8_t TwoWire::rxBufferLength = 0;
+
+uint8_t TwoWire::txAddress = 0;
+uint8_t TwoWire::txBuffer[BUFFER_LENGTH];
+uint8_t TwoWire::txBufferIndex = 0;
+uint8_t TwoWire::txBufferLength = 0;
+
+uint8_t TwoWire::transmitting = 0;
+void (*TwoWire::user_onRequest)(void);
+void (*TwoWire::user_onReceive)(int);
+
 // Initialize Class Variables //////////////////////////////////////////////////
 TwoWire::TwoWire()
 {
-	rxAddress = 0;
-	rxBuffer[BUFFER_LENGTH];
-	rxBufferIndex = 0;
-	rxBufferLength = 0;
-
-	txAddress = 0;
-	txBuffer[BUFFER_LENGTH];
-	txBufferIndex = 0;
-	txBufferLength = 0;
-
-	transmitting = 0;
-	user_onRequest = NULL;
-	user_onReceive = NULL;
+//	rxAddress = 0;
+//	rxBuffer[BUFFER_LENGTH];
+//	rxBufferIndex = 0;
+//	rxBufferLength = 0;
+//
+//	txAddress = 0;
+//	txBuffer[BUFFER_LENGTH];
+//	txBufferIndex = 0;
+//	txBufferLength = 0;
+//
+//	transmitting = 0;
+//	user_onRequest = NULL;
+//	user_onReceive = NULL;
 }
 
 
@@ -129,9 +141,11 @@ void TwoWire::beginTransmission(int address)
 
 uint8_t TwoWire::endTransmission(void)
 {
+	WIRE_ACK_STATE st;
+
 	// transmit buffer (blocking)
-	i2c_begin_transmission(sda, scl, txAddress);
-	WIRE_ACK_STATE st = i2c_write(sda, scl, txAddress, txBuffer, txBufferLength);
+	i2c_startbit(sda, scl);
+	st = i2c_write(sda, scl, txAddress, txBuffer, txBufferLength);
 
 	unsigned char res = 0; //return value (0:OK, 1:BUFFER OV, 2:ADDRESS NAK, 3:DATA NAK, 4:Another error)
 	i2c_stopbit(sda, scl);
@@ -140,6 +154,7 @@ uint8_t TwoWire::endTransmission(void)
 		case ACK:		res = 0; break;
 		case BUFF_OV:	res = 1; break;
 		case ADDR_NAK:	res = 2; break;
+		case DATA_NAK:	res = 3; break;
 		case AND_MORE:	res = 4; break;
 		default:		res = 4;
 	}
@@ -154,7 +169,7 @@ uint8_t TwoWire::endTransmission(void)
 // must be called in:
 // slave tx event callback
 // or after beginTransmission(address)
-void TwoWire::send(int8_t data)
+void TwoWire::write(int8_t data)
 {
 	if(transmitting){
 	// in master transmitter mode
@@ -183,7 +198,7 @@ void TwoWire::send(uint8_t* data, uint8_t quantity)
 		// in master transmitter mode
 		//ここではデータをバッファに蓄積しているだけ
 		for(uint8_t i = 0; i < quantity; ++i){
-			send(data[i]);
+			write(data[i]);
 		}
 
 
@@ -207,7 +222,7 @@ void TwoWire::send(int8_t* data)
 // or after beginTransmission(address)
 void TwoWire::send(int data)
 {
-	send((uint8_t)data);
+	write((uint8_t)data);
 }
 
 // must be called in:
@@ -299,7 +314,7 @@ TwoWire Wire = TwoWire();
 uint8_t i2c_request_from(int sda, int scl, unsigned char address, unsigned char* data, unsigned char counter)
 {
 	i2c_startbit(sda, scl);
-	i2c_ping(sda, scl, address);
+	//i2c_ping(sda, scl, address);
 	uint8_t result_bytes = i2c_read(sda, scl, address, data, counter); //counterは受信要求バイト数
 	i2c_stopbit(sda, scl);
 	return result_bytes; // 実際に受信できたバイト数
@@ -307,14 +322,14 @@ uint8_t i2c_request_from(int sda, int scl, unsigned char address, unsigned char*
 
 void i2c_begin_transmission(int sda, int scl, unsigned char address)
 {
+	//i2c_ping(sda, scl, address);
 	i2c_startbit(sda, scl);
-	i2c_ping(sda, scl, address);
+	//
 }
-
 WIRE_ACK_STATE i2c_write(int sda, int scl, uint8_t addr, uint8_t* data, uint8_t nbytes)
 {
 	uint8_t* data_end = data + nbytes;
-	if(i2c_send_byte(sda, scl, (addr << 1) | 0x00) != 0)
+	if(i2c_send_byte(sda, scl, (addr << 1) | 0x00) != ACK)
 	{
 		return ADDR_NAK;
 	}
@@ -360,6 +375,7 @@ void i2c_startbit(int sda, int scl)
 		SCL_REL(scl);
 		WAIT();
 	}
+
 	SDA_PUL(sda);
 	WAIT();
 	SCL_PUL(scl);
@@ -391,11 +407,11 @@ WIRE_ACK_STATE i2c_send_byte(int sda, int scl, uint8_t data)
 	SDA_REL(sda);
 	SCL_REL(scl);
 	WAIT();
-	/*while(SCL_IN == 0);*/	/* スレーブによるクロックの引き延ばし */
+	while(SCL_IN(scl) == 0);	/* スレーブによるクロックの引き延ばし */
 	ack = (SDA_IN(sda)==0)? ACK:NAK;
 	WAIT();
 	WAIT();
-	SCL_SDA_PUL(sda,scl);
+	SCL_PUL(scl);
 	/* SCL = SDA = L */
 	return ack;
 }
@@ -478,28 +494,36 @@ inline int SDA_IN(int sda)
 inline void SDA_REL(int sda)
 {
 	pinMode(sda, INPUT); //入力=Hi-Z
+	//digitalWrite(sda, HIGH);
 }
 
 inline void SCL_REL(int scl)
 {
 	pinMode(scl, INPUT); //入力=Hi-Z
+	//digitalWrite(scl,HIGH);
 }
 
 inline void SDA_PUL(int sda)
 {
+	pinMode(sda,INPUT);
+	digitalWrite(sda,LOW);	// pullup disable
+	pinMode(sda,OUTPUT);
 	digitalWrite(sda, LOW);
-	pinMode(sda, OUTPUT); //出力=Low
 }
 
 inline void SCL_PUL(int scl)
 {
+	pinMode(scl,INPUT);
 	digitalWrite(scl, LOW);
 	pinMode(scl, OUTPUT); //出力=Low
+	digitalWrite(scl, LOW);
 }
 
 inline void SCL_SDA_PUL(int scl,int sda)
 {
+	pinMode(sda,INPUT);
 	digitalWrite(sda, LOW);
+	pinMode(scl,INPUT);
 	digitalWrite(scl, LOW);
 	pinMode(scl, OUTPUT); //出力=Low
 	pinMode(sda, OUTPUT); //出力=Low
