@@ -45,5 +45,16 @@
 #define map(x,in_min,in_max,out_min,out_max) \
 (((x) - (in_min)) * ((out_max) - (out_min)) / ((in_max) - (in_min)) + (out_min))
 
+#ifdef __cplusplus
+	extern "C++" {
+#endif
 
+void randomSeed(unsigned int seed);
+unsigned int random(void);
+long random(long max_num);
+long random(long min_num, long max_num);
+
+#ifdef __cplusplus
+	}
+#endif
 #endif /* ARITHMETICAL_H_ */
