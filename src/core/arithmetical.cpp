@@ -9,9 +9,28 @@ void randomSeed(unsigned int seed)
 	return;
 }
 
+// random algorithm using linear congruential method
+unsigned int random(void)
+{
+	int hi,lo,x;
+
+	x = random_seed;
+
+	if(x == 0)x = 123459876L;
+
+	hi = x / 127773L;
+	lo = x % 127773L;
+	x = 16807L * lo - 2836L * hi;
+
+	if(x < 0)x += 0x7FFFFFFFL;
+	random_seed = x;
+
+	return (x % ((unsigned long int)0x7FFFFFFFL + 1));
+
+}
 
 // random algorithm using Fibonacci-LFSR
-unsigned int random(void)
+unsigned int random_LFSR(void)
 {
     unsigned int shift_bit;
 	shift_bit = (random_seed & 0x0001) ^
