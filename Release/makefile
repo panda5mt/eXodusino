@@ -41,25 +41,25 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: exodusino.axf
+all: eXodusino.axf
 
 # Tool invocations
-exodusino.axf: $(OBJS) $(USER_OBJS)
+eXodusino.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU C++ Linker'
-	arm-none-eabi-c++ -nostartfiles -L"C:\Documents and Settings\atsu\My Documents\LPCXpresso_4.2.0_264\workspace\eXodusino\src\FatFs" -L"C:\Documents and Settings\atsu\My Documents\LPCXpresso_4.2.0_264\workspace\eXodusino\src\core" -L"C:\Documents and Settings\atsu\My Documents\LPCXpresso_4.2.0_264\workspace\eXodusino\src\XBee" -L"C:\Documents and Settings\atsu\My Documents\LPCXpresso_4.2.0_264\workspace\eXodusino\src" -Xlinker -Map=exodusino.map -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "eXodusino.ld" -o"exodusino.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-c++ -nostdlib -Xlinker -Map="eXodusino.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "eXodusino.ld" -o"eXodusino.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
 
 # Other Targets
 clean:
-	-$(RM) $(OBJS)$(C++_DEPS)$(C_DEPS)$(CC_DEPS)$(CPP_DEPS)$(EXECUTABLES)$(CXX_DEPS)$(C_UPPER_DEPS) exodusino.axf
+	-$(RM) $(OBJS)$(C++_DEPS)$(C_DEPS)$(CC_DEPS)$(CPP_DEPS)$(EXECUTABLES)$(CXX_DEPS)$(C_UPPER_DEPS) eXodusino.axf
 	-@echo ' '
 
 post-build:
 	-@echo 'Performing post-build steps'
-	-arm-none-eabi-size exodusino.axf;  arm-none-eabi-objcopy -O ihex exodusino.axf exodusino.hex ; arm-none-eabi-objcopy -O binary exodusino.axf exodusino.bin;# checksum -p LPC1114_301 -d exodusino.bin;
+	-arm-none-eabi-size "eXodusino.axf"; arm-none-eabi-objcopy -O binary "eXodusino.axf" "eXodusino.bin" ; checksum -p LPC1114_301 -d "eXodusino.bin";
 	-@echo ' '
 
 .PHONY: all clean dependents

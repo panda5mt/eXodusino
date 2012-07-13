@@ -11,7 +11,8 @@ void loop()
 	
 	while(1)
 	{
-        Serial.println(millis()/1000);
+        Serial.println(millis()/1000,DEC);
+        delay(1000);
 	}
 
 }

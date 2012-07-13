@@ -41,6 +41,7 @@ extern "C" void __cxa_pure_virtual() {
 	while (1);
 }
 
+extern "C" void __cxa_demangle() {}
 
 extern "C" {
 	extern void __libc_init_array(void);

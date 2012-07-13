@@ -1,5 +1,4 @@
-src/FatFs/pff.d: ../src/FatFs/pff.cpp ../src/FatFs/pff.h \
- ../src/FatFs/integer.h \
+src/core/arithmetical.d: ../src/core/arithmetical.cpp \
  /Users/lynxeyed/Documents/workspace/eXodusino/src/core/libmary.h \
  /Users/lynxeyed/Documents/workspace/eXodusino/src/core/LPC11xx.h \
  /Users/lynxeyed/Documents/workspace/eXodusino/src/core/core_cm0.h \
@@ -10,11 +9,7 @@ src/FatFs/pff.d: ../src/FatFs/pff.cpp ../src/FatFs/pff.h \
  /Users/lynxeyed/Documents/workspace/eXodusino/src/core/gpio.h \
  /Users/lynxeyed/Documents/workspace/eXodusino/src/core/analogio.h \
  /Users/lynxeyed/Documents/workspace/eXodusino/src/core/arithmetical.h \
- ../src/FatFs/diskio.h
-
-../src/FatFs/pff.h:
-
-../src/FatFs/integer.h:
+ /Users/lynxeyed/Documents/workspace/eXodusino/src/core/arithmetical.h
 
 /Users/lynxeyed/Documents/workspace/eXodusino/src/core/libmary.h:
 
@@ -36,4 +31,4 @@ src/FatFs/pff.d: ../src/FatFs/pff.cpp ../src/FatFs/pff.h \
 
 /Users/lynxeyed/Documents/workspace/eXodusino/src/core/arithmetical.h:
 
-../src/FatFs/diskio.h:
+/Users/lynxeyed/Documents/workspace/eXodusino/src/core/arithmetical.h:

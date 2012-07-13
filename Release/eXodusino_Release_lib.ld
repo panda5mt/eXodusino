@@ -1,8 +1,19 @@
 /*
  * GENERATED FILE - DO NOT EDIT
- * (C) Code Red Technologies Ltd, 2008-9
- * Generated linker script library include file for Newlib (nohost) 
- * (created from newlib_nohost_cpp.ld (LPCXpresso v4.0.6 [Build 152] [01/08/2011] ) on Wed Jan 18 21:43:17 JST 2012)
-*/
+ * (C) Code Red Technologies Ltd, 2008-2012
+ * Generated linker script file for LPC1114/301
+ * Created from LibIncTemplate.ld (vLPCXpresso v4.2 (4 [Build 267] [2012-07-11] ))
+ * By LPCXpresso v4.2.4 [Build 267] [2012-07-11]  on Fri Jul 13 01:18:22 JST 2012
+ */
 
-GROUP(libgcc.a libc.a libstdc++.a libm.a libcr_newlib_nohost.a crti.o crtn.o crtbegin.o crtend.o)
+
+ GROUP(
+ libgcc.a
+ libc.a
+ libm.a
+ libcr_newlib_nohost.a
+ crti.o
+ crtn.o
+ crtbegin.o
+ crtend.o
+ )
