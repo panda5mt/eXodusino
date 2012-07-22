@@ -8,7 +8,13 @@ src/user_application.d: ../src/user_application.cpp \
  /Users/lynxeyed/Documents/workspace/eXodusino/src/core/Print.h \
  /Users/lynxeyed/Documents/workspace/eXodusino/src/core/gpio.h \
  /Users/lynxeyed/Documents/workspace/eXodusino/src/core/analogio.h \
- /Users/lynxeyed/Documents/workspace/eXodusino/src/core/arithmetical.h
+ /Users/lynxeyed/Documents/workspace/eXodusino/src/core/arithmetical.h \
+ /Users/lynxeyed/Documents/workspace/eXodusino/src/FatFs/SD.h \
+ /Users/lynxeyed/Documents/workspace/eXodusino/src/core/SPI.h \
+ /Users/lynxeyed/Documents/workspace/eXodusino/src/FatFs/pff.h \
+ /Users/lynxeyed/Documents/workspace/eXodusino/src/FatFs/integer.h \
+ /Users/lynxeyed/Documents/workspace/eXodusino/src/core/SPI1.h \
+ /Users/lynxeyed/Documents/workspace/eXodusino/src/core/SPI.h
 
 /Users/lynxeyed/Documents/workspace/eXodusino/src/core/libmary.h:
 
@@ -29,3 +35,15 @@ src/user_application.d: ../src/user_application.cpp \
 /Users/lynxeyed/Documents/workspace/eXodusino/src/core/analogio.h:
 
 /Users/lynxeyed/Documents/workspace/eXodusino/src/core/arithmetical.h:
+
+/Users/lynxeyed/Documents/workspace/eXodusino/src/FatFs/SD.h:
+
+/Users/lynxeyed/Documents/workspace/eXodusino/src/core/SPI.h:
+
+/Users/lynxeyed/Documents/workspace/eXodusino/src/FatFs/pff.h:
+
+/Users/lynxeyed/Documents/workspace/eXodusino/src/FatFs/integer.h:
+
+/Users/lynxeyed/Documents/workspace/eXodusino/src/core/SPI1.h:
+
+/Users/lynxeyed/Documents/workspace/eXodusino/src/core/SPI.h:
