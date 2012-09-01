@@ -4,7 +4,7 @@ void setup()
 {
 	Serial.begin(9600);		// XBeeのセットアップ
     Serial.println("\r\nStart...");
-    
+
 }
 
 void loop()

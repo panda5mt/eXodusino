@@ -47,7 +47,7 @@ all: eXodusino.axf
 eXodusino.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU C++ Linker'
-	arm-none-eabi-c++ -nostdlib -Xlinker -Map="eXodusino.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "eXodusino_LPC1114F_301_TQFP48.ld" -o"eXodusino.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-c++ -nostdlib -Xlinker -Map="eXodusino.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "eXodusino.ld" -o"eXodusino.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
