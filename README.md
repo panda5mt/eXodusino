@@ -3,7 +3,7 @@ version 0.8.1 beta
 
 **Copyright (c) 2011-2012 Lynx-EyED WORKS.**
 
-http://ecrafts.g.hatena.ne.jp/Lynx-EyED/
+http://lynxeyed.hatenablog.com/
 
 ###eXodusino
 You can make a sketch code for ARM(TM) Cortex-M0(TM) like an Arduino.
@@ -20,4 +20,4 @@ Add downloaded eXodusino file to your LPCXpresso's workspace folder.
 
 
 ###Reference
-http://ecrafts.g.hatena.ne.jp/Lynx-EyED/20120225/
+http://lynxeyed.hatenablog.com/entry/2012/09/01/162822
