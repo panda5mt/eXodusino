@@ -49,10 +49,10 @@ void attachInterrupt(int pin, USER_GPIO_FUNC func, digitalWriteState mode) {
 		//(22~99:reserved)
 	} else if (pin >= 100 && pin < 200) //maryPinAssign(100~119?)
 	{
-		pin = pin - 100;
-		intFunc[pin] = func;
+		int _pin = pin - 100;
+		intFunc[_pin] = func;
 
-		switch (mary_pinAssign[pin * 2]) {
+		switch (mary_pinAssign[_pin * 2]) {
 		case 0:
 			NVIC_EnableIRQ(EINT0_IRQn);
 			break;

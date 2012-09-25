@@ -12,6 +12,10 @@ void Print::print(const char *s)	//uart_puts
 
 void Print::print(int val, RADIX_FORMAT format)
 {
+	if( val == 0){
+		write('0');
+		return;
+	}
 	if(format == BYTE)
 	{
 		write((char)(val & 0xff));

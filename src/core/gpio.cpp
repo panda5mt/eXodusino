@@ -115,7 +115,34 @@ void pinMode(int pin,pinModeState state)
 	if(pin < 200)			//maryPinAssign(100~119?)
 	{
 		pin = pin - 100;
-		SetIOCON(mary_pinAssign[pin * 2], mary_pinAssign[pin * 2 + 1], IOCON_FUNC_MASK, IOCON_FUNC_0);
+		//IOCON settings use as GPIO
+		if((mary_pinAssign[pin * 2]) == 0)//PIO0_X
+		{
+			switch(mary_pinAssign[pin * 2 + 1])
+			{
+				case 11:	//P0_11
+				case 10:	//P0_10
+					SetIOCON(mary_pinAssign[pin * 2], mary_pinAssign[pin * 2 + 1], IOCON_FUNC_MASK, IOCON_FUNC_1);
+					break;
+				default:	//P0_X
+					SetIOCON(mary_pinAssign[pin * 2], mary_pinAssign[pin * 2 + 1], IOCON_FUNC_MASK, IOCON_FUNC_0);
+					break;
+			}
+		}else if((mary_pinAssign[pin * 2]) == 1)//PIO1_X
+		{
+			switch(mary_pinAssign[pin * 2 + 1])
+			{
+				case _BIT0:
+				case _BIT1:
+				case _BIT2:
+				case _BIT3:
+					SetIOCON(mary_pinAssign[pin * 2], mary_pinAssign[pin * 2 + 1], IOCON_FUNC_MASK, IOCON_FUNC_1);
+					break;
+				default:
+					SetIOCON(mary_pinAssign[pin * 2], mary_pinAssign[pin * 2 + 1], IOCON_FUNC_MASK, IOCON_FUNC_0);
+					break;
+			}
+		}
 		if(state == OUTPUT)	//OUTPUT
 		{
 			LPC_GPIO[ mary_pinAssign[pin * 2] ]->DIR |= (1 << mary_pinAssign[pin * 2 + 1]);
