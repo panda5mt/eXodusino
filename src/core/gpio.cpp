@@ -66,7 +66,7 @@ typedef enum {
 
 void pinMode(int pin,pinModeState state)
 {
-	if(pin < 22)			//arduinoPinAssign(0~21)
+	if(pin < 23)			//arduinoPinAssign(0~22)
 	{
 		//IOCON settings use as GPIO
 		if((arduino_pinAssign[pin * 2]) == 0)//PIO0_X
@@ -74,6 +74,7 @@ void pinMode(int pin,pinModeState state)
 			switch(arduino_pinAssign[pin * 2 + 1])
 			{
 			case 11:	//P0_11
+			case 10:	//P0_10
 				SetIOCON(arduino_pinAssign[pin * 2], arduino_pinAssign[pin * 2 + 1], IOCON_FUNC_MASK, IOCON_FUNC_1);
 				break;
 			default:	//P0_X
@@ -156,7 +157,7 @@ void pinMode(int pin,pinModeState state)
 
 void digitalWrite(int pin,digitalWriteState state)
 {
-	if(pin < 22)			//arduinoPinAssign(0~21)
+	if(pin < 23)			//arduinoPinAssign(0~22)
 	{
 		if(state == HIGH)	//HIGH
 		{
@@ -213,7 +214,7 @@ void digitalWrite(int pin,digitalWriteState state)
 int digitalRead(int pin)
 {
 	volatile int readValue;
-	if(pin < 22)			//arduinoPinAssign(0~21)
+	if(pin < 23)			//arduinoPinAssign(0~21)
 	{
 		readValue = (LPC_GPIO[ arduino_pinAssign[pin * 2] ]->MASKED_ACCESS[ (1 << arduino_pinAssign[pin * 2 + 1]) ])? 1 : 0;
 		return readValue;
@@ -243,7 +244,7 @@ int digitalRead(int pin)
  **
  *****************************************************************************/
 void GPIOSetInterrupt(int pin, int sense, int single, int event) {
-	if (pin >= 0 && pin < 22)			//arduinoPinAssign(0~21)
+	if (pin >= 0 && pin < 23)			//arduinoPinAssign(0~21)
 	{
 		if (sense == 0) {
 			LPC_GPIO[arduino_pinAssign[pin * 2]]->IS &= ~((1 << arduino_pinAssign[pin * 2 + 1]));
@@ -287,7 +288,7 @@ void GPIOSetInterrupt(int pin, int sense, int single, int event) {
 }
 
 void GPIOIntEnable(int pin) {
-	if (pin >= 0 && pin < 22)			//arduinoPinAssign(0~21)
+	if (pin >= 0 && pin < 23)			//arduinoPinAssign(0~21)
 	{
 
 		LPC_GPIO[arduino_pinAssign[pin * 2]]->IE |= (1 << arduino_pinAssign[pin * 2 + 1]);
@@ -302,7 +303,7 @@ void GPIOIntEnable(int pin) {
 }
 
 void GPIOIntDisable(int pin) {
-	if (pin >= 0 && pin < 22)			//arduinoPinAssign(0~21)
+	if (pin >= 0 && pin < 23)			//arduinoPinAssign(0~21)
 	{
 
 		LPC_GPIO[arduino_pinAssign[pin * 2]]->IE &= ~((1 << arduino_pinAssign[pin * 2 + 1]));
@@ -319,7 +320,7 @@ void GPIOIntDisable(int pin) {
 int GPIOIntStatus(int pin) {
 	int regVal = 0;
 
-	if (pin >= 0 && pin < 22)			//arduinoPinAssign(0~21)
+	if (pin >= 0 && pin < 23)			//arduinoPinAssign(0~21)
 	{
 		if (LPC_GPIO[arduino_pinAssign[pin * 2]]->MIS
 				& (1 << arduino_pinAssign[pin * 2 + 1])) {
@@ -340,7 +341,7 @@ int GPIOIntStatus(int pin) {
 }
 
 void GPIOIntClear(int pin) {
-	if (pin >= 0 && pin < 22)			//arduinoPinAssign(0~21)
+	if (pin >= 0 && pin < 23)			//arduinoPinAssign(0~21)
 	{
 
 		LPC_GPIO[arduino_pinAssign[pin * 2]]->IC |= (1 << arduino_pinAssign[pin * 2 + 1]);

@@ -98,7 +98,7 @@ static LPC_GPIO_TypeDef  (* const LPC_GPIO[4]) = { LPC_GPIO0, LPC_GPIO1, LPC_GPI
 #define P0_9	(124)
 #define P0_7	(125)
 //#define P1_5	(126)
-//#define P2_0	(127)
+#define P0_10	(22)
 
 #define _BIT0 0//(1U << 0)
 #define _BIT1 1//(1U << 1)
@@ -176,7 +176,7 @@ const unsigned int arduino_pinAssign[] =
 	0, _BIT4,	//P0_4:SCL(A5)/D19
 	1, _BIT10,	//P1_10:A6/D20
 	1, _BIT11,	//P1_11:A7/D21
-//	3, _BIT0,	//DTR
+	0, _BIT10	//P0_10:D22(optinal)
 };
 
 
