@@ -1,9 +1,9 @@
 #include <libmary.h>
 #include <SPI.h>
 
-#define LCD_CS	C33//4 //cs
-#define LCD_DC	C21//5  //data command
-#define LCD_RES	C31//6 //reset
+#define LCD_CS	P0_4//4 //cs
+#define LCD_DC	P0_5//5  //data command
+#define LCD_RES	P0_6//6 //reset
 //MOSI	11	C47
 //CLK	13	C43
 #define DC_DATA HIGH

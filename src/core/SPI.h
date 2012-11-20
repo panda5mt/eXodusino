@@ -40,7 +40,8 @@
 typedef enum {
 	marySSP0,	/*!< MARYのSSPポート(デフォルト) */
 	LPCXSSP0,	/*!< LPCXPressoのSSP0ポート */
-	LPCXSSP1	/*!< LPCXpressoのSSP1ポート */
+	LPCXSSP1,	/*!< LPCXpressoのSSP1ポート */
+	NeXtPino	/*!< NeXtPinoのSSP0ポート */
 } SSP_PORT; // Defaults:marySSP1
 
 /*! @enum	SSP_BIT_ORDER

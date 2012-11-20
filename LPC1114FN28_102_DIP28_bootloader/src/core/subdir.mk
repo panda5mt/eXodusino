@@ -17,7 +17,6 @@ CPP_SRCS += \
 ../src/core/delay.cpp \
 ../src/core/gpio.cpp \
 ../src/core/gpio_int.cpp \
-../src/core/maryoled.cpp \
 ../src/core/startup_mary.cpp \
 ../src/core/system_LPC11xx.cpp \
 ../src/core/uart.cpp 
@@ -36,7 +35,6 @@ OBJS += \
 ./src/core/delay.o \
 ./src/core/gpio.o \
 ./src/core/gpio_int.o \
-./src/core/maryoled.o \
 ./src/core/startup_mary.o \
 ./src/core/system_LPC11xx.o \
 ./src/core/uart.o 
@@ -55,7 +53,6 @@ CPP_DEPS += \
 ./src/core/delay.d \
 ./src/core/gpio.d \
 ./src/core/gpio_int.d \
-./src/core/maryoled.d \
 ./src/core/startup_mary.d \
 ./src/core/system_LPC11xx.d \
 ./src/core/uart.d 
@@ -65,7 +62,7 @@ CPP_DEPS += \
 src/core/%.o: ../src/core/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU C++ Compiler'
-	arm-none-eabi-c++ -D__NEWLIB__ -DNO_EXTCLK -DNDEBUG -D__CODE_RED -I"/Users/lynxeyed/Documents/workspace/eXodusino/src" -I"/Users/lynxeyed/Documents/workspace/eXodusino/src/XBee" -I"/Users/lynxeyed/Documents/workspace/eXodusino/src/FatFs" -I"/Users/lynxeyed/Documents/workspace/eXodusino/src/core" -Os -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -mcpu=cortex-m0 -mthumb -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	arm-none-eabi-c++ -D__NEWLIB__ -DNEXTPINO -DNO_EXTCLK -DNDEBUG -D__CODE_RED -I"/Users/lynxeyed/Documents/workspace/eXodusino/src" -I"/Users/lynxeyed/Documents/workspace/eXodusino/src/Samples" -I"/Users/lynxeyed/Documents/workspace/eXodusino/src/XBee" -I"/Users/lynxeyed/Documents/workspace/eXodusino/src/FatFs" -I"/Users/lynxeyed/Documents/workspace/eXodusino/src/core" -Os -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m0 -mthumb -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

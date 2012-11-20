@@ -67,7 +67,6 @@ void SSP::setClockDivider(SSP_CLK_DIVIDER divider)		//See also SSP1CLKDIV(user.m
 {
 	this->divider = divider;
 	return;
-
 }
 
 void SSP::setDataMode(SSP_DATA_MODE mode)
@@ -105,12 +104,25 @@ void ssp_begin(SSP_PORT port,SSP_CLK_DIVIDER divider,SSP_DATA_MODE dataMode,int 
 		LPC_IOCON->PIO2_11  = 0x00000001;//2;	// SCK, disable pu/pd mos
 		break;
 	case marySSP0:
+#if defined ( NEXTPINO )
+#warning NeXtPino selected
+		LPC_IOCON->SCK_LOC = 0x00000000;		// SCK is PIO0_10
+		LPC_IOCON->SWCLK_PIO0_10 = 0x00000002;
+#else
 		LPC_IOCON->SCK_LOC = 0x00000002;		// SCK is PIO0_6
 		LPC_IOCON->PIO0_6  = 0x00000002;		// SCK, disable pu/pd mos
-		break;
+#endif
+
 	default: //default = MARY
+
+#if defined ( NEXTPINO )
+#warning NeXtPino selected
+		LPC_IOCON->SCK_LOC = 0x00000000;		// SCK is PIO0_10
+		LPC_IOCON->SWCLK_PIO0_10 = 0x00000002;
+#else
 		LPC_IOCON->SCK_LOC = 0x00000002;		// SCK is PIO0_6
 		LPC_IOCON->PIO0_6  = 0x00000002;		// SCK, disable pu/pd mos
+#endif
 		break;
 	}
 	LPC_IOCON->PIO0_9 = 0x00000001;		// MOSI, disable pu/pd mos

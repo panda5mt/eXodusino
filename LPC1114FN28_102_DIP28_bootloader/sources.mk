@@ -27,5 +27,6 @@ SUBDIRS := \
 src \
 src/core \
 src/XBee \
+src/Samples \
 src/FatFs \
 
