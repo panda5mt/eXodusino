@@ -41,8 +41,8 @@ typedef enum {
 	marySSP0,	/*!< MARYのSSPポート(デフォルト) */
 	LPCXSSP0,	/*!< LPCXPressoのSSP0ポート */
 	LPCXSSP1,	/*!< LPCXpressoのSSP1ポート */
-	NeXtPino	/*!< NeXtPinoのSSP0ポート */
-} SSP_PORT; // Defaults:marySSP1
+	SCK_P0_6	/*!< SSP0ポートのSCKはP0_6を使う */
+} SSP_PORT; // Defaults:marySSP0
 
 /*! @enum	SSP_BIT_ORDER
   @brief	SSPIバスの入出力に使用するビットオーダーを設定

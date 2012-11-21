@@ -27,8 +27,9 @@ SSP::~SSP()		// destructor
 {
 
 }
-void SSP::begin()
+void SSP::begin(void)
 {
+	//this->port = marySSP0;
 	ssp_begin(port,divider,dataMode,bitlength);
 	return;
 }
@@ -98,25 +99,30 @@ void ssp_begin(SSP_PORT port,SSP_CLK_DIVIDER divider,SSP_DATA_MODE dataMode,int 
 	LPC_IOCON->PIO0_2  = 0x00000000;	// GPIO, disable pu/pd mos
 	digitalWrite(P0_2,HIGH);				// PIO0_2(CN3_3) = 1
 
-	switch(port){
+	switch(port)
+	{
 	case LPCXSSP0:
 		LPC_IOCON->SCK_LOC = 0x00000001;//2;	// SCK is PIO2_11
 		LPC_IOCON->PIO2_11  = 0x00000001;//2;	// SCK, disable pu/pd mos
 		break;
+
 	case marySSP0:
 #if defined ( NEXTPINO )
-#warning NeXtPino selected
 		LPC_IOCON->SCK_LOC = 0x00000000;		// SCK is PIO0_10
 		LPC_IOCON->SWCLK_PIO0_10 = 0x00000002;
 #else
 		LPC_IOCON->SCK_LOC = 0x00000002;		// SCK is PIO0_6
 		LPC_IOCON->PIO0_6  = 0x00000002;		// SCK, disable pu/pd mos
 #endif
+		break;
+
+	case SCK_P0_6:
+		LPC_IOCON->SCK_LOC = 0x00000002;		// SCK is PIO0_6
+		LPC_IOCON->PIO0_6  = 0x00000002;		// SCK, disable pu/pd mos
+		break;
 
 	default: //default = MARY
-
 #if defined ( NEXTPINO )
-#warning NeXtPino selected
 		LPC_IOCON->SCK_LOC = 0x00000000;		// SCK is PIO0_10
 		LPC_IOCON->SWCLK_PIO0_10 = 0x00000002;
 #else

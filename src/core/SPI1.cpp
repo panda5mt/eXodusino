@@ -27,7 +27,7 @@ SSP1::~SSP1()		// destructor
 {
 
 }
-void SSP1::begin()
+void SSP1::begin(void)
 {
 	ssp1_begin(port,divider,dataMode,bitlength);
 	return;
