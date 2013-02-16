@@ -106,8 +106,10 @@ void setup_systick (void) {
 
 	// Setup SysTick Timer for 1 msec interrupts
 	// Configure System tick timer in 10msec period
-	volatile unsigned long period = SystemCoreClock / 1000;     // Period for 1msec SYSTICK
-	SysTick_Config(period);             // Configuration
+	if (SysTick_Config(SystemCoreClock / 1000)) { /* Setup SysTick Timer for 1 msec interrupts  */
+		while (1);                                  /* Capture error */
+
+	}
 
 #if 1
   if ( !(SysTick->CTRL & SysTick_CTRL_CLKSOURCE_Msk) )
@@ -121,7 +123,9 @@ void setup_systick (void) {
 	SYSTICKCLKDIV has no effect to the SYSTICK frequency. See
 	more on Systick clock and status register in Cortex-M3
 	technical Reference Manual. */
+#if defined(USE_LPC1114)
 	LPC_SYSCON->SYSTICKCLKDIV = 0x08;
+#endif
   }
 #endif
 }
