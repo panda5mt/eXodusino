@@ -1,15 +1,22 @@
 #include <libmary.h>
+#include <math.h>
 
 void setup()
 {
 	Serial.begin(9600);		// XBeeのセットアップ
-    Serial.println("\r\nStart...");
-
+	pinMode(P0_7,OUTPUT);
 }
 
 void loop()
 {
-    Serial.println(millis()/1000,DEC);  // 起動後の経過時間を1秒ごとに更新
-    delay(1000);
-}
 
+	Serial.println("\r\nStart...\r\n");
+	while(1)
+	{
+		digitalWrite(P0_7,HIGH);
+		delay(500);
+		digitalWrite(P0_7,LOW);
+		delay(500);
+	}
+
+}

@@ -40,7 +40,7 @@
 #define SoftwareSerial_h
 
 #include "Print.h"
-#include "LPC11xx.h"
+#include <lpcdevice.h>
 
 /******************************************************************************
  * Definitions

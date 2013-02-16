@@ -27,7 +27,7 @@
 // CODE RED TECHNOLOGIES LTD. 
 //
 //*****************************************************************************
-
+#if defined(USE_LPC1114)
 #define $(CPPHeapFlag)
 
 #include <stdlib.h>
@@ -53,4 +53,5 @@ extern "C" void *malloc(size_t) {
 
 extern "C" void free(void *) {
 }
+#endif
 #endif

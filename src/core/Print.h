@@ -7,7 +7,7 @@
 #define Print_h
 
 #include <string.h>
-#include "LPC11xx.h"
+#include <lpcdevice.h>
 
 const char radix_bin[] = "01";
 const char radix_oct[] = "01234567";

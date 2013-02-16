@@ -33,8 +33,7 @@
  ******************************************************************************/
 
 
-#include "LPC11xx.h"
-#include "system_LPC11xx.h"
+#include <lpcdevice.h>
 #include "uart.h"
 #ifdef __cplusplus
   extern "C" {

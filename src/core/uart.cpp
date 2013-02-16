@@ -6,7 +6,7 @@
  */
 
 #include <string.h>
-#include "LPC11xx.h"
+#include <lpcdevice.h>
 #include "uart.h"
 
 #ifdef __cplusplus

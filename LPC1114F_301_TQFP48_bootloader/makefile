@@ -8,11 +8,13 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include subdir.mk
--include src/subdir.mk
+-include src/core/device_dependent/lpc1114/subdir.mk
 -include src/core/subdir.mk
 -include src/XBee/subdir.mk
+-include src/Samples/subdir.mk
 -include src/FatFs/subdir.mk
+-include src/subdir.mk
+-include subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)

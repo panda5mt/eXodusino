@@ -24,7 +24,7 @@
  * DEALINGS IN THE SOFTWARE.
  ******************************************************************************/
 
-#include "LPC11xx.h"
+
 #include "gpio.h"
 
 #ifdef __cplusplus

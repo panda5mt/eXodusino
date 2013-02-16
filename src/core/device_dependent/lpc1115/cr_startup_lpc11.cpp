@@ -1,32 +1,35 @@
 //*****************************************************************************
-//   +--+
-//   | ++----+
-//   +-++    |
-//     |     |
-//   +-+--+  |
-//   | +--+--+
-//   +----+    Copyright (c) 2009-10 Code Red Technologies Ltd.
+//   +--+       
+//   | ++----+   
+//   +-++    |  
+//     |     |  
+//   +-+--+  |   
+//   | +--+--+  
+//   +----+    Copyright (c) 2009-12 Code Red Technologies Ltd.
 //
 // Microcontroller Startup code for use with Red Suite
 //
-// Version : 101130
+// Version : 120126
 //
 // Software License Agreement
-//
-// The software is owned by Code Red Technologies and/or its suppliers, and is
-// protected under applicable copyright laws.  All rights are reserved.  Any
-// use in violation of the foregoing restrictions may subject the user to criminal
-// sanctions under applicable laws, as well as to civil liability for the breach
+// 
+// The software is owned by Code Red Technologies and/or its suppliers, and is 
+// protected under applicable copyright laws.  All rights are reserved.  Any 
+// use in violation of the foregoing restrictions may subject the user to criminal 
+// sanctions under applicable laws, as well as to civil liability for the breach 
 // of the terms and conditions of this license.
-//
+// 
 // THIS SOFTWARE IS PROVIDED "AS IS".  NO WARRANTIES, WHETHER EXPRESS, IMPLIED
 // OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF
 // MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE APPLY TO THIS SOFTWARE.
 // USE OF THIS SOFTWARE FOR COMMERCIAL DEVELOPMENT AND/OR EDUCATION IS SUBJECT
 // TO A CURRENT END USER LICENSE AGREEMENT (COMMERCIAL OR EDUCATIONAL) WITH
-// CODE RED TECHNOLOGIES LTD.
+// CODE RED TECHNOLOGIES LTD. 
 //
 //*****************************************************************************
+
+#if defined(USE_LPC1115)
+
 #if defined (__cplusplus)
 #ifdef __REDLIB__
 #error Redlib does not support C++
@@ -36,27 +39,21 @@
 // The entry point for the C++ library startup
 //
 //*****************************************************************************
-
-extern "C" void __cxa_pure_virtual() {
-	while (1);
-}
-
-extern "C" void __cxa_demangle() {}
-
 extern "C" {
 	extern void __libc_init_array(void);
 }
 #endif
 #endif
 
+
 #define WEAK __attribute__ ((weak))
 #define ALIAS(f) __attribute__ ((weak, alias (#f)))
 
 // Code Red - if CMSIS is being used, then SystemInit() routine
 // will be called by startup code rather than in application's main()
-//#if defined (__USE_CMSIS)
+#if defined (__USE_CMSIS)
 #include "system_LPC11xx.h"
-//#endif
+#endif
 
 //*****************************************************************************
 #if defined (__cplusplus)
@@ -66,14 +63,14 @@ extern "C" {
 //*****************************************************************************
 //
 // Forward declaration of the default handlers. These are aliased.
-// When the application defines a handler (with the same name), this will
+// When the application defines a handler (with the same name), this will 
 // automatically take precedence over these weak definitions
 //
 //*****************************************************************************
      void ResetISR(void);
 WEAK void NMI_Handler(void);
 WEAK void HardFault_Handler(void);
-WEAK void SVCall_Handler(void);
+WEAK void SVC_Handler(void);
 WEAK void PendSV_Handler(void);
 WEAK void SysTick_Handler(void);
 WEAK void IntDefaultHandler(void);
@@ -152,7 +149,7 @@ void (* const g_pfnVectors[])(void) = {
     0,                                      // Reserved
     0,                                      // Reserved
     0,                                      // Reserved
-    SVCall_Handler,                      	// SVCall handler
+    SVC_Handler,                      	// SVCall handler
     0,                      				// Reserved
     0,                                      // Reserved
     PendSV_Handler,                      	// The PendSV handler
@@ -174,7 +171,7 @@ void (* const g_pfnVectors[])(void) = {
     WAKEUP_IRQHandler,                      // PIO0_10 Wakeup
     WAKEUP_IRQHandler,                      // PIO0_11 Wakeup
     WAKEUP_IRQHandler,                      // PIO1_0  Wakeup
-
+    
     CAN_IRQHandler,							// C_CAN Interrupt
     SSP1_IRQHandler, 						// SPI/SSP1 Interrupt
     I2C_IRQHandler,                      	// I2C0
@@ -304,9 +301,9 @@ ResetISR(void) {
 	bss_init ((unsigned int)ExeAddr, SectionLen);
 #endif
 
-//#ifdef __USE_CMSIS
+#ifdef __USE_CMSIS
 	SystemInit();
-//#endif
+#endif
 
 #if defined (__cplusplus)
 	//
@@ -328,6 +325,7 @@ ResetISR(void) {
 		;
 	}
 }
+
 //*****************************************************************************
 // Default exception handlers. Override the ones here by defining your own
 // handler routines in your application code.
@@ -347,7 +345,7 @@ void HardFault_Handler(void)
     }
 }
 __attribute__ ((section(".after_vectors")))
-void SVCall_Handler(void)
+void SVC_Handler(void)
 {
     while(1)
     {
@@ -381,4 +379,4 @@ void IntDefaultHandler(void)
     {
     }
 }
-
+#endif

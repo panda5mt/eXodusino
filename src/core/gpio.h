@@ -8,7 +8,7 @@
 #define GPIO_H_
 
 //#if defined (__USE_CMSIS)
-#include "LPC11xx.h"
+#include <lpcdevice.h>
 
 #ifdef __cplusplus
   extern "C" {

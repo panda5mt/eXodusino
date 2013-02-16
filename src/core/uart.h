@@ -25,7 +25,7 @@
  * DEALINGS IN THE SOFTWARE.
  ******************************************************************************/
 
-#include "LPC11xx.h"
+#include <lpcdevice.h>
 #include "Print.h"
 
 #ifdef __cplusplus

@@ -44,8 +44,7 @@
  ******************************************************************************/
 
 
-#include "LPC11xx.h"
-#include "system_LPC11xx.h"
+#include <lpcdevice.h>
 #include "delay.h"
 #include "gpio.h"
 #include "uart.h"

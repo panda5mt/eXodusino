@@ -22,7 +22,7 @@
  *
  ******************************************************************************/
 
-
+#if defined(USE_LPC1114)
 #include <stdint.h>
 #include "LPC11xx.h"
 
@@ -460,3 +460,4 @@ void SystemInit (void)
   LPC_SYSCON->SYSMEMREMAP = SYSMEMREMAP_Val;
 #endif
 }
+#endif
