@@ -28,11 +28,13 @@ MARYOLED oled;
 
 MARYOLED::MARYOLED()	//default : MARY
 {
+#if (defined(USE_LPC1114) | defined(USE_LPC1115))
 	this->OLED_VCC_ON = C21;
 	this->OLED_CS = C33;
 	this->OLED_RES = C31;
     this->device = OLED;
     port = marySSP0;
+#endif
     _row = 0;
     _column = 0;
     _foreground = 0x00FFFFFF;
@@ -46,18 +48,14 @@ MARYOLED::~MARYOLED()
 void MARYOLED::reset(SSP_PORT port)
 {
 	this->port = port;
+#if defined(USE_LPC1114) | defined(USE_LPC1115)
 	if(port==LPCXSSP0)	//LPCXpresso 1114 + MAPLE
 	{
 		this->OLED_VCC_ON = P0_7;
 		this->OLED_CS = P0_2;
 		this->OLED_RES = P0_1;
 	}
-	pinMode(OLED_VCC_ON,OUTPUT);
-	pinMode(OLED_RES,OUTPUT);
-	pinMode(OLED_CS,OUTPUT);
-
-	digitalWrite(OLED_RES,HIGH);
-	digitalWrite(OLED_VCC_ON,LOW);
+#endif
 
 	reset();
 	return;
@@ -90,6 +88,19 @@ void MARYOLED::reset() {
 	    0x96, 0x9b, 0xa0, 0xa5,
 	    0xaa, 0xaf, 0xb4
 	};
+
+#if defined(USE_LPC800)
+	this->OLED_VCC_ON = P0_5;//P0_7;
+	this->OLED_CS = P0_13;  //C33;
+	this->OLED_RES = P0_16;//38
+#endif
+
+	pinMode(OLED_VCC_ON,OUTPUT);
+	pinMode(OLED_RES,OUTPUT);
+	pinMode(OLED_CS,OUTPUT);
+
+	digitalWrite(OLED_RES,HIGH);
+	digitalWrite(OLED_VCC_ON,LOW);
 
 	// setup the _spi interface and bring display out of reset
 	digitalWrite( OLED_CS, HIGH );

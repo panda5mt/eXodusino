@@ -12,13 +12,7 @@ CPP_SRCS += \
 ../src/core/Wire.cpp \
 ../src/core/analogio.cpp \
 ../src/core/arithmetical.cpp \
-../src/core/cr_cpp_config.cpp \
-../src/core/cr_startup_lpc11.cpp \
-../src/core/delay.cpp \
-../src/core/gpio.cpp \
-../src/core/gpio_int.cpp \
 ../src/core/startup_mary.cpp \
-../src/core/system_LPC11xx.cpp \
 ../src/core/uart.cpp 
 
 OBJS += \
@@ -30,13 +24,7 @@ OBJS += \
 ./src/core/Wire.o \
 ./src/core/analogio.o \
 ./src/core/arithmetical.o \
-./src/core/cr_cpp_config.o \
-./src/core/cr_startup_lpc11.o \
-./src/core/delay.o \
-./src/core/gpio.o \
-./src/core/gpio_int.o \
 ./src/core/startup_mary.o \
-./src/core/system_LPC11xx.o \
 ./src/core/uart.o 
 
 CPP_DEPS += \
@@ -48,13 +36,7 @@ CPP_DEPS += \
 ./src/core/Wire.d \
 ./src/core/analogio.d \
 ./src/core/arithmetical.d \
-./src/core/cr_cpp_config.d \
-./src/core/cr_startup_lpc11.d \
-./src/core/delay.d \
-./src/core/gpio.d \
-./src/core/gpio_int.d \
 ./src/core/startup_mary.d \
-./src/core/system_LPC11xx.d \
 ./src/core/uart.d 
 
 
@@ -62,7 +44,7 @@ CPP_DEPS += \
 src/core/%.o: ../src/core/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU C++ Compiler'
-	arm-none-eabi-c++ -D__NEWLIB__ -DNEXTPINO -DNO_EXTCLK -DNDEBUG -D__CODE_RED -I"/Users/lynxeyed/Documents/workspace/eXodusino/src" -I"/Users/lynxeyed/Documents/workspace/eXodusino/src/Samples" -I"/Users/lynxeyed/Documents/workspace/eXodusino/src/XBee" -I"/Users/lynxeyed/Documents/workspace/eXodusino/src/FatFs" -I"/Users/lynxeyed/Documents/workspace/eXodusino/src/core" -Os -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m0 -mthumb -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	arm-none-eabi-c++ -D__NEWLIB__ -DUSE_LPC1114 -DNEXTPINO -DNO_EXTCLK -DNDEBUG -D__CODE_RED -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/Samples" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/XBee" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/FatFs" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core" -Os -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m0 -mthumb -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

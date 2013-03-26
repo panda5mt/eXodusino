@@ -11,8 +11,7 @@ src/Samples/maryoled.d: ../src/Samples/maryoled.cpp \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/Print.h \
  ../src/Samples/maryoled.h \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/SPI.h \
- /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/gpio.h \
- /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/gpio.h
+ /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1115/gpio.h
 
 /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/delay.h:
 
@@ -38,6 +37,4 @@ src/Samples/maryoled.d: ../src/Samples/maryoled.cpp \
 
 /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/SPI.h:
 
-/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/gpio.h:
-
-/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/gpio.h:
+/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1115/gpio.h:

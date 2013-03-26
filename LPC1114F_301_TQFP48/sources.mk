@@ -26,6 +26,7 @@ C_UPPER_DEPS :=
 SUBDIRS := \
 src \
 src/core \
+src/core/device_dependent/lpc800 \
 src/core/device_dependent/lpc1115 \
 src/core/device_dependent/lpc1114 \
 src/XBee \

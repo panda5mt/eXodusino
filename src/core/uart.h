@@ -28,21 +28,13 @@
 #include <lpcdevice.h>
 #include "Print.h"
 
+#include <uart_middle.h>
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-/*! @enum SERIAL_PORT
- @brief COMポート(UART)のチャンネル選択。
- @note UARTが1ポートしかないMARYでは使用していないので特に影響はないが、2ポート以上UARTが存在するLPCXpressoシリーズや
- mbedシリーズとの後方互換性を考慮し用意している
- */
-typedef enum {
-	marySerial1, /*!< MARYのUARTポート(デフォルト) */
-	mbedSerial1, /*!< mbed(LPC1768/9)のUART1ポート（将来的に対応予定） */
-	mbedSerial2
-/*!< mbed(LPC1768/9)のUART2ポート（将来的に対応予定） */
-} SERIAL_PORT; // Defaults:marySerial1
+
 
 class USerial: public Print {
 private:

@@ -7,7 +7,8 @@ src/core/SoftwareSerial.d: ../src/core/SoftwareSerial.cpp \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1115/core_cmFunc.h \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1115/system_LPC11xx.h \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1115/system_LPC11xx.h \
- ../src/core/gpio.h ../src/core/delay.h ../src/core/uart.h
+ /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1115/gpio.h \
+ ../src/core/delay.h ../src/core/uart.h
 
 ../src/core/SoftwareSerial.h:
 
@@ -27,7 +28,7 @@ src/core/SoftwareSerial.d: ../src/core/SoftwareSerial.cpp \
 
 /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1115/system_LPC11xx.h:
 
-../src/core/gpio.h:
+/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1115/gpio.h:
 
 ../src/core/delay.h:
 

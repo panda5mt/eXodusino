@@ -5,14 +5,14 @@ src/XBee/XBee.d: ../src/XBee/XBee.cpp \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114/core_cm0.h \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114/system_LPC11xx.h \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114/system_LPC11xx.h \
- /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/delay.h \
+ /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114/delay.h \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/uart.h \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/Print.h \
- /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/gpio.h \
+ /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114/gpio.h \
+ /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/uart.h \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/analogio.h \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/arithmetical.h \
- ../src/XBee/XBee.h \
- /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/uart.h
+ ../src/XBee/XBee.h
 
 /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/libmary.h:
 
@@ -26,18 +26,18 @@ src/XBee/XBee.d: ../src/XBee/XBee.cpp \
 
 /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114/system_LPC11xx.h:
 
-/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/delay.h:
+/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114/delay.h:
 
 /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/uart.h:
 
 /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/Print.h:
 
-/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/gpio.h:
+/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114/gpio.h:
+
+/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/uart.h:
 
 /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/analogio.h:
 
 /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/arithmetical.h:
 
 ../src/XBee/XBee.h:
-
-/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/uart.h:

@@ -1,7 +1,7 @@
 Archive member included because of file (symbol)
 
 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_thumb1_case_uqi.o)
-                              ./src/core/SPI.o (__gnu_thumb1_case_uqi)
+                              ./src/core/device_dependent/lpc800/lpc8xx_gpio.o (__gnu_thumb1_case_uqi)
 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
                               ./src/core/device_dependent/lpc1115/system_LPC11xx.o (__aeabi_uidiv)
 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
@@ -103,6 +103,88 @@ __end_of_heap       0x4               /Applications/lpcxpresso_5.1.0_2048/lpcxpr
 
 Discarded input sections
 
+ .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/cr_cpp_config.o
+ .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/cr_cpp_config.o
+ .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/cr_cpp_config.o
+ .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/cr_startup_lpc8xx.o
+ .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/cr_startup_lpc8xx.o
+ .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/cr_startup_lpc8xx.o
+ .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/gpio.o
+ .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/gpio.o
+ .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/gpio.o
+ .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/gpio_int.o
+ .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/gpio_int.o
+ .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/gpio_int.o
+ .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z14PININT_Handlerm
+                0x0000000000000000       0xdc ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z18PININT0_IRQHandlerv
+                0x0000000000000000        0xa ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z18PININT1_IRQHandlerv
+                0x0000000000000000        0xa ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z18PININT2_IRQHandlerv
+                0x0000000000000000        0xa ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z15PIN3_IRQHandlerv
+                0x0000000000000000        0xa ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z18PININT4_IRQHandlerv
+                0x0000000000000000        0xa ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z18PININT5_IRQHandlerv
+                0x0000000000000000        0xa ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z18PININT6_IRQHandlerv
+                0x0000000000000000        0xa ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z18PININT7_IRQHandlerv
+                0x0000000000000000        0xa ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z8GPIOInitv
+                0x0000000000000000       0x28 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z19GPIOSetPinInterruptmmmmm
+                0x0000000000000000       0x6c ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z16GPIOPinIntEnablemm
+                0x0000000000000000       0x28 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z17GPIOPinIntDisablemm
+                0x0000000000000000       0x28 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z16GPIOPinIntStatusm
+                0x0000000000000000       0x18 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z15GPIOPinIntClearm
+                0x0000000000000000       0x18 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z15GPIOGetPinValuemm
+                0x0000000000000000       0x2e ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z15GPIOSetBitValuemmm
+                0x0000000000000000       0x1c ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z10GPIOSetDirmmm
+                0x0000000000000000       0x26 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z20GPIOPatternMatchInitv
+                0x0000000000000000       0x10 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z24GPIOSetPatternMatchInputmmm
+                0x0000000000000000       0x10 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z24GPIOSetPatternMatchSlicemmmm
+                0x0000000000000000       0x58 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text._Z22GPIOPatternMatchEnablemm
+                0x0000000000000000       0x2c ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .bss.gint1_counter
+                0x0000000000000000        0x4 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .bss.flex_int_falling_edge_counter
+                0x0000000000000000       0x20 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .bss.gint0_counter
+                0x0000000000000000        0x4 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .bss.gint0_edge_counter
+                0x0000000000000000        0x4 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .bss.gint0_level_counter
+                0x0000000000000000        0x4 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .bss.flex_int_counter
+                0x0000000000000000       0x20 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .bss.flex_int_rising_edge_counter
+                0x0000000000000000       0x20 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .bss.gint1_level_counter
+                0x0000000000000000        0x4 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .bss.gint1_edge_counter
+                0x0000000000000000        0x4 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .bss.flex_int_level_counter
+                0x0000000000000000       0x20 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/system_LPC8xx.o
+ .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/system_LPC8xx.o
+ .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/system_LPC8xx.o
  .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
  .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
  .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
@@ -115,6 +197,34 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
  .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
  .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
+ .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/gpio.o
+ .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/gpio.o
+ .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/gpio.o
+ .text.digitalRead
+                0x0000000000000000       0x48 ./src/core/device_dependent/lpc1115/gpio.o
+ .text.GPIOSetInterrupt
+                0x0000000000000000      0x130 ./src/core/device_dependent/lpc1115/gpio.o
+ .text.GPIOIntEnable
+                0x0000000000000000       0x4c ./src/core/device_dependent/lpc1115/gpio.o
+ .text.GPIOIntDisable
+                0x0000000000000000       0x48 ./src/core/device_dependent/lpc1115/gpio.o
+ .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .text.NVIC_EnableIRQ
+                0x0000000000000000       0x14 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .text.NVIC_DisableIRQ
+                0x0000000000000000       0x14 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .text.attachInterrupt
+                0x0000000000000000       0xac ./src/core/device_dependent/lpc1115/gpio_int.o
+ .text.detachInterrupt
+                0x0000000000000000       0x78 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .rodata._ZL8LPC_GPIO
+                0x0000000000000000       0x10 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .rodata._ZL14mary_pinAssign
+                0x0000000000000000       0xe0 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .rodata._ZL17arduino_pinAssign
+                0x0000000000000000       0xb8 ./src/core/device_dependent/lpc1115/gpio_int.o
  .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
  .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
  .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
@@ -130,6 +240,12 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1114/cr_startup_lpc11.o
  .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1114/cr_startup_lpc11.o
  .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc1114/cr_startup_lpc11.o
+ .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1114/gpio.o
+ .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1114/gpio.o
+ .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc1114/gpio.o
+ .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1114/gpio_int.o
+ .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1114/gpio_int.o
+ .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc1114/gpio_int.o
  .text          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1114/system_LPC11xx.o
  .data          0x0000000000000000        0x0 ./src/core/device_dependent/lpc1114/system_LPC11xx.o
  .bss           0x0000000000000000        0x0 ./src/core/device_dependent/lpc1114/system_LPC11xx.o
@@ -201,10 +317,14 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./src/core/Print.o
  .data          0x0000000000000000        0x0 ./src/core/Print.o
  .bss           0x0000000000000000        0x0 ./src/core/Print.o
+ .text._ZN5Print5printEPKc
+                0x0000000000000000       0x1a ./src/core/Print.o
  .text._ZN5Print5printEi12RADIX_FORMAT
                 0x0000000000000000      0x128 ./src/core/Print.o
  .text._ZN5Print5writeEPKci
                 0x0000000000000000       0x1e ./src/core/Print.o
+ .text._ZN5Print7printlnEPKc
+                0x0000000000000000       0x12 ./src/core/Print.o
  .text._ZN5Print7printlnEi12RADIX_FORMAT
                 0x0000000000000000       0x12 ./src/core/Print.o
  .text._ZN5Print5printEc
@@ -405,20 +525,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./src/core/analogio.o
  .data          0x0000000000000000        0x0 ./src/core/analogio.o
  .bss           0x0000000000000000        0x0 ./src/core/analogio.o
- .text.NVIC_SetPriority.constprop.2
-                0x0000000000000000       0x5c ./src/core/analogio.o
  .text._Z23pwm_eucledean_algorithmi
                 0x0000000000000000        0x2 ./src/core/analogio.o
- .text.setup_TIMER16_0
-                0x0000000000000000       0x54 ./src/core/analogio.o
- .text.setup_TIMER16_1
-                0x0000000000000000       0x48 ./src/core/analogio.o
- .text.analogWrite
-                0x0000000000000000       0xc8 ./src/core/analogio.o
- .bss._ZL13pwm_init_done
-                0x0000000000000000        0x4 ./src/core/analogio.o
- .bss._ZL17pwm_already_inuse
-                0x0000000000000000        0x4 ./src/core/analogio.o
  .text          0x0000000000000000        0x0 ./src/core/arithmetical.o
  .data          0x0000000000000000        0x0 ./src/core/arithmetical.o
  .bss           0x0000000000000000        0x0 ./src/core/arithmetical.o
@@ -445,34 +553,6 @@ Discarded input sections
                 0x0000000000000000       0x40 ./src/core/delay.o
  .text.detachMicroseconds
                 0x0000000000000000       0x1c ./src/core/delay.o
- .text          0x0000000000000000        0x0 ./src/core/gpio.o
- .data          0x0000000000000000        0x0 ./src/core/gpio.o
- .bss           0x0000000000000000        0x0 ./src/core/gpio.o
- .text.digitalRead
-                0x0000000000000000       0x48 ./src/core/gpio.o
- .text.GPIOSetInterrupt
-                0x0000000000000000      0x130 ./src/core/gpio.o
- .text.GPIOIntEnable
-                0x0000000000000000       0x4c ./src/core/gpio.o
- .text.GPIOIntDisable
-                0x0000000000000000       0x48 ./src/core/gpio.o
- .text          0x0000000000000000        0x0 ./src/core/gpio_int.o
- .data          0x0000000000000000        0x0 ./src/core/gpio_int.o
- .bss           0x0000000000000000        0x0 ./src/core/gpio_int.o
- .text.NVIC_EnableIRQ
-                0x0000000000000000       0x14 ./src/core/gpio_int.o
- .text.NVIC_DisableIRQ
-                0x0000000000000000       0x14 ./src/core/gpio_int.o
- .text.attachInterrupt
-                0x0000000000000000       0xac ./src/core/gpio_int.o
- .text.detachInterrupt
-                0x0000000000000000       0x78 ./src/core/gpio_int.o
- .rodata._ZL8LPC_GPIO
-                0x0000000000000000       0x10 ./src/core/gpio_int.o
- .rodata._ZL14mary_pinAssign
-                0x0000000000000000       0xe0 ./src/core/gpio_int.o
- .rodata._ZL17arduino_pinAssign
-                0x0000000000000000       0xb8 ./src/core/gpio_int.o
  .text          0x0000000000000000        0x0 ./src/core/startup_mary.o
  .data          0x0000000000000000        0x0 ./src/core/startup_mary.o
  .bss           0x0000000000000000        0x0 ./src/core/startup_mary.o
@@ -2097,11 +2177,21 @@ RamLoc8          0x0000000010000000 0x0000000000002000 xrw
 
 Linker script and memory map
 
+LOAD ./src/core/device_dependent/lpc800/cr_cpp_config.o
+LOAD ./src/core/device_dependent/lpc800/cr_startup_lpc8xx.o
+LOAD ./src/core/device_dependent/lpc800/gpio.o
+LOAD ./src/core/device_dependent/lpc800/gpio_int.o
+LOAD ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+LOAD ./src/core/device_dependent/lpc800/system_LPC8xx.o
 LOAD ./src/core/device_dependent/lpc1115/cr_cpp_config.o
 LOAD ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
+LOAD ./src/core/device_dependent/lpc1115/gpio.o
+LOAD ./src/core/device_dependent/lpc1115/gpio_int.o
 LOAD ./src/core/device_dependent/lpc1115/system_LPC11xx.o
 LOAD ./src/core/device_dependent/lpc1114/cr_cpp_config.o
 LOAD ./src/core/device_dependent/lpc1114/cr_startup_lpc11.o
+LOAD ./src/core/device_dependent/lpc1114/gpio.o
+LOAD ./src/core/device_dependent/lpc1114/gpio_int.o
 LOAD ./src/core/device_dependent/lpc1114/system_LPC11xx.o
 LOAD ./src/core/LiquidCrystal.o
 LOAD ./src/core/Print.o
@@ -2112,8 +2202,6 @@ LOAD ./src/core/Wire.o
 LOAD ./src/core/analogio.o
 LOAD ./src/core/arithmetical.o
 LOAD ./src/core/delay.o
-LOAD ./src/core/gpio.o
-LOAD ./src/core/gpio_int.o
 LOAD ./src/core/startup_mary.o
 LOAD ./src/core/uart.o
 LOAD ./src/XBee/XBee.o
@@ -2136,7 +2224,7 @@ END GROUP
                 0x0000000000010000                __top_MFlash64 = 0x10000
                 0x0000000010002000                __top_RamLoc8 = 0x10002000
 
-.text           0x0000000000000000      0xe44
+.text           0x0000000000000000      0xfcc
  FILL mask 0xff
  *(.isr_vector)
  .isr_vector    0x0000000000000000       0xc0 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
@@ -2144,13 +2232,13 @@ END GROUP
                 0x00000000000000c0                . = ALIGN (0x4)
                 0x00000000000000c0                __section_table_start = .
                 0x00000000000000c0                __data_section_table = .
-                0x00000000000000c0        0x4 LONG 0xe44 LOADADDR (.data)
+                0x00000000000000c0        0x4 LONG 0xfcc LOADADDR (.data)
                 0x00000000000000c4        0x4 LONG 0x10000000 ADDR (.data)
                 0x00000000000000c8        0x4 LONG 0x8 SIZEOF (.data)
                 0x00000000000000cc                __data_section_table_end = .
                 0x00000000000000cc                __bss_section_table = .
                 0x00000000000000cc        0x4 LONG 0x10000008 ADDR (.bss)
-                0x00000000000000d0        0x4 LONG 0x190 SIZEOF (.bss)
+                0x00000000000000d0        0x4 LONG 0x198 SIZEOF (.bss)
                 0x00000000000000d4                __bss_section_table_end = .
                 0x00000000000000d4                __section_table_end = .
  *(.after_vectors*)
@@ -2178,228 +2266,232 @@ END GROUP
  .text.__aeabi_atexit
                 0x0000000000000154        0x4 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
                 0x0000000000000154                __aeabi_atexit
- .text._ZN5Print7printlnEv
-                0x0000000000000158       0x18 ./src/core/Print.o
-                0x0000000000000158                _ZN5Print7printlnEv
- .text._ZN5Print5printEPKc
-                0x0000000000000170       0x1a ./src/core/Print.o
-                0x0000000000000170                _ZN5Print5printEPKc
- .text._ZN5Print7printlnEPKc
-                0x000000000000018a       0x12 ./src/core/Print.o
-                0x000000000000018a                _ZN5Print7printlnEPKc
- .text._ZN3SSPD2Ev
-                0x000000000000019c        0x2 ./src/core/SPI.o
-                0x000000000000019c                _ZN3SSPD2Ev
-                0x000000000000019c                _ZN3SSPD1Ev
- *fill*         0x000000000000019e        0x2 00
- .text.ssp_begin
-                0x00000000000001a0       0xf8 ./src/core/SPI.o
-                0x00000000000001a0                ssp_begin
- .text._ZN3SSP5beginEv
-                0x0000000000000298       0x12 ./src/core/SPI.o
-                0x0000000000000298                _ZN3SSP5beginEv
- .text._ZN3SSPC2Ev
-                0x00000000000002aa       0x1c ./src/core/SPI.o
-                0x00000000000002aa                _ZN3SSPC2Ev
-                0x00000000000002aa                _ZN3SSPC1Ev
- *fill*         0x00000000000002c6        0x2 00
- .text.startup._GLOBAL__sub_I_SPI
-                0x00000000000002c8       0x24 ./src/core/SPI.o
- .text._ZN4SSP1D2Ev
-                0x00000000000002ec        0x2 ./src/core/SPI1.o
-                0x00000000000002ec                _ZN4SSP1D2Ev
-                0x00000000000002ec                _ZN4SSP1D1Ev
- *fill*         0x00000000000002ee        0x2 00
- .text.ssp1_begin
-                0x00000000000002f0       0xf0 ./src/core/SPI1.o
-                0x00000000000002f0                ssp1_begin
- .text._ZN4SSP15beginEv
-                0x00000000000003e0       0x12 ./src/core/SPI1.o
-                0x00000000000003e0                _ZN4SSP15beginEv
- .text._ZN4SSP1C2Ev
-                0x00000000000003f2       0x1c ./src/core/SPI1.o
-                0x00000000000003f2                _ZN4SSP1C2Ev
-                0x00000000000003f2                _ZN4SSP1C1Ev
- *fill*         0x000000000000040e        0x2 00
- .text.startup._GLOBAL__sub_I_SPI1
-                0x0000000000000410       0x24 ./src/core/SPI1.o
- .text.TIMER16_0_IRQHandler
-                0x0000000000000434       0xe0 ./src/core/analogio.o
-                0x0000000000000434                TIMER16_0_IRQHandler
- .text.TIMER16_1_IRQHandler
-                0x0000000000000514        0x8 ./src/core/analogio.o
-                0x0000000000000514                TIMER16_1_IRQHandler
- .text.NVIC_SetPriority
-                0x000000000000051c       0x64 ./src/core/delay.o
- .text.delay    0x0000000000000580       0x18 ./src/core/delay.o
-                0x0000000000000580                delay
- .text.setup_TIMER32_1
-                0x0000000000000598       0x2c ./src/core/delay.o
-                0x0000000000000598                setup_TIMER32_1
- .text.TIMER32_1_IRQHandler
-                0x00000000000005c4       0x24 ./src/core/delay.o
-                0x00000000000005c4                TIMER32_1_IRQHandler
- .text.SysTick_Handler
-                0x00000000000005e8       0x10 ./src/core/delay.o
-                0x00000000000005e8                SysTick_Handler
- .text.setup_systick
-                0x00000000000005f8       0x34 ./src/core/delay.o
-                0x00000000000005f8                setup_systick
- .text.pinMode  0x000000000000062c      0x140 ./src/core/gpio.o
-                0x000000000000062c                pinMode
+ .text.pinMode  0x0000000000000158      0x140 ./src/core/device_dependent/lpc1115/gpio.o
+                0x0000000000000158                pinMode
  .text.digitalWrite
-                0x000000000000076c       0xac ./src/core/gpio.o
-                0x000000000000076c                digitalWrite
+                0x0000000000000298       0xac ./src/core/device_dependent/lpc1115/gpio.o
+                0x0000000000000298                digitalWrite
  .text.GPIOIntStatus
-                0x0000000000000818       0x50 ./src/core/gpio.o
-                0x0000000000000818                GPIOIntStatus
+                0x0000000000000344       0x50 ./src/core/device_dependent/lpc1115/gpio.o
+                0x0000000000000344                GPIOIntStatus
  .text.GPIOIntClear
-                0x0000000000000868       0x4c ./src/core/gpio.o
-                0x0000000000000868                GPIOIntClear
+                0x0000000000000394       0x4c ./src/core/device_dependent/lpc1115/gpio.o
+                0x0000000000000394                GPIOIntClear
  .text.GPIO_IRQHandler
-                0x00000000000008b4       0x30 ./src/core/gpio_int.o
-                0x00000000000008b4                GPIO_IRQHandler
+                0x00000000000003e0       0x30 ./src/core/device_dependent/lpc1115/gpio_int.o
+                0x00000000000003e0                GPIO_IRQHandler
  .text.PIOINT0_IRQHandler
-                0x00000000000008e4        0x8 ./src/core/gpio_int.o
-                0x00000000000008e4                PIOINT0_IRQHandler
+                0x0000000000000410        0x8 ./src/core/device_dependent/lpc1115/gpio_int.o
+                0x0000000000000410                PIOINT0_IRQHandler
  .text.PIOINT1_IRQHandler
-                0x00000000000008ec        0x8 ./src/core/gpio_int.o
-                0x00000000000008ec                PIOINT1_IRQHandler
+                0x0000000000000418        0x8 ./src/core/device_dependent/lpc1115/gpio_int.o
+                0x0000000000000418                PIOINT1_IRQHandler
  .text.PIOINT2_IRQHandler
-                0x00000000000008f4        0x8 ./src/core/gpio_int.o
-                0x00000000000008f4                PIOINT2_IRQHandler
+                0x0000000000000420        0x8 ./src/core/device_dependent/lpc1115/gpio_int.o
+                0x0000000000000420                PIOINT2_IRQHandler
  .text.PIOINT3_IRQHandler
-                0x00000000000008fc        0x8 ./src/core/gpio_int.o
-                0x00000000000008fc                PIOINT3_IRQHandler
+                0x0000000000000428        0x8 ./src/core/device_dependent/lpc1115/gpio_int.o
+                0x0000000000000428                PIOINT3_IRQHandler
+ .text._ZN5Print7printlnEv
+                0x0000000000000430       0x18 ./src/core/Print.o
+                0x0000000000000430                _ZN5Print7printlnEv
+ .text._ZN3SSPD2Ev
+                0x0000000000000448        0x2 ./src/core/SPI.o
+                0x0000000000000448                _ZN3SSPD2Ev
+                0x0000000000000448                _ZN3SSPD1Ev
+ *fill*         0x000000000000044a        0x2 00
+ .text.ssp_begin
+                0x000000000000044c       0xf8 ./src/core/SPI.o
+                0x000000000000044c                ssp_begin
+ .text._ZN3SSP5beginEv
+                0x0000000000000544       0x12 ./src/core/SPI.o
+                0x0000000000000544                _ZN3SSP5beginEv
+ .text._ZN3SSPC2Ev
+                0x0000000000000556       0x1c ./src/core/SPI.o
+                0x0000000000000556                _ZN3SSPC2Ev
+                0x0000000000000556                _ZN3SSPC1Ev
+ *fill*         0x0000000000000572        0x2 00
+ .text.startup._GLOBAL__sub_I_SPI
+                0x0000000000000574       0x24 ./src/core/SPI.o
+ .text._ZN4SSP1D2Ev
+                0x0000000000000598        0x2 ./src/core/SPI1.o
+                0x0000000000000598                _ZN4SSP1D2Ev
+                0x0000000000000598                _ZN4SSP1D1Ev
+ *fill*         0x000000000000059a        0x2 00
+ .text.ssp1_begin
+                0x000000000000059c       0xf0 ./src/core/SPI1.o
+                0x000000000000059c                ssp1_begin
+ .text._ZN4SSP15beginEv
+                0x000000000000068c       0x12 ./src/core/SPI1.o
+                0x000000000000068c                _ZN4SSP15beginEv
+ .text._ZN4SSP1C2Ev
+                0x000000000000069e       0x1c ./src/core/SPI1.o
+                0x000000000000069e                _ZN4SSP1C2Ev
+                0x000000000000069e                _ZN4SSP1C1Ev
+ *fill*         0x00000000000006ba        0x2 00
+ .text.startup._GLOBAL__sub_I_SPI1
+                0x00000000000006bc       0x24 ./src/core/SPI1.o
+ .text.NVIC_SetPriority.constprop.2
+                0x00000000000006e0       0x5c ./src/core/analogio.o
+ .text.setup_TIMER16_0
+                0x000000000000073c       0x54 ./src/core/analogio.o
+                0x000000000000073c                setup_TIMER16_0
+ .text.setup_TIMER16_1
+                0x0000000000000790       0x48 ./src/core/analogio.o
+                0x0000000000000790                setup_TIMER16_1
+ .text.analogWrite
+                0x00000000000007d8       0xc8 ./src/core/analogio.o
+                0x00000000000007d8                analogWrite
+ .text.TIMER16_0_IRQHandler
+                0x00000000000008a0       0xe0 ./src/core/analogio.o
+                0x00000000000008a0                TIMER16_0_IRQHandler
+ .text.TIMER16_1_IRQHandler
+                0x0000000000000980        0x8 ./src/core/analogio.o
+                0x0000000000000980                TIMER16_1_IRQHandler
+ .text.NVIC_SetPriority
+                0x0000000000000988       0x64 ./src/core/delay.o
+ .text.delay    0x00000000000009ec       0x18 ./src/core/delay.o
+                0x00000000000009ec                delay
+ .text.setup_TIMER32_1
+                0x0000000000000a04       0x2c ./src/core/delay.o
+                0x0000000000000a04                setup_TIMER32_1
+ .text.TIMER32_1_IRQHandler
+                0x0000000000000a30       0x24 ./src/core/delay.o
+                0x0000000000000a30                TIMER32_1_IRQHandler
+ .text.SysTick_Handler
+                0x0000000000000a54       0x10 ./src/core/delay.o
+                0x0000000000000a54                SysTick_Handler
+ .text.setup_systick
+                0x0000000000000a64       0x34 ./src/core/delay.o
+                0x0000000000000a64                setup_systick
  .text.startup.main
-                0x0000000000000904       0x14 ./src/core/startup_mary.o
-                0x0000000000000904                main
+                0x0000000000000a98       0x14 ./src/core/startup_mary.o
+                0x0000000000000a98                main
  .text._ZN7USerialD2Ev
-                0x0000000000000918        0xc ./src/core/uart.o
-                0x0000000000000918                _ZN7USerialD1Ev
-                0x0000000000000918                _ZN7USerialD2Ev
+                0x0000000000000aac        0xc ./src/core/uart.o
+                0x0000000000000aac                _ZN7USerialD1Ev
+                0x0000000000000aac                _ZN7USerialD2Ev
  .text._ZN7USerial5writeEc
-                0x0000000000000924       0x18 ./src/core/uart.o
-                0x0000000000000924                _ZN7USerial5writeEc
+                0x0000000000000ab8       0x18 ./src/core/uart.o
+                0x0000000000000ab8                _ZN7USerial5writeEc
  .text._ZN7USerial5beginEi
-                0x000000000000093c       0x7c ./src/core/uart.o
-                0x000000000000093c                _ZN7USerial5beginEi
+                0x0000000000000ad0       0x7c ./src/core/uart.o
+                0x0000000000000ad0                _ZN7USerial5beginEi
  .text.startup._GLOBAL__sub_I_Serial
-                0x00000000000009b8       0x30 ./src/core/uart.o
+                0x0000000000000b4c       0x30 ./src/core/uart.o
  .text.startup._GLOBAL__sub_I__ZN12XBeeResponseC2Ev
-                0x00000000000009e8       0x14 ./src/XBee/XBee.o
+                0x0000000000000b7c       0x14 ./src/XBee/XBee.o
  .text._ZN8MARYOLEDD2Ev
-                0x00000000000009fc        0x2 ./src/Samples/maryoled.o
-                0x00000000000009fc                _ZN8MARYOLEDD1Ev
-                0x00000000000009fc                _ZN8MARYOLEDD2Ev
- *fill*         0x00000000000009fe        0x2 00
+                0x0000000000000b90        0x2 ./src/Samples/maryoled.o
+                0x0000000000000b90                _ZN8MARYOLEDD1Ev
+                0x0000000000000b90                _ZN8MARYOLEDD2Ev
+ *fill*         0x0000000000000b92        0x2 00
  .text._ZN8MARYOLEDC2Ev
-                0x0000000000000a00       0x24 ./src/Samples/maryoled.o
-                0x0000000000000a00                _ZN8MARYOLEDC1Ev
-                0x0000000000000a00                _ZN8MARYOLEDC2Ev
+                0x0000000000000b94       0x24 ./src/Samples/maryoled.o
+                0x0000000000000b94                _ZN8MARYOLEDC1Ev
+                0x0000000000000b94                _ZN8MARYOLEDC2Ev
  .text.startup._GLOBAL__sub_I_oled
-                0x0000000000000a24       0x24 ./src/Samples/maryoled.o
+                0x0000000000000bb8       0x24 ./src/Samples/maryoled.o
  .text._ZN7PETITFSD2Ev
-                0x0000000000000a48        0x2 ./src/FatFs/SD.o
-                0x0000000000000a48                _ZN7PETITFSD2Ev
-                0x0000000000000a48                _ZN7PETITFSD1Ev
- *fill*         0x0000000000000a4a        0x2 00
+                0x0000000000000bdc        0x2 ./src/FatFs/SD.o
+                0x0000000000000bdc                _ZN7PETITFSD2Ev
+                0x0000000000000bdc                _ZN7PETITFSD1Ev
+ *fill*         0x0000000000000bde        0x2 00
  .text.startup._GLOBAL__sub_I_SDFile
-                0x0000000000000a4c       0x24 ./src/FatFs/SD.o
+                0x0000000000000be0       0x24 ./src/FatFs/SD.o
  .text._Z5setupv
-                0x0000000000000a70       0x1c ./src/user_application.o
-                0x0000000000000a70                _Z5setupv
+                0x0000000000000c04       0x1c ./src/user_application.o
+                0x0000000000000c04                _Z5setupv
  .text._Z4loopv
-                0x0000000000000a8c       0x34 ./src/user_application.o
-                0x0000000000000a8c                _Z4loopv
- .text          0x0000000000000ac0       0x14 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_thumb1_case_uqi.o)
-                0x0000000000000ac0                __gnu_thumb1_case_uqi
- .text          0x0000000000000ad4       0x9c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
-                0x0000000000000ad4                __udivsi3
-                0x0000000000000ad4                __aeabi_uidiv
-                0x0000000000000b5c                __aeabi_uidivmod
- .text          0x0000000000000b70        0x4 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_dvmd_tls.o)
-                0x0000000000000b70                __aeabi_ldiv0
-                0x0000000000000b70                __aeabi_idiv0
+                0x0000000000000c20       0x32 ./src/user_application.o
+                0x0000000000000c20                _Z4loopv
+ *fill*         0x0000000000000c52        0x2 00
+ .text          0x0000000000000c54       0x14 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+                0x0000000000000c54                __gnu_thumb1_case_uqi
+ .text          0x0000000000000c68       0x9c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
+                0x0000000000000c68                __udivsi3
+                0x0000000000000c68                __aeabi_uidiv
+                0x0000000000000cf0                __aeabi_uidivmod
+ .text          0x0000000000000d04        0x4 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x0000000000000d04                __aeabi_ldiv0
+                0x0000000000000d04                __aeabi_idiv0
  .text.__libc_init_array
-                0x0000000000000b74       0x44 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
-                0x0000000000000b74                __libc_init_array
- .text          0x0000000000000bb8       0x60 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtbegin.o
+                0x0000000000000d08       0x44 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+                0x0000000000000d08                __libc_init_array
+ .text          0x0000000000000d4c       0x60 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtbegin.o
  *(.rodata .rodata.*)
  .rodata._ZL9IOCON_LUT
-                0x0000000000000c18       0x30 ./src/core/gpio.o
+                0x0000000000000dac       0x30 ./src/core/device_dependent/lpc1115/gpio.o
  .rodata._ZL8LPC_GPIO
-                0x0000000000000c48       0x10 ./src/core/gpio.o
+                0x0000000000000ddc       0x10 ./src/core/device_dependent/lpc1115/gpio.o
  .rodata._ZL14mary_pinAssign
-                0x0000000000000c58       0xe0 ./src/core/gpio.o
+                0x0000000000000dec       0xe0 ./src/core/device_dependent/lpc1115/gpio.o
  .rodata._ZL17arduino_pinAssign
-                0x0000000000000d38       0xb8 ./src/core/gpio.o
+                0x0000000000000ecc       0xb8 ./src/core/device_dependent/lpc1115/gpio.o
+ *fill*         0x0000000000000f84        0x4 00
  .rodata._ZTV7USerial
-                0x0000000000000df0       0x10 ./src/core/uart.o
-                0x0000000000000df0                _ZTV7USerial
- .rodata.str1.1
-                0x0000000000000e00        0xd ./src/user_application.o
-                0x0000000000000e10                . = ALIGN (0x4)
- *fill*         0x0000000000000e0d        0x3 ff
-                0x0000000000000e10                . = ALIGN (0x4)
+                0x0000000000000f88       0x10 ./src/core/uart.o
+                0x0000000000000f88                _ZTV7USerial
+                0x0000000000000f98                . = ALIGN (0x4)
+                0x0000000000000f98                . = ALIGN (0x4)
  *(.init)
- .init          0x0000000000000e10        0x4 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crti.o
-                0x0000000000000e10                _init
- .init          0x0000000000000e14        0x8 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtn.o
-                0x0000000000000e1c                . = ALIGN (0x4)
-                0x0000000000000e1c                __preinit_array_start = .
+ .init          0x0000000000000f98        0x4 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crti.o
+                0x0000000000000f98                _init
+ .init          0x0000000000000f9c        0x8 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtn.o
+                0x0000000000000fa4                . = ALIGN (0x4)
+                0x0000000000000fa4                __preinit_array_start = .
  *(.preinit_array)
-                0x0000000000000e1c                __preinit_array_end = .
-                0x0000000000000e1c                . = ALIGN (0x4)
-                0x0000000000000e1c                __init_array_start = .
+                0x0000000000000fa4                __preinit_array_end = .
+                0x0000000000000fa4                . = ALIGN (0x4)
+                0x0000000000000fa4                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x0000000000000e1c        0x4 ./src/core/SPI.o
- .init_array    0x0000000000000e20        0x4 ./src/core/SPI1.o
- .init_array    0x0000000000000e24        0x4 ./src/core/uart.o
- .init_array    0x0000000000000e28        0x4 ./src/XBee/XBee.o
- .init_array    0x0000000000000e2c        0x4 ./src/Samples/maryoled.o
- .init_array    0x0000000000000e30        0x4 ./src/FatFs/SD.o
- .init_array    0x0000000000000e34        0x4 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtbegin.o
-                0x0000000000000e38                __init_array_end = .
+ .init_array    0x0000000000000fa4        0x4 ./src/core/SPI.o
+ .init_array    0x0000000000000fa8        0x4 ./src/core/SPI1.o
+ .init_array    0x0000000000000fac        0x4 ./src/core/uart.o
+ .init_array    0x0000000000000fb0        0x4 ./src/XBee/XBee.o
+ .init_array    0x0000000000000fb4        0x4 ./src/Samples/maryoled.o
+ .init_array    0x0000000000000fb8        0x4 ./src/FatFs/SD.o
+ .init_array    0x0000000000000fbc        0x4 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtbegin.o
+                0x0000000000000fc0                __init_array_end = .
  *(.fini)
- .fini          0x0000000000000e38        0x4 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crti.o
-                0x0000000000000e38                _fini
- .fini          0x0000000000000e3c        0x8 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtn.o
-                0x0000000000000e44                . = ALIGN (0x4)
+ .fini          0x0000000000000fc0        0x4 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crti.o
+                0x0000000000000fc0                _fini
+ .fini          0x0000000000000fc4        0x8 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtn.o
+                0x0000000000000fcc                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x0000000000000e44                . = ALIGN (0x4)
+                0x0000000000000fcc                . = ALIGN (0x4)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
 
-.glue_7         0x0000000000000e44        0x0
+.glue_7         0x0000000000000fcc        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
 
-.glue_7t        0x0000000000000e44        0x0
+.glue_7t        0x0000000000000fcc        0x0
  .glue_7t       0x0000000000000000        0x0 linker stubs
 
-.vfp11_veneer   0x0000000000000e44        0x0
+.vfp11_veneer   0x0000000000000fcc        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x0000000000000e44        0x0
+.v4_bx          0x0000000000000fcc        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.eh_frame       0x0000000000000e44        0x0
- .eh_frame      0x0000000000000e44        0x0 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtbegin.o
+.eh_frame       0x0000000000000fcc        0x0
+ .eh_frame      0x0000000000000fcc        0x0 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000000000e44                __exidx_start = .
+                0x0000000000000fcc                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000000000e44                __exidx_end = .
-                0x0000000000000e44                _etext = .
+                0x0000000000000fcc                __exidx_end = .
+                0x0000000000000fcc                _etext = .
 
 .uninit_RESERVED
                 0x0000000010000000        0x0
@@ -2407,7 +2499,7 @@ END GROUP
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _end_uninit_RESERVED = .
 
-.data           0x0000000010000000        0x8 load address 0x0000000000000e44
+.data           0x0000000010000000        0x8 load address 0x0000000000000fcc
  FILL mask 0xff
                 0x0000000010000000                _data = .
  *(vtable)
@@ -2420,311 +2512,149 @@ END GROUP
                 0x0000000010000008                . = ALIGN (0x4)
                 0x0000000010000008                _edata = .
 
-.jcr            0x0000000010000008        0x0 load address 0x0000000000000e4c
+.jcr            0x0000000010000008        0x0 load address 0x0000000000000fd4
  .jcr           0x0000000010000008        0x0 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtbegin.o
 
-.bss            0x0000000010000008      0x190 load address 0x0000000000000e4c
+.bss            0x0000000010000008      0x198 load address 0x0000000000000fd4
                 0x0000000010000008                _bss = .
  *(.bss*)
- .bss.SPI       0x0000000010000008        0x8 ./src/core/SPI.o
-                0x0000000010000008                SPI
- .bss.SPI1      0x0000000010000010        0x8 ./src/core/SPI1.o
-                0x0000000010000010                SPI1
- .bss._ZL11pwm_pin_num
-                0x0000000010000018       0x10 ./src/core/analogio.o
- .bss._ZL14pwm_duty_value
-                0x0000000010000028       0x10 ./src/core/analogio.o
- .bss.userfunc  0x0000000010000038        0x4 ./src/core/delay.o
-                0x0000000010000038                userfunc
- .bss._ZL7msTicks
-                0x000000001000003c        0x4 ./src/core/delay.o
  .bss._ZL7intFunc
-                0x0000000010000040       0x58 ./src/core/gpio_int.o
- .bss.Serial    0x0000000010000098        0xc ./src/core/uart.o
-                0x0000000010000098                Serial
+                0x0000000010000008       0x58 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .bss.SPI       0x0000000010000060        0x8 ./src/core/SPI.o
+                0x0000000010000060                SPI
+ .bss.SPI1      0x0000000010000068        0x8 ./src/core/SPI1.o
+                0x0000000010000068                SPI1
+ .bss._ZL11pwm_pin_num
+                0x0000000010000070       0x10 ./src/core/analogio.o
+ .bss._ZL14pwm_duty_value
+                0x0000000010000080       0x10 ./src/core/analogio.o
+ .bss._ZL13pwm_init_done
+                0x0000000010000090        0x4 ./src/core/analogio.o
+ .bss._ZL17pwm_already_inuse
+                0x0000000010000094        0x4 ./src/core/analogio.o
+ .bss.userfunc  0x0000000010000098        0x4 ./src/core/delay.o
+                0x0000000010000098                userfunc
+ .bss._ZL7msTicks
+                0x000000001000009c        0x4 ./src/core/delay.o
+ .bss.Serial    0x00000000100000a0        0xc ./src/core/uart.o
+                0x00000000100000a0                Serial
  .bss._ZN22RemoteAtCommandRequest18broadcastAddress64E
-                0x00000000100000a4        0x8 ./src/XBee/XBee.o
-                0x00000000100000a4                _ZN22RemoteAtCommandRequest18broadcastAddress64E
- .bss.oled      0x00000000100000ac       0x28 ./src/Samples/maryoled.o
-                0x00000000100000ac                oled
- .bss.SDFile    0x00000000100000d4       0xa8 ./src/FatFs/SD.o
-                0x00000000100000d4                SDFile
- .bss           0x000000001000017c       0x1c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtbegin.o
+                0x00000000100000ac        0x8 ./src/XBee/XBee.o
+                0x00000000100000ac                _ZN22RemoteAtCommandRequest18broadcastAddress64E
+ .bss.oled      0x00000000100000b4       0x28 ./src/Samples/maryoled.o
+                0x00000000100000b4                oled
+ .bss.SDFile    0x00000000100000dc       0xa8 ./src/FatFs/SD.o
+                0x00000000100000dc                SDFile
+ .bss           0x0000000010000184       0x1c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtbegin.o
  *(COMMON)
-                0x0000000010000198                . = ALIGN (0x4)
-                0x0000000010000198                _ebss = .
-                0x0000000010000198                PROVIDE (end, .)
+                0x00000000100001a0                . = ALIGN (0x4)
+                0x00000000100001a0                _ebss = .
+                0x00000000100001a0                PROVIDE (end, .)
 
-.noinit         0x0000000010000198        0x0 load address 0x0000000000000e4c
-                0x0000000010000198                _noinit = .
+.noinit         0x00000000100001a0        0x0 load address 0x0000000000000fd4
+                0x00000000100001a0                _noinit = .
  *(.noinit*)
-                0x0000000010000198                . = ALIGN (0x4)
-                0x0000000010000198                _end_noinit = .
-                0x0000000010000198                PROVIDE (_pvHeapStart, .)
+                0x00000000100001a0                . = ALIGN (0x4)
+                0x00000000100001a0                _end_noinit = .
+                0x00000000100001a0                PROVIDE (_pvHeapStart, .)
                 0x0000000010002000                PROVIDE (_vStackTop, (__top_RamLoc8 - 0x0))
 OUTPUT(eXodusino.axf elf32-littlearm)
 
-.debug_info     0x0000000000000000    0x143f2
- .debug_info    0x0000000000000000      0x1b8 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
- .debug_info    0x00000000000001b8      0x248 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
- .debug_info    0x0000000000000400      0x4db ./src/core/device_dependent/lpc1115/system_LPC11xx.o
- .debug_info    0x00000000000008db     0x1201 ./src/core/LiquidCrystal.o
- .debug_info    0x0000000000001adc      0x545 ./src/core/Print.o
- .debug_info    0x0000000000002021     0x12a6 ./src/core/SPI.o
- .debug_info    0x00000000000032c7     0x12a6 ./src/core/SPI1.o
- .debug_info    0x000000000000456d      0xb6d ./src/core/SoftwareSerial.o
- .debug_info    0x00000000000050da     0x27ce ./src/core/Wire.o
- .debug_info    0x00000000000078a8      0xbf0 ./src/core/analogio.o
- .debug_info    0x0000000000008498      0x3ea ./src/core/arithmetical.o
- .debug_info    0x0000000000008882      0xb9b ./src/core/delay.o
- .debug_info    0x000000000000941d      0x514 ./src/core/gpio.o
- .debug_info    0x0000000000009931      0x5ff ./src/core/gpio_int.o
- .debug_info    0x0000000000009f30      0x2ab ./src/core/startup_mary.o
- .debug_info    0x000000000000a1db      0xd87 ./src/core/uart.o
- .debug_info    0x000000000000af62     0x4c45 ./src/XBee/XBee.o
- .debug_info    0x000000000000fba7     0x1308 ./src/Samples/maryoled.o
- .debug_info    0x0000000000010eaf     0x1137 ./src/FatFs/SD.o
- .debug_info    0x0000000000011fe6      0xf7a ./src/FatFs/pff.o
- .debug_info    0x0000000000012f60      0xe71 ./src/FatFs/sdcard.o
- .debug_info    0x0000000000013dd1      0x345 ./src/user_application.o
- .debug_info    0x0000000000014116      0x108 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_info    0x000000000001421e       0x3f /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
- .debug_info    0x000000000001425d       0xb6 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
- .debug_info    0x0000000000014313       0xdf /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
+.debug_abbrev   0x0000000000000000     0x404d
+ .debug_abbrev  0x0000000000000000        0x1 ./src/core/device_dependent/lpc800/cr_cpp_config.o
+ .debug_abbrev  0x0000000000000001        0x1 ./src/core/device_dependent/lpc800/cr_startup_lpc8xx.o
+ .debug_abbrev  0x0000000000000002        0x1 ./src/core/device_dependent/lpc800/gpio.o
+ .debug_abbrev  0x0000000000000003        0x1 ./src/core/device_dependent/lpc800/gpio_int.o
+ .debug_abbrev  0x0000000000000004      0x234 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .debug_abbrev  0x0000000000000238        0x1 ./src/core/device_dependent/lpc800/system_LPC8xx.o
+ .debug_abbrev  0x0000000000000239       0xf9 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
+ .debug_abbrev  0x0000000000000332      0x10d ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
+ .debug_abbrev  0x000000000000043f      0x1ab ./src/core/device_dependent/lpc1115/gpio.o
+ .debug_abbrev  0x00000000000005ea      0x1e6 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .debug_abbrev  0x00000000000007d0       0xd8 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
+ .debug_abbrev  0x00000000000008a8        0x1 ./src/core/device_dependent/lpc1114/cr_cpp_config.o
+ .debug_abbrev  0x00000000000008a9        0x1 ./src/core/device_dependent/lpc1114/cr_startup_lpc11.o
+ .debug_abbrev  0x00000000000008aa        0x1 ./src/core/device_dependent/lpc1114/gpio.o
+ .debug_abbrev  0x00000000000008ab        0x1 ./src/core/device_dependent/lpc1114/gpio_int.o
+ .debug_abbrev  0x00000000000008ac        0x1 ./src/core/device_dependent/lpc1114/system_LPC11xx.o
+ .debug_abbrev  0x00000000000008ad      0x33f ./src/core/LiquidCrystal.o
+ .debug_abbrev  0x0000000000000bec      0x17c ./src/core/Print.o
+ .debug_abbrev  0x0000000000000d68      0x3a8 ./src/core/SPI.o
+ .debug_abbrev  0x0000000000001110      0x384 ./src/core/SPI1.o
+ .debug_abbrev  0x0000000000001494      0x3e4 ./src/core/SoftwareSerial.o
+ .debug_abbrev  0x0000000000001878      0x5c8 ./src/core/Wire.o
+ .debug_abbrev  0x0000000000001e40      0x270 ./src/core/analogio.o
+ .debug_abbrev  0x00000000000020b0      0x18a ./src/core/arithmetical.o
+ .debug_abbrev  0x000000000000223a      0x279 ./src/core/delay.o
+ .debug_abbrev  0x00000000000024b3       0xff ./src/core/startup_mary.o
+ .debug_abbrev  0x00000000000025b2      0x34e ./src/core/uart.o
+ .debug_abbrev  0x0000000000002900      0x626 ./src/XBee/XBee.o
+ .debug_abbrev  0x0000000000002f26      0x3c0 ./src/Samples/maryoled.o
+ .debug_abbrev  0x00000000000032e6      0x3b4 ./src/FatFs/SD.o
+ .debug_abbrev  0x000000000000369a      0x34b ./src/FatFs/pff.o
+ .debug_abbrev  0x00000000000039e5      0x32b ./src/FatFs/sdcard.o
+ .debug_abbrev  0x0000000000003d10      0x17b ./src/user_application.o
+ .debug_abbrev  0x0000000000003e8b       0x99 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_abbrev  0x0000000000003f24       0x2b /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
+ .debug_abbrev  0x0000000000003f4f       0x72 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_abbrev  0x0000000000003fc1       0x8c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
 
-.debug_abbrev   0x0000000000000000     0x3dd3
- .debug_abbrev  0x0000000000000000       0xf9 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
- .debug_abbrev  0x00000000000000f9      0x10d ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
- .debug_abbrev  0x0000000000000206       0xd8 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
- .debug_abbrev  0x00000000000002de        0x1 ./src/core/device_dependent/lpc1114/cr_cpp_config.o
- .debug_abbrev  0x00000000000002df        0x1 ./src/core/device_dependent/lpc1114/cr_startup_lpc11.o
- .debug_abbrev  0x00000000000002e0        0x1 ./src/core/device_dependent/lpc1114/system_LPC11xx.o
- .debug_abbrev  0x00000000000002e1      0x33f ./src/core/LiquidCrystal.o
- .debug_abbrev  0x0000000000000620      0x17c ./src/core/Print.o
- .debug_abbrev  0x000000000000079c      0x3a8 ./src/core/SPI.o
- .debug_abbrev  0x0000000000000b44      0x384 ./src/core/SPI1.o
- .debug_abbrev  0x0000000000000ec8      0x3e4 ./src/core/SoftwareSerial.o
- .debug_abbrev  0x00000000000012ac      0x5c8 ./src/core/Wire.o
- .debug_abbrev  0x0000000000001874      0x270 ./src/core/analogio.o
- .debug_abbrev  0x0000000000001ae4      0x18a ./src/core/arithmetical.o
- .debug_abbrev  0x0000000000001c6e      0x279 ./src/core/delay.o
- .debug_abbrev  0x0000000000001ee7      0x1ab ./src/core/gpio.o
- .debug_abbrev  0x0000000000002092      0x1e6 ./src/core/gpio_int.o
- .debug_abbrev  0x0000000000002278       0xff ./src/core/startup_mary.o
- .debug_abbrev  0x0000000000002377      0x34e ./src/core/uart.o
- .debug_abbrev  0x00000000000026c5      0x626 ./src/XBee/XBee.o
- .debug_abbrev  0x0000000000002ceb      0x3c0 ./src/Samples/maryoled.o
- .debug_abbrev  0x00000000000030ab      0x3b4 ./src/FatFs/SD.o
- .debug_abbrev  0x000000000000345f      0x34b ./src/FatFs/pff.o
- .debug_abbrev  0x00000000000037aa      0x32b ./src/FatFs/sdcard.o
- .debug_abbrev  0x0000000000003ad5      0x13c ./src/user_application.o
- .debug_abbrev  0x0000000000003c11       0x99 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_abbrev  0x0000000000003caa       0x2b /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
- .debug_abbrev  0x0000000000003cd5       0x72 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
- .debug_abbrev  0x0000000000003d47       0x8c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
-
-.debug_loc      0x0000000000000000     0x6b0f
- .debug_loc     0x0000000000000000       0xff ./src/core/device_dependent/lpc1115/cr_cpp_config.o
- .debug_loc     0x00000000000000ff      0x28f ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
- .debug_loc     0x000000000000038e       0x98 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
- .debug_loc     0x0000000000000426      0x92c ./src/core/LiquidCrystal.o
- .debug_loc     0x0000000000000d52      0x433 ./src/core/Print.o
- .debug_loc     0x0000000000001185      0x210 ./src/core/SPI.o
- .debug_loc     0x0000000000001395      0x205 ./src/core/SPI1.o
- .debug_loc     0x000000000000159a      0x4e8 ./src/core/SoftwareSerial.o
- .debug_loc     0x0000000000001a82      0xc55 ./src/core/Wire.o
- .debug_loc     0x00000000000026d7      0x24e ./src/core/analogio.o
- .debug_loc     0x0000000000002925      0x135 ./src/core/arithmetical.o
- .debug_loc     0x0000000000002a5a      0x1a3 ./src/core/delay.o
- .debug_loc     0x0000000000002bfd      0x350 ./src/core/gpio.o
- .debug_loc     0x0000000000002f4d      0x1c9 ./src/core/gpio_int.o
- .debug_loc     0x0000000000003116       0x20 ./src/core/startup_mary.o
- .debug_loc     0x0000000000003136       0xd2 ./src/core/uart.o
- .debug_loc     0x0000000000003208     0x19bb ./src/XBee/XBee.o
- .debug_loc     0x0000000000004bc3      0x93a ./src/Samples/maryoled.o
- .debug_loc     0x00000000000054fd      0x281 ./src/FatFs/SD.o
- .debug_loc     0x000000000000577e      0xe3b ./src/FatFs/pff.o
- .debug_loc     0x00000000000065b9      0x435 ./src/FatFs/sdcard.o
- .debug_loc     0x00000000000069ee       0x40 ./src/user_application.o
- .debug_loc     0x0000000000006a2e       0x68 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_loc     0x0000000000006a96       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
- .debug_loc     0x0000000000006ab6       0x33 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
- .debug_loc     0x0000000000006ae9       0x26 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
-
-.debug_aranges  0x0000000000000000      0xea8
- .debug_aranges
-                0x0000000000000000       0x48 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
- .debug_aranges
-                0x0000000000000048       0x60 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
- .debug_aranges
-                0x00000000000000a8       0x28 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
- .debug_aranges
-                0x00000000000000d0       0xf8 ./src/core/LiquidCrystal.o
- .debug_aranges
-                0x00000000000001c8       0x58 ./src/core/Print.o
- .debug_aranges
-                0x0000000000000220       0x80 ./src/core/SPI.o
- .debug_aranges
-                0x00000000000002a0       0x80 ./src/core/SPI1.o
- .debug_aranges
-                0x0000000000000320       0x88 ./src/core/SoftwareSerial.o
- .debug_aranges
-                0x00000000000003a8      0x128 ./src/core/Wire.o
- .debug_aranges
-                0x00000000000004d0       0x50 ./src/core/analogio.o
- .debug_aranges
-                0x0000000000000520       0x40 ./src/core/arithmetical.o
- .debug_aranges
-                0x0000000000000560       0x70 ./src/core/delay.o
- .debug_aranges
-                0x00000000000005d0       0x58 ./src/core/gpio.o
- .debug_aranges
-                0x0000000000000628       0x60 ./src/core/gpio_int.o
- .debug_aranges
-                0x0000000000000688       0x20 ./src/core/startup_mary.o
- .debug_aranges
-                0x00000000000006a8       0x58 ./src/core/uart.o
- .debug_aranges
-                0x0000000000000700      0x468 ./src/XBee/XBee.o
- .debug_aranges
-                0x0000000000000b68       0xe8 ./src/Samples/maryoled.o
- .debug_aranges
-                0x0000000000000c50       0xe0 ./src/FatFs/SD.o
- .debug_aranges
-                0x0000000000000d30       0x80 ./src/FatFs/pff.o
- .debug_aranges
-                0x0000000000000db0       0x50 ./src/FatFs/sdcard.o
- .debug_aranges
-                0x0000000000000e00       0x28 ./src/user_application.o
- .debug_aranges
-                0x0000000000000e28       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_aranges
-                0x0000000000000e48       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
- .debug_aranges
-                0x0000000000000e68       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
- .debug_aranges
-                0x0000000000000e88       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
-
-.debug_ranges   0x0000000000000000     0x1610
- .debug_ranges  0x0000000000000000       0x38 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
- .debug_ranges  0x0000000000000038       0x50 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
- .debug_ranges  0x0000000000000088       0x48 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
- .debug_ranges  0x00000000000000d0       0xe8 ./src/core/LiquidCrystal.o
- .debug_ranges  0x00000000000001b8       0x48 ./src/core/Print.o
- .debug_ranges  0x0000000000000200       0xd8 ./src/core/SPI.o
- .debug_ranges  0x00000000000002d8      0x100 ./src/core/SPI1.o
- .debug_ranges  0x00000000000003d8       0x90 ./src/core/SoftwareSerial.o
- .debug_ranges  0x0000000000000468      0x180 ./src/core/Wire.o
- .debug_ranges  0x00000000000005e8       0x68 ./src/core/analogio.o
- .debug_ranges  0x0000000000000650       0x60 ./src/core/arithmetical.o
- .debug_ranges  0x00000000000006b0       0x60 ./src/core/delay.o
- .debug_ranges  0x0000000000000710       0x48 ./src/core/gpio.o
- .debug_ranges  0x0000000000000758       0x68 ./src/core/gpio_int.o
- .debug_ranges  0x00000000000007c0       0x10 ./src/core/startup_mary.o
- .debug_ranges  0x00000000000007d0       0x60 ./src/core/uart.o
- .debug_ranges  0x0000000000000830      0x7f0 ./src/XBee/XBee.o
- .debug_ranges  0x0000000000001020      0x1a0 ./src/Samples/maryoled.o
- .debug_ranges  0x00000000000011c0       0xe8 ./src/FatFs/SD.o
- .debug_ranges  0x00000000000012a8      0x278 ./src/FatFs/pff.o
- .debug_ranges  0x0000000000001520       0x98 ./src/FatFs/sdcard.o
- .debug_ranges  0x00000000000015b8       0x18 ./src/user_application.o
- .debug_ranges  0x00000000000015d0       0x10 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_ranges  0x00000000000015e0       0x10 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
- .debug_ranges  0x00000000000015f0       0x10 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
- .debug_ranges  0x0000000000001600       0x10 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
-
-.debug_line     0x0000000000000000     0x4fcd
- .debug_line    0x0000000000000000      0x132 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
- .debug_line    0x0000000000000132       0xc2 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
- .debug_line    0x00000000000001f4      0x18b ./src/core/device_dependent/lpc1115/system_LPC11xx.o
- .debug_line    0x000000000000037f        0x0 ./src/core/device_dependent/lpc1114/cr_cpp_config.o
- .debug_line    0x000000000000037f        0x0 ./src/core/device_dependent/lpc1114/cr_startup_lpc11.o
- .debug_line    0x000000000000037f        0x0 ./src/core/device_dependent/lpc1114/system_LPC11xx.o
- .debug_line    0x000000000000037f      0x45d ./src/core/LiquidCrystal.o
- .debug_line    0x00000000000007dc      0x13d ./src/core/Print.o
- .debug_line    0x0000000000000919      0x2c4 ./src/core/SPI.o
- .debug_line    0x0000000000000bdd      0x2e0 ./src/core/SPI1.o
- .debug_line    0x0000000000000ebd      0x301 ./src/core/SoftwareSerial.o
- .debug_line    0x00000000000011be      0xa1c ./src/core/Wire.o
- .debug_line    0x0000000000001bda      0x289 ./src/core/analogio.o
- .debug_line    0x0000000000001e63      0x208 ./src/core/arithmetical.o
- .debug_line    0x000000000000206b      0x2a6 ./src/core/delay.o
- .debug_line    0x0000000000002311      0x244 ./src/core/gpio.o
- .debug_line    0x0000000000002555      0x22d ./src/core/gpio_int.o
- .debug_line    0x0000000000002782      0x168 ./src/core/startup_mary.o
- .debug_line    0x00000000000028ea      0x226 ./src/core/uart.o
- .debug_line    0x0000000000002b10      0xfc0 ./src/XBee/XBee.o
- .debug_line    0x0000000000003ad0      0x4a6 ./src/Samples/maryoled.o
- .debug_line    0x0000000000003f76      0x380 ./src/FatFs/SD.o
- .debug_line    0x00000000000042f6      0x572 ./src/FatFs/pff.o
- .debug_line    0x0000000000004868      0x3f4 ./src/FatFs/sdcard.o
- .debug_line    0x0000000000004c5c      0x1d6 ./src/user_application.o
- .debug_line    0x0000000000004e32       0xc8 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_line    0x0000000000004efa       0x3f /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
- .debug_line    0x0000000000004f39       0x51 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
- .debug_line    0x0000000000004f8a       0x43 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
-
-.debug_str      0x0000000000000000     0x5210
- .debug_str     0x0000000000000000      0x1f3 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
-                                        0x243 (size before relaxing)
- .debug_str     0x00000000000001f3      0x16c ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
-                                        0x21d (size before relaxing)
- .debug_str     0x000000000000035f      0x2d9 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
-                                        0x40e (size before relaxing)
- .debug_str     0x0000000000000638      0x57a ./src/core/LiquidCrystal.o
-                                        0x72b (size before relaxing)
- .debug_str     0x0000000000000bb2      0x113 ./src/core/Print.o
-                                        0x2b0 (size before relaxing)
- .debug_str     0x0000000000000cc5      0x6af ./src/core/SPI.o
-                                        0xbde (size before relaxing)
- .debug_str     0x0000000000001374      0x126 ./src/core/SPI1.o
-                                        0xbf5 (size before relaxing)
- .debug_str     0x000000000000149a      0x3b6 ./src/core/SoftwareSerial.o
-                                        0x6b7 (size before relaxing)
- .debug_str     0x0000000000001850      0xd50 ./src/core/Wire.o
-                                       0x1178 (size before relaxing)
- .debug_str     0x00000000000025a0      0x11f ./src/core/analogio.o
-                                        0x7f7 (size before relaxing)
- .debug_str     0x00000000000026bf       0xa4 ./src/core/arithmetical.o
-                                        0x276 (size before relaxing)
- .debug_str     0x0000000000002763      0x109 ./src/core/delay.o
-                                        0x796 (size before relaxing)
- .debug_str     0x000000000000286c      0x225 ./src/core/gpio.o
-                                        0x449 (size before relaxing)
- .debug_str     0x0000000000002a91       0xac ./src/core/gpio_int.o
-                                        0x515 (size before relaxing)
- .debug_str     0x0000000000002b3d       0x1d ./src/core/startup_mary.o
-                                        0x1ef (size before relaxing)
- .debug_str     0x0000000000002b5a      0x13b ./src/core/uart.o
-                                        0x766 (size before relaxing)
- .debug_str     0x0000000000002c95     0x1838 ./src/XBee/XBee.o
-                                       0x1c7a (size before relaxing)
- .debug_str     0x00000000000044cd      0x59e ./src/Samples/maryoled.o
-                                        0xb65 (size before relaxing)
- .debug_str     0x0000000000004a6b      0x377 ./src/FatFs/SD.o
-                                        0x923 (size before relaxing)
- .debug_str     0x0000000000004de2      0x1d9 ./src/FatFs/pff.o
-                                        0x508 (size before relaxing)
- .debug_str     0x0000000000004fbb       0xcc ./src/FatFs/sdcard.o
-                                        0x9fd (size before relaxing)
- .debug_str     0x0000000000005087       0x35 ./src/user_application.o
-                                        0x299 (size before relaxing)
- .debug_str     0x00000000000050bc       0xee /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
-                                        0x17e (size before relaxing)
- .debug_str     0x00000000000051aa       0x12 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
-                                         0xae (size before relaxing)
- .debug_str     0x00000000000051bc       0x45 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
-                                        0x10a (size before relaxing)
- .debug_str     0x0000000000005201        0xf /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
-                                        0x140 (size before relaxing)
+.debug_line     0x0000000000000000     0x5345
+ .debug_line    0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/cr_cpp_config.o
+ .debug_line    0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/cr_startup_lpc8xx.o
+ .debug_line    0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/gpio.o
+ .debug_line    0x0000000000000000        0x0 ./src/core/device_dependent/lpc800/gpio_int.o
+ .debug_line    0x0000000000000000      0x336 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .debug_line    0x0000000000000336        0x0 ./src/core/device_dependent/lpc800/system_LPC8xx.o
+ .debug_line    0x0000000000000336      0x132 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
+ .debug_line    0x0000000000000468       0xc2 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
+ .debug_line    0x000000000000052a      0x25d ./src/core/device_dependent/lpc1115/gpio.o
+ .debug_line    0x0000000000000787      0x246 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .debug_line    0x00000000000009cd      0x18b ./src/core/device_dependent/lpc1115/system_LPC11xx.o
+ .debug_line    0x0000000000000b58        0x0 ./src/core/device_dependent/lpc1114/cr_cpp_config.o
+ .debug_line    0x0000000000000b58        0x0 ./src/core/device_dependent/lpc1114/cr_startup_lpc11.o
+ .debug_line    0x0000000000000b58        0x0 ./src/core/device_dependent/lpc1114/gpio.o
+ .debug_line    0x0000000000000b58        0x0 ./src/core/device_dependent/lpc1114/gpio_int.o
+ .debug_line    0x0000000000000b58        0x0 ./src/core/device_dependent/lpc1114/system_LPC11xx.o
+ .debug_line    0x0000000000000b58      0x45d ./src/core/LiquidCrystal.o
+ .debug_line    0x0000000000000fb5      0x13d ./src/core/Print.o
+ .debug_line    0x00000000000010f2      0x2c4 ./src/core/SPI.o
+ .debug_line    0x00000000000013b6      0x2e0 ./src/core/SPI1.o
+ .debug_line    0x0000000000001696      0x301 ./src/core/SoftwareSerial.o
+ .debug_line    0x0000000000001997      0xa1c ./src/core/Wire.o
+ .debug_line    0x00000000000023b3      0x289 ./src/core/analogio.o
+ .debug_line    0x000000000000263c      0x208 ./src/core/arithmetical.o
+ .debug_line    0x0000000000002844      0x2a6 ./src/core/delay.o
+ .debug_line    0x0000000000002aea      0x168 ./src/core/startup_mary.o
+ .debug_line    0x0000000000002c52      0x226 ./src/core/uart.o
+ .debug_line    0x0000000000002e78      0xfc0 ./src/XBee/XBee.o
+ .debug_line    0x0000000000003e38      0x4a6 ./src/Samples/maryoled.o
+ .debug_line    0x00000000000042de      0x380 ./src/FatFs/SD.o
+ .debug_line    0x000000000000465e      0x572 ./src/FatFs/pff.o
+ .debug_line    0x0000000000004bd0      0x3f4 ./src/FatFs/sdcard.o
+ .debug_line    0x0000000000004fc4      0x1e6 ./src/user_application.o
+ .debug_line    0x00000000000051aa       0xc8 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_line    0x0000000000005272       0x3f /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
+ .debug_line    0x00000000000052b1       0x51 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_line    0x0000000000005302       0x43 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
 
 .comment        0x0000000000000000       0xe0
- .comment       0x0000000000000000       0x70 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
+ .comment       0x0000000000000000       0x70 ./src/core/device_dependent/lpc800/cr_cpp_config.o
                                          0x71 (size before relaxing)
+ .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc800/cr_startup_lpc8xx.o
+ .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc800/gpio.o
+ .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc800/gpio_int.o
+ .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc800/system_LPC8xx.o
+ .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
  .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
+ .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc1115/gpio.o
+ .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc1115/gpio_int.o
  .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
  .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc1114/cr_cpp_config.o
  .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc1114/cr_startup_lpc11.o
+ .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc1114/gpio.o
+ .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc1114/gpio_int.o
  .comment       0x0000000000000000       0x71 ./src/core/device_dependent/lpc1114/system_LPC11xx.o
  .comment       0x0000000000000000       0x71 ./src/core/LiquidCrystal.o
  .comment       0x0000000000000000       0x71 ./src/core/Print.o
@@ -2735,8 +2665,6 @@ OUTPUT(eXodusino.axf elf32-littlearm)
  .comment       0x0000000000000000       0x71 ./src/core/analogio.o
  .comment       0x0000000000000000       0x71 ./src/core/arithmetical.o
  .comment       0x0000000000000000       0x71 ./src/core/delay.o
- .comment       0x0000000000000000       0x71 ./src/core/gpio.o
- .comment       0x0000000000000000       0x71 ./src/core/gpio_int.o
  .comment       0x0000000000000000       0x71 ./src/core/startup_mary.o
  .comment       0x0000000000000000       0x71 ./src/core/uart.o
  .comment       0x0000000000000000       0x71 ./src/XBee/XBee.o
@@ -2754,219 +2682,435 @@ OUTPUT(eXodusino.axf elf32-littlearm)
 .ARM.attributes
                 0x0000000000000000       0x31
  .ARM.attributes
-                0x0000000000000000       0x31 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
+                0x0000000000000000       0x31 ./src/core/device_dependent/lpc800/cr_cpp_config.o
  .ARM.attributes
-                0x0000000000000031       0x31 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
+                0x0000000000000031       0x31 ./src/core/device_dependent/lpc800/cr_startup_lpc8xx.o
  .ARM.attributes
-                0x0000000000000062       0x31 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
+                0x0000000000000062       0x31 ./src/core/device_dependent/lpc800/gpio.o
  .ARM.attributes
-                0x0000000000000093       0x31 ./src/core/device_dependent/lpc1114/cr_cpp_config.o
+                0x0000000000000093       0x31 ./src/core/device_dependent/lpc800/gpio_int.o
  .ARM.attributes
-                0x00000000000000c4       0x31 ./src/core/device_dependent/lpc1114/cr_startup_lpc11.o
+                0x00000000000000c4       0x31 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
  .ARM.attributes
-                0x00000000000000f5       0x31 ./src/core/device_dependent/lpc1114/system_LPC11xx.o
+                0x00000000000000f5       0x31 ./src/core/device_dependent/lpc800/system_LPC8xx.o
  .ARM.attributes
-                0x0000000000000126       0x31 ./src/core/LiquidCrystal.o
+                0x0000000000000126       0x31 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
  .ARM.attributes
-                0x0000000000000157       0x31 ./src/core/Print.o
+                0x0000000000000157       0x31 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
  .ARM.attributes
-                0x0000000000000188       0x31 ./src/core/SPI.o
+                0x0000000000000188       0x31 ./src/core/device_dependent/lpc1115/gpio.o
  .ARM.attributes
-                0x00000000000001b9       0x31 ./src/core/SPI1.o
+                0x00000000000001b9       0x31 ./src/core/device_dependent/lpc1115/gpio_int.o
  .ARM.attributes
-                0x00000000000001ea       0x31 ./src/core/SoftwareSerial.o
+                0x00000000000001ea       0x31 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
  .ARM.attributes
-                0x000000000000021b       0x31 ./src/core/Wire.o
+                0x000000000000021b       0x31 ./src/core/device_dependent/lpc1114/cr_cpp_config.o
  .ARM.attributes
-                0x000000000000024c       0x31 ./src/core/analogio.o
+                0x000000000000024c       0x31 ./src/core/device_dependent/lpc1114/cr_startup_lpc11.o
  .ARM.attributes
-                0x000000000000027d       0x31 ./src/core/arithmetical.o
+                0x000000000000027d       0x31 ./src/core/device_dependent/lpc1114/gpio.o
  .ARM.attributes
-                0x00000000000002ae       0x31 ./src/core/delay.o
+                0x00000000000002ae       0x31 ./src/core/device_dependent/lpc1114/gpio_int.o
  .ARM.attributes
-                0x00000000000002df       0x31 ./src/core/gpio.o
+                0x00000000000002df       0x31 ./src/core/device_dependent/lpc1114/system_LPC11xx.o
  .ARM.attributes
-                0x0000000000000310       0x31 ./src/core/gpio_int.o
+                0x0000000000000310       0x31 ./src/core/LiquidCrystal.o
  .ARM.attributes
-                0x0000000000000341       0x31 ./src/core/startup_mary.o
+                0x0000000000000341       0x31 ./src/core/Print.o
  .ARM.attributes
-                0x0000000000000372       0x31 ./src/core/uart.o
+                0x0000000000000372       0x31 ./src/core/SPI.o
  .ARM.attributes
-                0x00000000000003a3       0x31 ./src/XBee/XBee.o
+                0x00000000000003a3       0x31 ./src/core/SPI1.o
  .ARM.attributes
-                0x00000000000003d4       0x31 ./src/Samples/maryoled.o
+                0x00000000000003d4       0x31 ./src/core/SoftwareSerial.o
  .ARM.attributes
-                0x0000000000000405       0x31 ./src/FatFs/SD.o
+                0x0000000000000405       0x31 ./src/core/Wire.o
  .ARM.attributes
-                0x0000000000000436       0x31 ./src/FatFs/pff.o
+                0x0000000000000436       0x31 ./src/core/analogio.o
  .ARM.attributes
-                0x0000000000000467       0x31 ./src/FatFs/sdcard.o
+                0x0000000000000467       0x31 ./src/core/arithmetical.o
  .ARM.attributes
-                0x0000000000000498       0x31 ./src/user_application.o
+                0x0000000000000498       0x31 ./src/core/delay.o
  .ARM.attributes
-                0x00000000000004c9       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+                0x00000000000004c9       0x31 ./src/core/startup_mary.o
  .ARM.attributes
-                0x00000000000004e7       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
+                0x00000000000004fa       0x31 ./src/core/uart.o
  .ARM.attributes
-                0x0000000000000505       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
+                0x000000000000052b       0x31 ./src/XBee/XBee.o
  .ARM.attributes
-                0x0000000000000523       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x000000000000055c       0x31 ./src/Samples/maryoled.o
  .ARM.attributes
-                0x0000000000000541       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+                0x000000000000058d       0x31 ./src/FatFs/SD.o
  .ARM.attributes
-                0x000000000000056d       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-malloc.o)
+                0x00000000000005be       0x31 ./src/FatFs/pff.o
  .ARM.attributes
-                0x0000000000000599       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+                0x00000000000005ef       0x31 ./src/FatFs/sdcard.o
  .ARM.attributes
-                0x00000000000005c5       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+                0x0000000000000620       0x31 ./src/user_application.o
  .ARM.attributes
-                0x00000000000005f1       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+                0x0000000000000651       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_thumb1_case_uqi.o)
  .ARM.attributes
-                0x000000000000061d       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+                0x000000000000066f       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x0000000000000649       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+                0x000000000000068d       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
  .ARM.attributes
-                0x0000000000000675       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+                0x00000000000006ab       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000000000006a1       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                0x00000000000006c9       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
  .ARM.attributes
-                0x00000000000006cd       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+                0x00000000000006f5       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-malloc.o)
  .ARM.attributes
-                0x00000000000006f9       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(pure.o)
+                0x0000000000000721       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
  .ARM.attributes
-                0x0000000000000725       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_terminate.o)
+                0x000000000000074d       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x0000000000000751       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_unex_handler.o)
+                0x0000000000000779       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
  .ARM.attributes
-                0x000000000000077d       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_arm.o)
+                0x00000000000007a5       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x00000000000007a9       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_aux_runtime.o)
+                0x00000000000007d1       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
  .ARM.attributes
-                0x00000000000007d5       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_call.o)
+                0x00000000000007fd       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
  .ARM.attributes
-                0x0000000000000801       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_catch.o)
+                0x0000000000000829       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
  .ARM.attributes
-                0x000000000000082d       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_exception.o)
+                0x0000000000000855       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
  .ARM.attributes
-                0x0000000000000859       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_globals.o)
+                0x0000000000000881       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(pure.o)
  .ARM.attributes
-                0x0000000000000885       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_personality.o)
+                0x00000000000008ad       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_terminate.o)
  .ARM.attributes
-                0x00000000000008b1       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_term_handler.o)
+                0x00000000000008d9       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_unex_handler.o)
  .ARM.attributes
-                0x00000000000008dd       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_throw.o)
+                0x0000000000000905       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_arm.o)
  .ARM.attributes
-                0x0000000000000909       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(fundamental_type_info.o)
+                0x0000000000000931       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_aux_runtime.o)
  .ARM.attributes
-                0x0000000000000935       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(pointer_type_info.o)
+                0x000000000000095d       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_call.o)
  .ARM.attributes
-                0x0000000000000961       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(si_class_type_info.o)
+                0x0000000000000989       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_catch.o)
  .ARM.attributes
-                0x000000000000098d       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(tinfo.o)
+                0x00000000000009b5       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_exception.o)
  .ARM.attributes
-                0x00000000000009b9       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(bad_cast.o)
+                0x00000000000009e1       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_globals.o)
  .ARM.attributes
-                0x00000000000009e5       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(bad_typeid.o)
+                0x0000000000000a0d       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_personality.o)
  .ARM.attributes
-                0x0000000000000a11       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(class_type_info.o)
+                0x0000000000000a39       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_term_handler.o)
  .ARM.attributes
-                0x0000000000000a3d       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_alloc.o)
+                0x0000000000000a65       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_throw.o)
  .ARM.attributes
-                0x0000000000000a69       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(pbase_type_info.o)
+                0x0000000000000a91       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(fundamental_type_info.o)
  .ARM.attributes
-                0x0000000000000a95       0x31 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
+                0x0000000000000abd       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(pointer_type_info.o)
  .ARM.attributes
-                0x0000000000000ac6       0x31 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
+                0x0000000000000ae9       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(si_class_type_info.o)
  .ARM.attributes
-                0x0000000000000af7       0x31 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
+                0x0000000000000b15       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(tinfo.o)
  .ARM.attributes
-                0x0000000000000b28       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crti.o
+                0x0000000000000b41       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(bad_cast.o)
  .ARM.attributes
-                0x0000000000000b46       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtn.o
+                0x0000000000000b6d       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(bad_typeid.o)
  .ARM.attributes
-                0x0000000000000b64       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtbegin.o
+                0x0000000000000b99       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(class_type_info.o)
  .ARM.attributes
-                0x0000000000000b90       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtend.o
+                0x0000000000000bc5       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_alloc.o)
  .ARM.attributes
-                0x0000000000000bbc       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(unwind-arm.o)
+                0x0000000000000bf1       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(pbase_type_info.o)
  .ARM.attributes
-                0x0000000000000be8       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(libunwind.o)
+                0x0000000000000c1d       0x31 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
  .ARM.attributes
-                0x0000000000000c06       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(pr-support.o)
+                0x0000000000000c4e       0x31 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
  .ARM.attributes
-                0x0000000000000c32       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+                0x0000000000000c7f       0x31 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
  .ARM.attributes
-                0x0000000000000c5e       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+                0x0000000000000cb0       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crti.o
  .ARM.attributes
-                0x0000000000000c8a       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+                0x0000000000000cce       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtn.o
  .ARM.attributes
-                0x0000000000000cb6       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-syswrite.o)
+                0x0000000000000cec       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtbegin.o
  .ARM.attributes
-                0x0000000000000ce2       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-writer.o)
+                0x0000000000000d18       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/crtend.o
  .ARM.attributes
-                0x0000000000000d0e       0x31 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
+                0x0000000000000d44       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(unwind-arm.o)
+ .ARM.attributes
+                0x0000000000000d70       0x1e /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(libunwind.o)
+ .ARM.attributes
+                0x0000000000000d8e       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(pr-support.o)
+ .ARM.attributes
+                0x0000000000000dba       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x0000000000000de6       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000e12       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x0000000000000e3e       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-syswrite.o)
+ .ARM.attributes
+                0x0000000000000e6a       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-writer.o)
+ .ARM.attributes
+                0x0000000000000e96       0x31 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
 
-.debug_frame    0x0000000000000000     0x32bc
- .debug_frame   0x0000000000000000       0x98 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
- .debug_frame   0x0000000000000098       0xec ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
- .debug_frame   0x0000000000000184       0x44 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
- .debug_frame   0x00000000000001c8      0x2fc ./src/core/LiquidCrystal.o
- .debug_frame   0x00000000000004c4       0xe4 ./src/core/Print.o
- .debug_frame   0x00000000000005a8      0x124 ./src/core/SPI.o
- .debug_frame   0x00000000000006cc      0x128 ./src/core/SPI1.o
- .debug_frame   0x00000000000007f4      0x180 ./src/core/SoftwareSerial.o
- .debug_frame   0x0000000000000974      0x374 ./src/core/Wire.o
- .debug_frame   0x0000000000000ce8       0xb8 ./src/core/analogio.o
- .debug_frame   0x0000000000000da0       0x7c ./src/core/arithmetical.o
- .debug_frame   0x0000000000000e1c      0x100 ./src/core/delay.o
- .debug_frame   0x0000000000000f1c       0xe8 ./src/core/gpio.o
- .debug_frame   0x0000000000001004       0xe0 ./src/core/gpio_int.o
- .debug_frame   0x00000000000010e4       0x28 ./src/core/startup_mary.o
- .debug_frame   0x000000000000110c       0xac ./src/core/uart.o
- .debug_frame   0x00000000000011b8      0xa0c ./src/XBee/XBee.o
- .debug_frame   0x0000000000001bc4      0x284 ./src/Samples/maryoled.o
- .debug_frame   0x0000000000001e48      0x1d8 ./src/FatFs/SD.o
- .debug_frame   0x0000000000002020      0x1a4 ./src/FatFs/pff.o
- .debug_frame   0x00000000000021c4       0xd4 ./src/FatFs/sdcard.o
- .debug_frame   0x0000000000002298       0x40 ./src/user_application.o
- .debug_frame   0x00000000000022d8       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
- .debug_frame   0x00000000000022f8       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
- .debug_frame   0x0000000000002318       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
- .debug_frame   0x0000000000002344       0x40 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-malloc.o)
- .debug_frame   0x0000000000002384       0x3c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
- .debug_frame   0x00000000000023c0       0x30 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
- .debug_frame   0x00000000000023f0       0x30 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
- .debug_frame   0x0000000000002420       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
- .debug_frame   0x000000000000244c       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
- .debug_frame   0x000000000000246c       0x54 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
- .debug_frame   0x00000000000024c0       0x68 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
- .debug_frame   0x0000000000002528       0x28 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(pure.o)
- .debug_frame   0x0000000000002550       0x94 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_terminate.o)
- .debug_frame   0x00000000000025e4       0x60 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_arm.o)
- .debug_frame   0x0000000000002644       0x40 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_aux_runtime.o)
- .debug_frame   0x0000000000002684       0x54 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_call.o)
- .debug_frame   0x00000000000026d8       0x6c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_catch.o)
- .debug_frame   0x0000000000002744       0xd0 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_exception.o)
- .debug_frame   0x0000000000002814       0x30 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_globals.o)
- .debug_frame   0x0000000000002844       0xb8 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_personality.o)
- .debug_frame   0x00000000000028fc       0x58 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_throw.o)
- .debug_frame   0x0000000000002954       0x40 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(fundamental_type_info.o)
- .debug_frame   0x0000000000002994       0x70 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(pointer_type_info.o)
- .debug_frame   0x0000000000002a04       0xb4 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(si_class_type_info.o)
- .debug_frame   0x0000000000002ab8       0x98 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(tinfo.o)
- .debug_frame   0x0000000000002b50       0x50 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(bad_cast.o)
- .debug_frame   0x0000000000002ba0       0x50 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(bad_typeid.o)
- .debug_frame   0x0000000000002bf0       0xd4 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(class_type_info.o)
- .debug_frame   0x0000000000002cc4       0x74 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_alloc.o)
- .debug_frame   0x0000000000002d38       0x7c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(pbase_type_info.o)
- .debug_frame   0x0000000000002db4       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_frame   0x0000000000002de0       0x28 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
- .debug_frame   0x0000000000002e08       0x28 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
- .debug_frame   0x0000000000002e30      0x2ac /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(unwind-arm.o)
- .debug_frame   0x00000000000030dc       0xfc /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(pr-support.o)
- .debug_frame   0x00000000000031d8       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
- .debug_frame   0x00000000000031f8       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
- .debug_frame   0x0000000000003224       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
- .debug_frame   0x0000000000003244       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-syswrite.o)
- .debug_frame   0x0000000000003270       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-writer.o)
- .debug_frame   0x000000000000329c       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
+.debug_info     0x0000000000000000    0x151b8
+ .debug_info    0x0000000000000000      0xdc9 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .debug_info    0x0000000000000dc9      0x1b8 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
+ .debug_info    0x0000000000000f81      0x248 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
+ .debug_info    0x00000000000011c9      0x514 ./src/core/device_dependent/lpc1115/gpio.o
+ .debug_info    0x00000000000016dd      0x5ff ./src/core/device_dependent/lpc1115/gpio_int.o
+ .debug_info    0x0000000000001cdc      0x4db ./src/core/device_dependent/lpc1115/system_LPC11xx.o
+ .debug_info    0x00000000000021b7     0x1201 ./src/core/LiquidCrystal.o
+ .debug_info    0x00000000000033b8      0x545 ./src/core/Print.o
+ .debug_info    0x00000000000038fd     0x12a6 ./src/core/SPI.o
+ .debug_info    0x0000000000004ba3     0x12a6 ./src/core/SPI1.o
+ .debug_info    0x0000000000005e49      0xb6d ./src/core/SoftwareSerial.o
+ .debug_info    0x00000000000069b6     0x27ce ./src/core/Wire.o
+ .debug_info    0x0000000000009184      0xbf0 ./src/core/analogio.o
+ .debug_info    0x0000000000009d74      0x3ea ./src/core/arithmetical.o
+ .debug_info    0x000000000000a15e      0xb9b ./src/core/delay.o
+ .debug_info    0x000000000000acf9      0x2ab ./src/core/startup_mary.o
+ .debug_info    0x000000000000afa4      0xd87 ./src/core/uart.o
+ .debug_info    0x000000000000bd2b     0x4c45 ./src/XBee/XBee.o
+ .debug_info    0x0000000000010970     0x1308 ./src/Samples/maryoled.o
+ .debug_info    0x0000000000011c78     0x1137 ./src/FatFs/SD.o
+ .debug_info    0x0000000000012daf      0xf7a ./src/FatFs/pff.o
+ .debug_info    0x0000000000013d29      0xe71 ./src/FatFs/sdcard.o
+ .debug_info    0x0000000000014b9a      0x342 ./src/user_application.o
+ .debug_info    0x0000000000014edc      0x108 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_info    0x0000000000014fe4       0x3f /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
+ .debug_info    0x0000000000015023       0xb6 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_info    0x00000000000150d9       0xdf /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
+
+.debug_loc      0x0000000000000000     0x7031
+ .debug_loc     0x0000000000000000      0x503 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .debug_loc     0x0000000000000503       0xff ./src/core/device_dependent/lpc1115/cr_cpp_config.o
+ .debug_loc     0x0000000000000602      0x28f ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
+ .debug_loc     0x0000000000000891      0x350 ./src/core/device_dependent/lpc1115/gpio.o
+ .debug_loc     0x0000000000000be1      0x1c9 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .debug_loc     0x0000000000000daa       0x98 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
+ .debug_loc     0x0000000000000e42      0x92c ./src/core/LiquidCrystal.o
+ .debug_loc     0x000000000000176e      0x433 ./src/core/Print.o
+ .debug_loc     0x0000000000001ba1      0x210 ./src/core/SPI.o
+ .debug_loc     0x0000000000001db1      0x205 ./src/core/SPI1.o
+ .debug_loc     0x0000000000001fb6      0x4e8 ./src/core/SoftwareSerial.o
+ .debug_loc     0x000000000000249e      0xc55 ./src/core/Wire.o
+ .debug_loc     0x00000000000030f3      0x24e ./src/core/analogio.o
+ .debug_loc     0x0000000000003341      0x135 ./src/core/arithmetical.o
+ .debug_loc     0x0000000000003476      0x1a3 ./src/core/delay.o
+ .debug_loc     0x0000000000003619       0x20 ./src/core/startup_mary.o
+ .debug_loc     0x0000000000003639       0xd2 ./src/core/uart.o
+ .debug_loc     0x000000000000370b     0x19bb ./src/XBee/XBee.o
+ .debug_loc     0x00000000000050c6      0x93a ./src/Samples/maryoled.o
+ .debug_loc     0x0000000000005a00      0x281 ./src/FatFs/SD.o
+ .debug_loc     0x0000000000005c81      0xe3b ./src/FatFs/pff.o
+ .debug_loc     0x0000000000006abc      0x435 ./src/FatFs/sdcard.o
+ .debug_loc     0x0000000000006ef1       0x5f ./src/user_application.o
+ .debug_loc     0x0000000000006f50       0x68 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_loc     0x0000000000006fb8       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
+ .debug_loc     0x0000000000006fd8       0x33 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_loc     0x000000000000700b       0x26 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
+
+.debug_aranges  0x0000000000000000      0xf70
+ .debug_aranges
+                0x0000000000000000       0xc8 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .debug_aranges
+                0x00000000000000c8       0x48 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
+ .debug_aranges
+                0x0000000000000110       0x60 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
+ .debug_aranges
+                0x0000000000000170       0x58 ./src/core/device_dependent/lpc1115/gpio.o
+ .debug_aranges
+                0x00000000000001c8       0x60 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .debug_aranges
+                0x0000000000000228       0x28 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
+ .debug_aranges
+                0x0000000000000250       0xf8 ./src/core/LiquidCrystal.o
+ .debug_aranges
+                0x0000000000000348       0x58 ./src/core/Print.o
+ .debug_aranges
+                0x00000000000003a0       0x80 ./src/core/SPI.o
+ .debug_aranges
+                0x0000000000000420       0x80 ./src/core/SPI1.o
+ .debug_aranges
+                0x00000000000004a0       0x88 ./src/core/SoftwareSerial.o
+ .debug_aranges
+                0x0000000000000528      0x128 ./src/core/Wire.o
+ .debug_aranges
+                0x0000000000000650       0x50 ./src/core/analogio.o
+ .debug_aranges
+                0x00000000000006a0       0x40 ./src/core/arithmetical.o
+ .debug_aranges
+                0x00000000000006e0       0x70 ./src/core/delay.o
+ .debug_aranges
+                0x0000000000000750       0x20 ./src/core/startup_mary.o
+ .debug_aranges
+                0x0000000000000770       0x58 ./src/core/uart.o
+ .debug_aranges
+                0x00000000000007c8      0x468 ./src/XBee/XBee.o
+ .debug_aranges
+                0x0000000000000c30       0xe8 ./src/Samples/maryoled.o
+ .debug_aranges
+                0x0000000000000d18       0xe0 ./src/FatFs/SD.o
+ .debug_aranges
+                0x0000000000000df8       0x80 ./src/FatFs/pff.o
+ .debug_aranges
+                0x0000000000000e78       0x50 ./src/FatFs/sdcard.o
+ .debug_aranges
+                0x0000000000000ec8       0x28 ./src/user_application.o
+ .debug_aranges
+                0x0000000000000ef0       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_aranges
+                0x0000000000000f10       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
+ .debug_aranges
+                0x0000000000000f30       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_aranges
+                0x0000000000000f50       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
+
+.debug_ranges   0x0000000000000000     0x1710
+ .debug_ranges  0x0000000000000000      0x100 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .debug_ranges  0x0000000000000100       0x38 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
+ .debug_ranges  0x0000000000000138       0x50 ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
+ .debug_ranges  0x0000000000000188       0x48 ./src/core/device_dependent/lpc1115/gpio.o
+ .debug_ranges  0x00000000000001d0       0x68 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .debug_ranges  0x0000000000000238       0x48 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
+ .debug_ranges  0x0000000000000280       0xe8 ./src/core/LiquidCrystal.o
+ .debug_ranges  0x0000000000000368       0x48 ./src/core/Print.o
+ .debug_ranges  0x00000000000003b0       0xd8 ./src/core/SPI.o
+ .debug_ranges  0x0000000000000488      0x100 ./src/core/SPI1.o
+ .debug_ranges  0x0000000000000588       0x90 ./src/core/SoftwareSerial.o
+ .debug_ranges  0x0000000000000618      0x180 ./src/core/Wire.o
+ .debug_ranges  0x0000000000000798       0x68 ./src/core/analogio.o
+ .debug_ranges  0x0000000000000800       0x60 ./src/core/arithmetical.o
+ .debug_ranges  0x0000000000000860       0x60 ./src/core/delay.o
+ .debug_ranges  0x00000000000008c0       0x10 ./src/core/startup_mary.o
+ .debug_ranges  0x00000000000008d0       0x60 ./src/core/uart.o
+ .debug_ranges  0x0000000000000930      0x7f0 ./src/XBee/XBee.o
+ .debug_ranges  0x0000000000001120      0x1a0 ./src/Samples/maryoled.o
+ .debug_ranges  0x00000000000012c0       0xe8 ./src/FatFs/SD.o
+ .debug_ranges  0x00000000000013a8      0x278 ./src/FatFs/pff.o
+ .debug_ranges  0x0000000000001620       0x98 ./src/FatFs/sdcard.o
+ .debug_ranges  0x00000000000016b8       0x18 ./src/user_application.o
+ .debug_ranges  0x00000000000016d0       0x10 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_ranges  0x00000000000016e0       0x10 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
+ .debug_ranges  0x00000000000016f0       0x10 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_ranges  0x0000000000001700       0x10 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
+
+.debug_str      0x0000000000000000     0x5985
+ .debug_str     0x0000000000000000      0xac0 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+                                        0xb4f (size before relaxing)
+ .debug_str     0x0000000000000ac0      0x105 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
+                                        0x243 (size before relaxing)
+ .debug_str     0x0000000000000bc5      0x16c ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
+                                        0x21d (size before relaxing)
+ .debug_str     0x0000000000000d31      0x2b9 ./src/core/device_dependent/lpc1115/gpio.o
+                                        0x462 (size before relaxing)
+ .debug_str     0x0000000000000fea      0x226 ./src/core/device_dependent/lpc1115/gpio_int.o
+                                        0x52e (size before relaxing)
+ .debug_str     0x0000000000001210      0x127 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
+                                        0x40e (size before relaxing)
+ .debug_str     0x0000000000001337      0x4ec ./src/core/LiquidCrystal.o
+                                        0x72b (size before relaxing)
+ .debug_str     0x0000000000001823      0x113 ./src/core/Print.o
+                                        0x2b0 (size before relaxing)
+ .debug_str     0x0000000000001936      0x49c ./src/core/SPI.o
+                                        0xbde (size before relaxing)
+ .debug_str     0x0000000000001dd2      0x126 ./src/core/SPI1.o
+                                        0xbf5 (size before relaxing)
+ .debug_str     0x0000000000001ef8      0x3b6 ./src/core/SoftwareSerial.o
+                                        0x6b7 (size before relaxing)
+ .debug_str     0x00000000000022ae      0xd48 ./src/core/Wire.o
+                                       0x1178 (size before relaxing)
+ .debug_str     0x0000000000002ff6      0x11f ./src/core/analogio.o
+                                        0x7f7 (size before relaxing)
+ .debug_str     0x0000000000003115       0xa4 ./src/core/arithmetical.o
+                                        0x276 (size before relaxing)
+ .debug_str     0x00000000000031b9       0xf9 ./src/core/delay.o
+                                        0x796 (size before relaxing)
+ .debug_str     0x00000000000032b2       0x1d ./src/core/startup_mary.o
+                                        0x1ef (size before relaxing)
+ .debug_str     0x00000000000032cf      0x13b ./src/core/uart.o
+                                        0x766 (size before relaxing)
+ .debug_str     0x000000000000340a     0x1838 ./src/XBee/XBee.o
+                                       0x1c7a (size before relaxing)
+ .debug_str     0x0000000000004c42      0x59e ./src/Samples/maryoled.o
+                                        0xb65 (size before relaxing)
+ .debug_str     0x00000000000051e0      0x377 ./src/FatFs/SD.o
+                                        0x923 (size before relaxing)
+ .debug_str     0x0000000000005557      0x1d9 ./src/FatFs/pff.o
+                                        0x508 (size before relaxing)
+ .debug_str     0x0000000000005730       0xcc ./src/FatFs/sdcard.o
+                                        0x9fd (size before relaxing)
+ .debug_str     0x00000000000057fc       0x35 ./src/user_application.o
+                                        0x258 (size before relaxing)
+ .debug_str     0x0000000000005831       0xee /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
+                                        0x17e (size before relaxing)
+ .debug_str     0x000000000000591f       0x12 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
+                                         0xae (size before relaxing)
+ .debug_str     0x0000000000005931       0x45 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
+                                        0x10a (size before relaxing)
+ .debug_str     0x0000000000005976        0xf /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)
+                                        0x140 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x34cc
+ .debug_frame   0x0000000000000000      0x210 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o
+ .debug_frame   0x0000000000000210       0x98 ./src/core/device_dependent/lpc1115/cr_cpp_config.o
+ .debug_frame   0x00000000000002a8       0xec ./src/core/device_dependent/lpc1115/cr_startup_lpc11.o
+ .debug_frame   0x0000000000000394       0xe8 ./src/core/device_dependent/lpc1115/gpio.o
+ .debug_frame   0x000000000000047c       0xe0 ./src/core/device_dependent/lpc1115/gpio_int.o
+ .debug_frame   0x000000000000055c       0x44 ./src/core/device_dependent/lpc1115/system_LPC11xx.o
+ .debug_frame   0x00000000000005a0      0x2fc ./src/core/LiquidCrystal.o
+ .debug_frame   0x000000000000089c       0xe4 ./src/core/Print.o
+ .debug_frame   0x0000000000000980      0x124 ./src/core/SPI.o
+ .debug_frame   0x0000000000000aa4      0x128 ./src/core/SPI1.o
+ .debug_frame   0x0000000000000bcc      0x180 ./src/core/SoftwareSerial.o
+ .debug_frame   0x0000000000000d4c      0x374 ./src/core/Wire.o
+ .debug_frame   0x00000000000010c0       0xb8 ./src/core/analogio.o
+ .debug_frame   0x0000000000001178       0x7c ./src/core/arithmetical.o
+ .debug_frame   0x00000000000011f4      0x100 ./src/core/delay.o
+ .debug_frame   0x00000000000012f4       0x28 ./src/core/startup_mary.o
+ .debug_frame   0x000000000000131c       0xac ./src/core/uart.o
+ .debug_frame   0x00000000000013c8      0xa0c ./src/XBee/XBee.o
+ .debug_frame   0x0000000000001dd4      0x284 ./src/Samples/maryoled.o
+ .debug_frame   0x0000000000002058      0x1d8 ./src/FatFs/SD.o
+ .debug_frame   0x0000000000002230      0x1a4 ./src/FatFs/pff.o
+ .debug_frame   0x00000000000023d4       0xd4 ./src/FatFs/sdcard.o
+ .debug_frame   0x00000000000024a8       0x40 ./src/user_application.o
+ .debug_frame   0x00000000000024e8       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000002508       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000002528       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .debug_frame   0x0000000000002554       0x40 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-malloc.o)
+ .debug_frame   0x0000000000002594       0x3c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00000000000025d0       0x30 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000002600       0x30 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000002630       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x000000000000265c       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .debug_frame   0x000000000000267c       0x54 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+ .debug_frame   0x00000000000026d0       0x68 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+ .debug_frame   0x0000000000002738       0x28 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(pure.o)
+ .debug_frame   0x0000000000002760       0x94 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_terminate.o)
+ .debug_frame   0x00000000000027f4       0x60 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_arm.o)
+ .debug_frame   0x0000000000002854       0x40 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_aux_runtime.o)
+ .debug_frame   0x0000000000002894       0x54 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_call.o)
+ .debug_frame   0x00000000000028e8       0x6c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_catch.o)
+ .debug_frame   0x0000000000002954       0xd0 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_exception.o)
+ .debug_frame   0x0000000000002a24       0x30 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_globals.o)
+ .debug_frame   0x0000000000002a54       0xb8 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_personality.o)
+ .debug_frame   0x0000000000002b0c       0x58 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_throw.o)
+ .debug_frame   0x0000000000002b64       0x40 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(fundamental_type_info.o)
+ .debug_frame   0x0000000000002ba4       0x70 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(pointer_type_info.o)
+ .debug_frame   0x0000000000002c14       0xb4 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(si_class_type_info.o)
+ .debug_frame   0x0000000000002cc8       0x98 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(tinfo.o)
+ .debug_frame   0x0000000000002d60       0x50 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(bad_cast.o)
+ .debug_frame   0x0000000000002db0       0x50 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(bad_typeid.o)
+ .debug_frame   0x0000000000002e00       0xd4 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(class_type_info.o)
+ .debug_frame   0x0000000000002ed4       0x74 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(eh_alloc.o)
+ .debug_frame   0x0000000000002f48       0x7c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libstdc++.a(pbase_type_info.o)
+ .debug_frame   0x0000000000002fc4       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_frame   0x0000000000002ff0       0x28 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(cr_abort.o)
+ .debug_frame   0x0000000000003018       0x28 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_frame   0x0000000000003040      0x2ac /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(unwind-arm.o)
+ .debug_frame   0x00000000000032ec       0xfc /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(pr-support.o)
+ .debug_frame   0x00000000000033e8       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .debug_frame   0x0000000000003408       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000003434       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+ .debug_frame   0x0000000000003454       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-syswrite.o)
+ .debug_frame   0x0000000000003480       0x2c /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-writer.o)
+ .debug_frame   0x00000000000034ac       0x20 /Applications/lpcxpresso_5.1.0_2048/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_newlib_nohost.a(write.o)

@@ -8,7 +8,8 @@ src/core/startup_mary.d: ../src/core/startup_mary.cpp \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1115/system_LPC11xx.h \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1115/system_LPC11xx.h \
  ../src/core/delay.h ../src/core/uart.h ../src/core/Print.h \
- ../src/core/gpio.h ../src/core/analogio.h ../src/core/arithmetical.h
+ /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1115/gpio.h \
+ ../src/core/analogio.h ../src/core/arithmetical.h
 
 ../src/core/libmary.h:
 
@@ -32,7 +33,7 @@ src/core/startup_mary.d: ../src/core/startup_mary.cpp \
 
 ../src/core/Print.h:
 
-../src/core/gpio.h:
+/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1115/gpio.h:
 
 ../src/core/analogio.h:
 

@@ -47,10 +47,12 @@
 #include <lpcdevice.h>
 #include "delay.h"
 #include "gpio.h"
-#include "uart.h"
-#include "analogio.h"
 #include "arithmetical.h"
 
+#if !defined (USE_LPC800)
+#include "uart.h"
+#include "analogio.h"
+#endif
 
 // init for arduino-like settings
 #define ARDUINO

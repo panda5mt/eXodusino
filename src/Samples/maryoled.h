@@ -32,12 +32,16 @@
  * DEALINGS IN THE SOFTWARE.
  ******************************************************************************/
 
-#include "SPI.h"
-#include "gpio.h"
+
+#include <SPI.h>
+#include <gpio.h>
+#include <delay.h>
+
 
 #ifdef __cplusplus
   extern "C" {
 #endif
+
 
 typedef enum {OLED,Nokia6610,Nokia6100,PCF8833} LCD_DEVICES; // Defaults:OLED
 

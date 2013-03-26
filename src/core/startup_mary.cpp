@@ -13,9 +13,13 @@ void loop(void);
 
 int main(void)
 {
+	SystemCoreClockUpdate();	// for plls
+	setup_systick();			// for millis(),delay(ms)
+	setup_TIMER32_1();			// for micros(),delayMicroseconds(us),attachMicroseconds(func,usec)
 
-	setup_systick();	// for millis(),delay(us)
-	setup_TIMER32_1();	// for micros(),delayMicroseconds(us),attachMicroseconds(func,usec)
+#if defined(USE_LPC800)
+	GPIOInit();
+#endif
 
 	setup();
 

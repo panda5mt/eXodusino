@@ -6,16 +6,25 @@
 CPP_SRCS += \
 ../src/core/device_dependent/lpc1114/cr_cpp_config.cpp \
 ../src/core/device_dependent/lpc1114/cr_startup_lpc11.cpp \
+../src/core/device_dependent/lpc1114/delay.cpp \
+../src/core/device_dependent/lpc1114/gpio.cpp \
+../src/core/device_dependent/lpc1114/gpio_int.cpp \
 ../src/core/device_dependent/lpc1114/system_LPC11xx.cpp 
 
 OBJS += \
 ./src/core/device_dependent/lpc1114/cr_cpp_config.o \
 ./src/core/device_dependent/lpc1114/cr_startup_lpc11.o \
+./src/core/device_dependent/lpc1114/delay.o \
+./src/core/device_dependent/lpc1114/gpio.o \
+./src/core/device_dependent/lpc1114/gpio_int.o \
 ./src/core/device_dependent/lpc1114/system_LPC11xx.o 
 
 CPP_DEPS += \
 ./src/core/device_dependent/lpc1114/cr_cpp_config.d \
 ./src/core/device_dependent/lpc1114/cr_startup_lpc11.d \
+./src/core/device_dependent/lpc1114/delay.d \
+./src/core/device_dependent/lpc1114/gpio.d \
+./src/core/device_dependent/lpc1114/gpio_int.d \
 ./src/core/device_dependent/lpc1114/system_LPC11xx.d 
 
 

@@ -8,6 +8,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include src/core/device_dependent/lpc800/subdir.mk
 -include src/core/device_dependent/lpc1115/subdir.mk
 -include src/core/device_dependent/lpc1114/subdir.mk
 -include src/core/subdir.mk
