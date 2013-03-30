@@ -1,9 +1,9 @@
 /*
  * GENERATED FILE - DO NOT EDIT
  * (C) Code Red Technologies Ltd, 2008-2013
- * Generated linker script file for LPC812
+ * Generated linker script file for LPC810
  * Created from generic_cpp.ld (vLPCXpresso v5.1 (0 [Build 2048] [2013-02-05] ))
- * By LPCXpresso v5.1.0 [Build 2048] [2013-02-05]  on Wed Mar 27 01:18:53 JST 2013
+ * By LPCXpresso v5.1.0 [Build 2048] [2013-02-05]  on Sat Mar 30 12:02:51 JST 2013
  */
 
 
@@ -72,7 +72,7 @@ SECTIONS
 		KEEP (*(SORT(.dtors.*)))
 		KEEP (*crtend.o(.dtors))
 		/* End C++ */
-	} > MFlash16
+	} > MFlash4
 
 	/*
 	 * for exception handling/unwind - some Newlib functions (in common
@@ -81,13 +81,13 @@ SECTIONS
 	.ARM.extab : ALIGN(4)
 	{
 		*(.ARM.extab* .gnu.linkonce.armextab.*)
-	} > MFlash16
+	} > MFlash4
 	__exidx_start = .;
 	
 	.ARM.exidx : ALIGN(4)
 	{
 		*(.ARM.exidx* .gnu.linkonce.armexidx.*)
-	} > MFlash16
+	} > MFlash4
 	__exidx_end = .;
 	
 	_etext = .;
@@ -100,7 +100,7 @@ SECTIONS
 		KEEP(*(.bss.$RESERVED*))
 		. = ALIGN(4) ;
 		_end_uninit_RESERVED = .;
-	} > RamLoc4
+	} > RamLoc1
 
 	.data : ALIGN(4)
 	{
@@ -110,7 +110,7 @@ SECTIONS
 		*(.data*)
 		. = ALIGN(4) ;
 		_edata = .;
-	} > RamLoc4 AT>MFlash16
+	} > RamLoc1 AT>MFlash4
 
 
 	/* MAIN BSS SECTION */
@@ -122,7 +122,7 @@ SECTIONS
 		. = ALIGN(4) ;
 		_ebss = .;
 		PROVIDE(end = .);
-	} > RamLoc4
+	} > RamLoc1
 		
 	
 	/* DEFAULT NOINIT SECTION */
@@ -132,8 +132,8 @@ SECTIONS
 		*(.noinit*) 
 	 	. = ALIGN(4) ;
 		_end_noinit = .;
-	} > RamLoc4
+	} > RamLoc1
 	
 	PROVIDE(_pvHeapStart = .);
-	PROVIDE(_vStackTop = __top_RamLoc4 - 0);
+	PROVIDE(_vStackTop = __top_RamLoc1 - 0);
 }

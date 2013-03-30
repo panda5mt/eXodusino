@@ -1,17 +1,18 @@
 #include <libmary.h>
 
-
-
-void setup()
+void setup(void)
 {
+	pinMode(P0_1,OUTPUT);
 	Serial.begin(9600);
-	Serial.print("Start");
+	Serial.println("Start..");
 }
 
-
-void loop()
+void loop(void)
 {
-    delay(1000);
+	digitalWrite(P0_1,HIGH);
+	delay(500);
+	digitalWrite(P0_1,LOW);
+	delay(500);
+	Serial.println(millis()/ 1000,DEC);
+
 }
-
-
