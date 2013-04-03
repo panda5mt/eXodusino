@@ -16,13 +16,13 @@ void ssp_begin(SSP_PORT port,SSP_CLK_DIVIDER divider,SSP_DATA_MODE dataMode,int 
 	volatile int ssp_phase;		//SSP's clock phase
 	SPI_BIT_LENGTH = bitlength;
 
-	/* Pin Assign 8 bit Configuration */
-	/* SPI0_SCK */
-	LPC_SWM->PINASSIGN3 = 0x0cffffffUL;// P0_12 -> SCK
-	/* SPI0_MOSI */  // P0_14 -> MOSI (LSB)
-	/* SPI0_MISO */  // P0_6  -> MISO
-	/* SPI0_SSEL */  // not in use ::P0_13 -> SSEL
-	LPC_SWM->PINASSIGN4 = 0xffff060eUL;
+//	/* Pin Assign 8 bit Configuration */
+//	/* SPI0_SCK */
+//	LPC_SWM->PINASSIGN3 = 0x0cffffffUL;// P0_12 -> SCK
+//	/* SPI0_MOSI */  // P0_14 -> MOSI (LSB)
+//	/* SPI0_MISO */  // P0_6  -> MISO
+//	/* SPI0_SSEL */  // not in use ::P0_13 -> SSEL
+//	LPC_SWM->PINASSIGN4 = 0xffff060eUL;
 
 	switch(port)
 	{

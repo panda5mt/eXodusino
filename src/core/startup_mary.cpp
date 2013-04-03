@@ -18,6 +18,7 @@ int main(void)
 	setup_TIMER32_1();			// for micros(),delayMicroseconds(us),attachMicroseconds(func,usec)
 
 #if defined(USE_LPC800)
+	SwitchMatrix_Init();
 	GPIOInit();
 #endif
 

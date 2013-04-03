@@ -3,7 +3,7 @@
  * (C) Code Red Technologies Ltd, 2008-2013
  * Generated linker script file for LPC810
  * Created from generic_cpp.ld (vLPCXpresso v5.1 (0 [Build 2048] [2013-02-05] ))
- * By LPCXpresso v5.1.0 [Build 2048] [2013-02-05]  on Sat Mar 30 12:02:51 JST 2013
+ * By LPCXpresso v5.1.0 [Build 2048] [2013-02-05]  on Wed Apr 03 13:28:48 JST 2013
  */
 
 

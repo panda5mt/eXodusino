@@ -11,4 +11,6 @@
 #include <LPC8xx.h>
 #include <system_LPC8xx.h>
 
+void SwitchMatrix_Init(void);
+
 #endif /* LPCDEVICE_H_ */
