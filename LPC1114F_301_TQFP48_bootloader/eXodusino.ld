@@ -7,8 +7,8 @@
 */
 
 
-INCLUDE "eXodusino_Release_lib.ld"
-INCLUDE "eXodusino_Release_mem.ld"
+INCLUDE "eXodusino_LPC1114F_301_TQFP48_lib.ld"
+INCLUDE "eXodusino_LPC1114F_301_TQFP48_mem.ld"
 
 ENTRY(ResetISR)
 

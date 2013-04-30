@@ -49,6 +49,7 @@
 	extern "C++" {
 #endif
 
+int atoi(char *str) __attribute__((weak));
 void randomSeed(unsigned int seed);
 unsigned int random(void);
 long random(long max_num);

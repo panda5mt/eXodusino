@@ -37,6 +37,10 @@
 // The entry point for the C++ library startup
 //
 //*****************************************************************************
+extern "C" void __cxa_pure_virtual() {
+	while (1);
+}
+
 extern "C" {
 	extern void __libc_init_array(void);
 }

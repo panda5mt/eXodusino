@@ -3,6 +3,40 @@
 
 unsigned int random_seed;
 
+
+int atoi(char *str) {
+    int num = 0;
+    int type = 0;
+
+    // 先頭に+付いてたら無視する
+    if ( *str == '+' ) {
+        str++;
+    }
+    // 先頭に-付いてたらtypeフラグを立てておく
+    else if ( *str == '-' ) {
+        type = 1;
+        str++;
+    }
+
+    while(*str != '\0'){
+        // 0～9以外の文字列ならそこで終了
+        if ( *str < 48 || *str > 57 ) {
+            break;
+        }
+        num += *str - 48;
+        num *= 10;
+        str++;
+    }
+
+    num /= 10;
+
+    // -符号が付いていたら0から引くことで負の値に変換する
+    if ( type ) {
+        num = 0 - num;
+    }
+
+    return num;
+}
 void randomSeed(unsigned int seed)
 {
 	random_seed = seed;

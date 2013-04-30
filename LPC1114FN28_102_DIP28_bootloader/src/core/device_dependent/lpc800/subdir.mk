@@ -12,6 +12,7 @@ CPP_SRCS += \
 ../src/core/device_dependent/lpc800/lpc8xx_gpio.cpp \
 ../src/core/device_dependent/lpc800/lpc8xx_spi.cpp \
 ../src/core/device_dependent/lpc800/spi_middle.cpp \
+../src/core/device_dependent/lpc800/swm.cpp \
 ../src/core/device_dependent/lpc800/system_LPC8xx.cpp \
 ../src/core/device_dependent/lpc800/uart_middle.cpp 
 
@@ -28,6 +29,7 @@ OBJS += \
 ./src/core/device_dependent/lpc800/lpc8xx_spi.o \
 ./src/core/device_dependent/lpc800/lpc8xx_uart.o \
 ./src/core/device_dependent/lpc800/spi_middle.o \
+./src/core/device_dependent/lpc800/swm.o \
 ./src/core/device_dependent/lpc800/system_LPC8xx.o \
 ./src/core/device_dependent/lpc800/uart_middle.o 
 
@@ -43,6 +45,7 @@ CPP_DEPS += \
 ./src/core/device_dependent/lpc800/lpc8xx_gpio.d \
 ./src/core/device_dependent/lpc800/lpc8xx_spi.d \
 ./src/core/device_dependent/lpc800/spi_middle.d \
+./src/core/device_dependent/lpc800/swm.d \
 ./src/core/device_dependent/lpc800/system_LPC8xx.d \
 ./src/core/device_dependent/lpc800/uart_middle.d 
 

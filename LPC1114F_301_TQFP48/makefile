@@ -63,7 +63,7 @@ clean:
 
 post-build:
 	-@echo 'Performing post-build steps'
-	-arm-none-eabi-size "eXodusino.axf"; arm-none-eabi-objcopy -O binary "eXodusino.axf" "eXodusino.bin" ; checksum -p LPC1114_301 -d "eXodusino.bin";
+	-arm-none-eabi-size "eXodusino.axf"; arm-none-eabi-objcopy -O binary "eXodusino.axf" "eXodusino.bin" ; checksum -p LPC810 -d "eXodusino.bin";
 	-@echo ' '
 
 .PHONY: all clean dependents

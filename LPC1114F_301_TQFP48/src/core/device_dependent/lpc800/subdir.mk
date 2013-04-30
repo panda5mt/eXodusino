@@ -11,7 +11,13 @@ CPP_SRCS += \
 ../src/core/device_dependent/lpc800/gpio_int.cpp \
 ../src/core/device_dependent/lpc800/lpc8xx_gpio.cpp \
 ../src/core/device_dependent/lpc800/lpc8xx_spi.cpp \
-../src/core/device_dependent/lpc800/system_LPC8xx.cpp 
+../src/core/device_dependent/lpc800/spi_middle.cpp \
+../src/core/device_dependent/lpc800/swm.cpp \
+../src/core/device_dependent/lpc800/system_LPC8xx.cpp \
+../src/core/device_dependent/lpc800/uart_middle.cpp 
+
+C_SRCS += \
+../src/core/device_dependent/lpc800/lpc8xx_uart.c 
 
 OBJS += \
 ./src/core/device_dependent/lpc800/cr_cpp_config.o \
@@ -21,7 +27,14 @@ OBJS += \
 ./src/core/device_dependent/lpc800/gpio_int.o \
 ./src/core/device_dependent/lpc800/lpc8xx_gpio.o \
 ./src/core/device_dependent/lpc800/lpc8xx_spi.o \
-./src/core/device_dependent/lpc800/system_LPC8xx.o 
+./src/core/device_dependent/lpc800/lpc8xx_uart.o \
+./src/core/device_dependent/lpc800/spi_middle.o \
+./src/core/device_dependent/lpc800/swm.o \
+./src/core/device_dependent/lpc800/system_LPC8xx.o \
+./src/core/device_dependent/lpc800/uart_middle.o 
+
+C_DEPS += \
+./src/core/device_dependent/lpc800/lpc8xx_uart.d 
 
 CPP_DEPS += \
 ./src/core/device_dependent/lpc800/cr_cpp_config.d \
@@ -31,14 +44,24 @@ CPP_DEPS += \
 ./src/core/device_dependent/lpc800/gpio_int.d \
 ./src/core/device_dependent/lpc800/lpc8xx_gpio.d \
 ./src/core/device_dependent/lpc800/lpc8xx_spi.d \
-./src/core/device_dependent/lpc800/system_LPC8xx.d 
+./src/core/device_dependent/lpc800/spi_middle.d \
+./src/core/device_dependent/lpc800/swm.d \
+./src/core/device_dependent/lpc800/system_LPC8xx.d \
+./src/core/device_dependent/lpc800/uart_middle.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
 src/core/device_dependent/lpc800/%.o: ../src/core/device_dependent/lpc800/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU C++ Compiler'
-	arm-none-eabi-c++ -D__NEWLIB__ -DUSE_LPC1114 -DNDEBUG -D__CODE_RED -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/XBee" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/FatFs" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core" -Os -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m0 -mthumb -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	arm-none-eabi-c++ -D__NEWLIB__ -DUSE_LPC1114 -DNDEBUG -D__CODE_RED -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/XBee" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/FatFs" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core" -O3 -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m0 -mthumb -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/core/device_dependent/lpc800/%.o: ../src/core/device_dependent/lpc800/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: MCU C Compiler'
+	arm-none-eabi-gcc -D__NEWLIB__ -DNDEBUG -D__CODE_RED -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/FatFs" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/XBee" -I"/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core" -O3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-exceptions -mcpu=cortex-m0 -mthumb -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

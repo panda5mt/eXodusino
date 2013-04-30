@@ -2,11 +2,17 @@
 
 void setup(void)
 {
+	pinMode(P0_1, OUTPUT);
 	Serial.begin(9600);
+	Serial.println("LPC800 Start..");
 }
 
 void loop(void)
 {
-	delay(1000);
-	Serial.println(millis()/ 1000,DEC);
+	digitalWrite(P0_1,HIGH);
+	delay(500);
+	digitalWrite(P0_1,LOW);
+	delay(500);
+	Serial.println(millis() / 1000, DEC);
+
 }

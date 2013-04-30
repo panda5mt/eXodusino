@@ -12,10 +12,7 @@ src/user_application.d: ../src/user_application.cpp \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114/gpio.h \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/arithmetical.h \
  /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/uart.h \
- /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/analogio.h \
- /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/Samples/TFTLCD.h \
- /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/SPI.h \
- /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114/spi_middle.h
+ /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/analogio.h
 
 /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/libmary.h:
 
@@ -44,9 +41,3 @@ src/user_application.d: ../src/user_application.cpp \
 /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/uart.h:
 
 /Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/analogio.h:
-
-/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/Samples/TFTLCD.h:
-
-/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/SPI.h:
-
-/Users/lynxeyed/Documents/LPCXpresso_5.1.0/workspace/eXodusino/src/core/device_dependent/lpc1114/spi_middle.h:
